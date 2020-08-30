@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Github",
+        "link": "https://github.com/executebig",
+        "image": "images/github.svg"
+    },
+    {
+        "name": "Twitter",
+        "link": "https://twitter.com/executebig",
+        "image": "images/twitter.svg"
+    }
+]

@@ -1,0 +1,18 @@
+---
+title: "Megan Cui"
+draft: false
+image: "images/team/megan.jpg"
+school: 'Harvard University'
+jobtitle: "Co-founder & Head of Development"
+linkedinurl: "https://www.linkedin.com/in/megancui"
+promoted: true
+weight: 1
+---
+
+Megan made hackathons in the greater Cincinnati region the next big
+thing, running five hackathons of her own including the Midwest’s
+largest and Cincinnati’s first. Along with her programs, she has
+impacted 1000+ students across her community, receiving
+[national media coverage](https://www.inverse.com/article/47485-young-innovators-megan-cui-hackathon)
+and invitations to speak at corporate and community
+[events](https://youtu.be/OxtZvyCA1DE).
