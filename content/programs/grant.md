@@ -9,7 +9,7 @@ weight: 2
 
 A scholarship awarded to passionate high school hackers in need, giving them the opportunity to attend the best high school hackathons.
 
-{{< button "Apply Now" "/apply" "disabled" >}}
+{{< button "Apply Now" "/act/grant" "disabled" >}}
 
 ## Here's the story.
 
@@ -44,7 +44,7 @@ Share your event experience with us and your event organizers in the form of a b
 
 There're no restrictions, no prerequisites, and no complicated forms. Answer a few questions, give us some time to review, and you'll be on your way to one of the best weekends of your life.
 
-{{< button "Apply Now" "/apply" "disabled" >}}
+{{< button "Apply Now" "/act/grant" "disabled" >}}
 
 > ### COVID-19 Response
 > 

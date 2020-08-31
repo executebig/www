@@ -46,6 +46,6 @@ disableHugoGeneratorInject = true
 
   # Footer Menu
   [[menu.footer]]
-    name = "Contact"
-    url = "/contact/"
+    name = "Donate"
+    url = "/donate/"
       weight = 2
