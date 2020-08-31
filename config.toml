@@ -30,7 +30,7 @@ disableHugoGeneratorInject = true
     meta_twitter_creator = "@executebig"
 
   [params.footer]
-    copyright_text = '&copy;2019-2020 Execute Big.'
+    copyright_text = '&copy;2020 Execute Big.'
 
 [menu]
   # Main Menu
