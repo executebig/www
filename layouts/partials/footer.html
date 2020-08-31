@@ -3,7 +3,9 @@
     <div class="row">
       <div class="col-12">
         <div class="footer-inner">
-          <h3 class="footer-title">{{.Site.Title}}</h3>
+          <div>
+            <h3 class="footer-title">{{.Site.Title}}</h3>
+          </div>
           <ul>
             {{ $currentPage := . }}
             {{ range .Site.Menus.footer }}

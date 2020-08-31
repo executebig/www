@@ -7,4 +7,4 @@ intro_image_hide_on_mobile: true
 
 # Execute Big
 
-A minimal, 100% transparent student-run organization founded to enable all students to experience and explore computer science education. 
+A **minimal** and **100% transparent** student-run organization founded to enable all students to experience and explore computer science education. 

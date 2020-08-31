@@ -1,12 +1,15 @@
 ---
 title: "Travel Grant"
+description: "A scholarship awarded to passionate high school hackers in need, giving them the opportunity to attend the best high school hackathons."
 icon: "/images/icons/grant.svg"
 draft: false
 featured: true
-weight: 1
+weight: 2
 ---
 
 A scholarship awarded to passionate high school hackers in need, giving them the opportunity to attend the best high school hackathons.
+
+{{< button "Apply Now" "/apply" "disabled" >}}
 
 ## Here's the story.
 
@@ -36,3 +39,47 @@ Once you're approved, you can then book your travel, and attend the event of you
 ### STEP 3: SHARE
 
 Share your event experience with us and your event organizers in the form of a blog or a video, so we can provide this experience to even more students!
+
+# Apply now.
+
+There're no restrictions, no prerequisites, and no complicated forms. Answer a few questions, give us some time to review, and you'll be on your way to one of the best weekends of your life.
+
+{{< button "Apply Now" "/apply" "disabled" >}}
+
+> ### COVID-19 Response
+> 
+> Due to the recent outbreak of the COVID-19 pandemic around the nation, we're suspending the reviewing process of Travel Grant for events happening in March & early April. All previously approved applicants are not directly affected, but students are encouraged to re-evaluate their traveling plans. You may still submit your applications for future events, even if the event does not have a definite date. Please do not hesitate to contact us if you have more questions.
+
+---
+
+## FAQ
+
+### Who can apply?
+Any middle or high school student in need of travel assistance can apply for Travel Grant. Due to resource limitations, we're not able to provide support for college students.
+
+### How much money do I get?
+Enough to cover your round-trip transportation to the event. In certain cases, we might offer partial coverage for your trip, but we will certainly support you to the maximum of our ability.
+
+### How do I record my application?
+Be creative. You're not going to a college interview! We're really curious to learn some interesting facts about you that we can't find elsewhere. Be specific: "I am passionate about coding" does not tell your story! But still keep it short — under 10 minutes. You can either upload it to Google Drive or YouTube Unlisted.
+
+### Can I apply to multiple events?
+If you have multiple events in mind, you should only submit one application to the event that you want to attend the most. During the interview, let us know that you're considering other events, and we'll evaluate these choices with you. We are only able to support one event per student at a time.
+
+### Why do I need to record a video?
+Don't be stressed out! The purpose of the video is to allow us to get to know you as a person—how you communicate, how you establish your characters, etc. Afterall, we need to make sure we are using our limited resources to support a real student!
+
+### How will I book my travel?
+Once you're accepted, you will be responsible for booking travel yourself (we'll send you the terms upon acceptance). We'll reimburse the cost after the event. If you can't front the money, let us know, and we'll book the travel for you.
+
+### How early should I apply?
+At least 4-5 weeks before the event. To try to provide support for as many students as we possibly can, we tend to avoid booking travel on short notice. However, if your transportation cost does not increase with time — train, bus, etc., you may apply slight later. You can always fill out your application as early as you wish!
+
+### When will I receive the grant?
+After the event, we will ask you to submit some form of reflection to us. The reflection can be in the form of a blog post, a video, a collection of pictures, and your project. The reflection will be shared with the event team, and we'll reimburse you via check as soon as we receive the reflection.
+
+### Which events can I go to?
+Any hackathon that you're admitted to. Check with the hackathon first — they might be able to cover your travel already!
+
+### I have more questions...
+Shoot us an email! team@executebig.org is the best address to reach us.

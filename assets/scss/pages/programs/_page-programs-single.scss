@@ -10,10 +10,10 @@
       font-family: $font-family-heading;
     }
 
-    > p {
+    p {
       line-height: 1.75; 
       font-size: 1.2rem;
-      color: rgb(104, 104, 104);
+      color: $steel;
     }
   }
 }

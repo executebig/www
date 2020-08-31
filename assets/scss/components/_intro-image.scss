@@ -1,8 +1,15 @@
 .intro-image {
   width: 100%;
   height: auto;
-  margin-top: -40px;
   border-radius: 10px;
+  margin-bottom: 2rem;
+  
+  @include media-breakpoint-up(md) {
+    margin-bottom: 0;
+    position: absolute;
+    top: 20%;
+    margin-top: -100px;
+  }
 }
 
 .intro-image-absolute {

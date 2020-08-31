@@ -17,6 +17,16 @@
   transition: all 0.15s ease;
   font-family: $font-family-heading;
 
+  &.cta {
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  &.disabled {
+    pointer-events: none;
+    filter: grayscale(1)
+  }
+
   &:hover {
     color: #fff;
     background-color: lighten($primary, 10%);
