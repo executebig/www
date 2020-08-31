@@ -1,0 +1,12 @@
+.carousel {
+	overflow: hidden;
+	border-radius: 10px;
+
+	.slide {
+        margin: 0;
+
+        &.hidden {
+            display: none;
+        }
+	}
+}

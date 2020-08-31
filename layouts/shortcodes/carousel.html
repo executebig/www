@@ -1,0 +1,30 @@
+{{ $.Scratch.Add "duration" (.Get "duration" | default "2000") }}
+{{ $.Scratch.Add "width" (.Get "width" | default "100%") }}
+{{ $.Scratch.Add "height" (.Get "height" | default "auto") }}
+
+<div class="carousel" style="width: {{ $.Scratch.Get "width" }}; height: {{ $.Scratch.Get "height" }}">
+    {{- with (.Get "dir") -}} 
+    {{- $files := readDir (print "/static/" .) }}
+    {{- range $files -}} 
+        {{- $absoluteUrl := print ($.Get "dir") "/" .Name | absURL }}
+            <img class="slide" src="{{ $absoluteUrl }}">
+        {{- end }}
+    {{- end }}
+</div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("slide");
+  for (i = 0; i < x.length; i++) {
+    x[i].classList.add("hidden"); 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].classList.remove("hidden"); 
+  setTimeout(carousel, {{ $.Scratch.Get "duration" }}); // Change image every 2 seconds
+}
+</script>

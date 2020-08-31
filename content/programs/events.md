@@ -19,6 +19,8 @@ We want to work with you to give your students a story of their own to tell.
 
 Our events have reached 1,000+ students across the country.
 
+{{< carousel dir="/images/events" duration="2500" height="400px" >}}
+
 ## Work with us.
 
 We know that fostering creativity and innovation at a young age sets the priceless foundation for student empowerment and success. We’ve already reached thousands of students, but we need your partnership to continue creating life-changing experiences.
