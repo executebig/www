@@ -5,9 +5,8 @@ title = "Execute Big"
 disableHugoGeneratorInject = true
 
 [params]
-  [params.matomo] 
-    instance = "dwarf.executebig.org"
-    id = "1"
+  [params.tracking] 
+    id = "837ce14a-7f21-44d1-a621-5f048aceda2c"
 
   [params.announcement]
     show = true

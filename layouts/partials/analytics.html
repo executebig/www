@@ -2,19 +2,8 @@
 <!-- Dont add Google analytics to localhost -->
 {{ else }}
 
-  {{- if .Site.Params.matomo.instance -}}
-  <script type="text/javascript">
-    var _paq = window._paq || [];
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-      var u="https://{{- .Site.Params.matomo.instance -}}/";
-      _paq.push(['setTrackerUrl', u+'matomo.php']);
-      _paq.push(['setSiteId', '{{- .Site.Params.matomo.id -}}']);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js'; s.parentNode.insertBefore(g,s);
-    })();
-  </script>
+  {{- if .Site.Params.tracking.id -}}
+  <script async src="https://dwarf.executebig.org/dwarf.js" data-ackee-server="https://dwarf.executebig.org" data-ackee-domain-id="{{- .Site.Params.tracking.id -}}"></script>
   {{ end }}
 
 {{ end }}
