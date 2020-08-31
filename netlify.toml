@@ -34,3 +34,6 @@ HUGO_ENABLEGITINFO = "true"
 
 	[plugins.inputs]
 	debug = true
+
+[[plugins]]
+package = "netlify-plugin-image-optim"
