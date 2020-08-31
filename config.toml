@@ -19,12 +19,12 @@ disableHugoGeneratorInject = true
     alt = "Execute Big Pig"
 
   [params.homepage_meta_tags]
-    meta_description = "A minimal, 100% transparent student-run organization founded to enable all students to experience and explore computer science education."
+    meta_description = "A minimal & transparent student-run organization founded to enable all students to experience and explore computer science education."
     meta_og_title = "Execute Big"
     meta_og_type = "website"
     meta_og_url = "https://executebig.org"
     meta_og_image = "https://executebig.org/banner.png"
-    meta_og_description = "A minimal, 100% transparent student-run organization founded to enable all students to experience and explore computer science education."
+    meta_og_description = "A minimal & transparent student-run organization founded to enable all students to experience and explore computer science education."
     meta_twitter_card = "summary_large_image"
     meta_twitter_site = "@executebig"
     meta_twitter_creator = "@executebig"
