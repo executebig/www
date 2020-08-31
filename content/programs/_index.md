@@ -1,5 +1,5 @@
 ---
-title: 'Services'
+title: 'Programs'
 intro_image: "images/features/mcdonogh.jpg"
 intro_image_absolute: false
 intro_image_hide_on_mobile: false
