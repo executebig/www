@@ -8,6 +8,10 @@ disableHugoGeneratorInject = true
   [params.tracking] 
     id = "837ce14a-7f21-44d1-a621-5f048aceda2c"
 
+  [params.stripe]
+    testKey = "pk_test_51HFmyUGd5RDXy0STaqkryz2uhc4LjMMkAeeMenLrDFAKdsWRaB5iWBLOkmR1KOD39liVOD2JK9Q930qHbcJiFNmq00Pxo6VlMp"
+    pubKey = "pk_live_51HFmyUGd5RDXy0STk1dGHANECh5LHKThHSHj3KvpMRPsoM4GbRjpuJKBrPtIJ3B8rkATb1zASRFuabQUWsu1PMr600Tj5wMNAZ"
+
   [params.announcement]
     show = true
 

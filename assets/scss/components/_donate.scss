@@ -1,0 +1,83 @@
+.donationContainer {
+  margin-bottom: 1rem;
+
+  .input-group.donate {
+    .input-group-prepend {
+      .input-group-text {
+        color: $primary;
+        font-family: $font-family-heading;
+        font-size: 5rem;
+        background-color: transparent;
+        border: none;
+      }
+    }
+  
+    input {
+      border: none;
+      color: $primary;
+      font-family: $font-family-heading;
+      font-size: 5rem;
+      appearance: textfield;
+      opacity: 1;
+  
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0; 
+      }
+  
+      &::placeholder {
+        color: $primary;
+        opacity: .5;
+      }
+  
+      &:focus, &:active {
+        border: none;
+        box-shadow: none;
+      }
+  
+      &.danger {
+        color: $danger;
+        opacity: .8;
+      }
+    }
+  
+  }
+
+  .button#donateButton {
+    margin-right: 1rem;
+  }
+
+  p.legal {
+    font-size: .8rem;
+    font-style: italic;
+    line-height: 1.5;
+    color: $steel;
+  }
+  
+  .check {
+    p {
+      font-size: 1rem;
+      margin-bottom: .5rem;
+    }
+    
+    .address {
+      line-height: 1.5;
+      font-weight: bold;
+      margin-left: 2rem;
+    }
+  }
+}
+
+img.signature {
+  margin-right: 2rem;
+
+  &.megan {
+    height: 5rem;
+  }
+
+  &.mingjie {
+    height: 8rem;
+  }
+  
+}

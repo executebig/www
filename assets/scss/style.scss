@@ -27,7 +27,8 @@ $sub-footer-text-color: $white;
 @import 'bootstrap/bootstrap-reboot';
 @import 'bootstrap/bootstrap-grid';
 // @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
-
+@import 'bootstrap/forms';
+@import 'bootstrap/input-group';
 
 // Libraries
 @import 'libraries/hamburgers/hamburgers';
@@ -52,6 +53,7 @@ $sub-footer-text-color: $white;
 @import 'components/feature';
 @import 'components/social';
 @import 'components/carousel';
+@import 'components/donate';
 
 // Pages
 @import 'pages/home';

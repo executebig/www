@@ -1,0 +1,18 @@
+{
+  "name": "eb-www",
+  "version": "1.0.0",
+  "description": "Execute Big 2.0, with a minimalistic vision and a clearer focus.",
+  "repository": "git@github.com:executebig/www.git",
+  "author": "Mingjie Jiang <jiang@mingjie.dev>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "netlify-lambda": "^2.0.1",
+    "stripe": "^8.91.0"
+  },
+  "scripts": {
+    "dev": "netlify-lambda serve _functions",
+    "build": "netlify-lambda build _functions"
+  }
+}

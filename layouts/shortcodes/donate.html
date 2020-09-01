@@ -1,0 +1,83 @@
+<div class="donationContainer">
+  <div class="input-group donate mb-1">
+    <div class="input-group-prepend">
+      <span class="input-group-text">$</span>
+    </div>
+    <input
+      type="number"
+      class="form-control"
+      id="amount"
+      placeholder="0.00"
+      step="0.01"
+    />
+  </div>
+
+  <button class="button cta disabled" id="donateButton">Donate Now</button>
+  <img src="/images/powered_by_stripe.svg" />
+  <p class="legal">
+    To process your payment, your billing information will be sent to our
+    payment processor and your bank using industry-standard encryption. We will
+    not have direct access to your credit card number.
+  </p>
+</div>
+
+<script src="https://js.stripe.com/v3/"></script>
+<script type="text/javascript">
+  const stripe = Stripe(
+    "{{ if .Site.IsServer }}{{ .Site.Params.stripe.testKey }}{{ else }}{{ .Site.Params.stripe.pubKey }}{{ end }}"
+  );
+  const donateButton = document.getElementById("donateButton");
+  const amountField = document.getElementById("amount");
+
+  const validate = (value) => {
+    if (isNaN(value) || value < 0.5 || value > 999999.99) {
+      amountField.classList.add("danger");
+      donateButton.classList.add("disabled");
+      return false;
+    } else {
+      amountField.classList.remove("danger");
+      donateButton.classList.remove("disabled");
+      return true;
+    }
+  };
+
+  amountField.addEventListener("keydown", function () {
+    validate(this.value);
+  });
+
+  amountField.addEventListener("keyup", function (e) {
+    event.preventDefault();
+    if (event.keyCode === 13 && validate(this.value)) {
+      donateButton.click();
+    }
+  });
+
+  amountField.addEventListener("change", function () {
+    this.value = parseFloat(this.value).toFixed(2);
+    validate(this.value);
+  });
+
+  donateButton.addEventListener("click", function () {
+    fetch("/.netlify/functions/donate", {
+      method: "POST",
+      body: JSON.stringify({
+        host: document.location.origin,
+        amount: amountField.value,
+      }),
+    })
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (session) {
+        return stripe.redirectToCheckout({ sessionId: session.id });
+      })
+      .then(function (result) {
+        if (result.error) {
+          alert(result.error.message);
+        }
+      })
+      .catch(function (error) {
+        console.error("Error:", error);
+      });
+  });
+</script>
