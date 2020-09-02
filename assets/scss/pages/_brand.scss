@@ -1,0 +1,25 @@
+.brand.colors {
+  div 
+  div {
+    width: 100%;
+    height: 8rem;
+    color: #fff;
+    text-align: center;
+
+    &::selection {
+      background-color: #fff;
+    }
+
+    &.color.primary {
+      background-color: $primary;
+    }
+
+    &.color.secondary {
+      background-color: $secondary;
+    }
+
+    &.color.dark {
+      background-color: $dark;
+    }
+  }
+}

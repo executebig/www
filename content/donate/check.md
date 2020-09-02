@@ -1,6 +1,7 @@
 ---
 title: "Donate by Check"
 layout: donate
+icon: "/images/icons/check.svg"
 ---
 
 To donate by check, please make your check payable directly to

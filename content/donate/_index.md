@@ -1,7 +1,7 @@
 ---
 title: "Donate"
 layout: donate
-menu: "main"
+icon: "/images/icons/donate.svg"
 ---
 
 We rely on people like you to bring life-changing experiences to students in need, and your donation will enable us to support more underrepresented students in the long term.

@@ -33,7 +33,7 @@ disableHugoGeneratorInject = true
     meta_twitter_creator = "@executebig"
 
   [params.footer]
-    copyright_text = '&copy;2020 Execute Big.'
+    copyright_text = 'A 501(c)(3) nonprofit, EIN 85-2160468.'
 
 [menu]
   # Main Menu
@@ -47,8 +47,25 @@ disableHugoGeneratorInject = true
       url = "/team/"
       weight = 2
 
+  [[menu.main]]
+      name = "Donate"
+      url = "/donate/"
+      weight = 3
+
   # Footer Menu
+  [[menu.footer]]
+    name = "GitHub"
+    url = "https://github.com/executebig/"
+      weight = 1
+      
+  
+  [[menu.footer]]
+    name = "Brand"
+    url = "/brand/"
+      weight = 2
+
   [[menu.footer]]
     name = "Donate"
     url = "/donate/"
-      weight = 2
+      weight = 3
+    

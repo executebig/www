@@ -1,6 +1,6 @@
 // Colors
 $primary: #266dd3;
-$secondary: #f88379;
+$secondary: #DD6E42;
 $black: #2f2f41;
 $white: #ffffff;
 $white-offset: #f6f7ff;
@@ -54,9 +54,11 @@ $sub-footer-text-color: $white;
 @import 'components/social';
 @import 'components/carousel';
 @import 'components/donate';
+@import 'components/page-icon';
 
 // Pages
 @import 'pages/home';
+@import 'pages/brand';
 @import 'pages/team/team-summary';
 @import 'pages/programs/page-programs-single';
 
