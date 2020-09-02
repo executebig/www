@@ -7,15 +7,13 @@
       <h1 class="title">{{.Title}}</h1>
       
       <div class="content">
-        <p><strong>{{ .Params.jobtitle }}</strong></p>
+        <h2>{{ .Params.jobtitle }}</h2>
 
         {{.Content}}
         
-        <p>
-          <strong>School</strong>: {{ .Params.school }} '{{ .Params.class }}</a><br />
-          <strong>Email</strong>: <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a><br />
-          <strong>LinkedIn</strong>: <a href="{{ .Params.linkedinurl }}">{{ .Params.linkedinurl }}</a>
-        </p>
+          <h3>School</h3><p><strong>{{ .Params.school }}</strong><br />Class of 20{{ .Params.class }}</p>
+          <h3>Email</h3><p><a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></p>
+          <h3>LinkedIn</h3><p><a href="{{ .Params.linkedinurl }}">{{ .Params.linkedinurl }}</a></p>
       </div>
     </div>
     <div class="col-12 col-md-4">

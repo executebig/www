@@ -4,7 +4,7 @@ nickname: "Megan"
 email: megan@executebig.org
 draft: false
 image: "/images/team/megan.jpg"
-school: 'Harvard University'
+school: 'Harvard College'
 class: 23
 jobtitle: "Co-founder & Head of Development"
 linkedinurl: "https://www.linkedin.com/in/megancui"
