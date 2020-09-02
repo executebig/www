@@ -3,7 +3,7 @@
 {{ else }}
 
   {{- if .Site.Params.tracking.id -}}
-  <script async src="https://dwarf.executebig.org/dwarf.js" data-ackee-server="https://dwarf.executebig.org" data-ackee-domain-id="{{- .Site.Params.tracking.id -}}"></script>
+  <script defer src="https://dwarf.executebig.org/dwarf.js" data-ackee-server="https://dwarf.executebig.org" data-ackee-domain-id="{{- .Site.Params.tracking.id -}}"></script>
   {{ end }}
 
 {{ end }}

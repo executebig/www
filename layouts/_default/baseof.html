@@ -45,6 +45,8 @@
   <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
 
+  {{ partial "webfonts.html" . }}
+
   {{ partial "analytics.html" . }}
 </body>
 
