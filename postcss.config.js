@@ -10,8 +10,15 @@ module.exports = {
         'h3',
         'h4',
         'ul',
-        'li'
-      ]
+        'li',
+        'hamburger',
+        'hamburger-inner',
+        'hamburger-box',
+        'page',
+        'page-home',
+        'lock-scroll','open'
+      ],
+      whitelistPatternsChildren: [/^hamburger?/, /^(main-menu)(-)?/]
     },
     autoprefixer: {},
     cssnano: { preset: 'default' }
