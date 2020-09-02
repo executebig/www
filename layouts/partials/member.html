@@ -1,0 +1,19 @@
+<div class="col-12 col-md-4 mb-3">
+  <div class="team team-summary">
+    {{ if .image }}
+    <div class="team-image">
+      <img
+        alt="Photo of {{ .Title }}"
+        class="img-fluid mb-2"
+        src="{{ .image | relURL }}"
+      />
+    </div>
+    {{ end }}
+    <div class="team-meta">
+      <h2 class="team-name">{{ .name }}</h2>
+      <p class="team-description">{{ .jobtitle }}</p>
+      <p class="team-description">{{ .school }} '{{ .class }}</p>
+    </div>
+    <div class="team-content"></div>
+  </div>
+</div>

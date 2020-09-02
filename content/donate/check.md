@@ -7,13 +7,7 @@ icon: "/images/icons/check.svg"
 To donate by check, please make your check payable directly to
 **Execute Big** and mail it (via USPS only) to:
 
-```
-***
-Execute Big Inc.
-PO Box 10472
-Rockville, MD 20849
-***
-```
+{{< address >}}
 
 Please also include an email address or return address so we can send you
 your donation receipt. Currently, we are unable to accept payments from

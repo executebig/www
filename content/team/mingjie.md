@@ -1,10 +1,14 @@
 ---
 title: "Mingjie Jiang"
+nickname: "Mingjie"
+email: mingjie@executebig.org
 draft: false
-image: "images/team/mingjie.jpg"
+image: "/images/team/mingjie.jpg"
 school: 'University of California, Berkeley'
+class: 24
 jobtitle: "Co-founder & Head of Operations"
 linkedinurl: "https://www.linkedin.com/in/itsmingjie"
+location: "Berkeley, CA"
 promoted: true
 weight: 2
 ---

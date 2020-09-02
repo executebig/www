@@ -1,8 +1,10 @@
 .intro-image {
   width: 100%;
-  height: auto;
+  height: 360px;
   border-radius: 10px;
   margin-bottom: 2rem;
+  
+  object-fit: cover;
   
   @include media-breakpoint-up(md) {
     margin-bottom: 0;

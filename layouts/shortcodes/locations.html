@@ -1,0 +1,10 @@
+{{ $section := where (where $.Site.RegularPages "Section" "team") ".Params.promoted" true }}
+<table>
+  {{ range $section }}
+  <tr>
+    <td><strong>{{ .Page.Params.nickname }}</strong></td>
+    <td>{{ .Page.Params.jobtitle }}</td>
+    <td><a href="https://maps.google.com/maps?q={{ .Page.Params.location }}" target="_blank">{{ .Page.Params.location }}</a></td>
+  </tr>
+  {{ end }}
+</table>

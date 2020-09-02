@@ -1,10 +1,14 @@
 ---
 title: "Megan Cui"
+nickname: "Megan"
+email: megan@executebig.org
 draft: false
-image: "images/team/megan.jpg"
+image: "/images/team/megan.jpg"
 school: 'Harvard University'
+class: 23
 jobtitle: "Co-founder & Head of Development"
 linkedinurl: "https://www.linkedin.com/in/megancui"
+location: "Cambridge, MA"
 promoted: true
 weight: 1
 ---

@@ -1,0 +1,26 @@
+{{ define "body_classes" }}page-default-single{{ end }}
+
+{{ define "main" }}
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <h1 class="title">{{.Title}}</h1>
+      
+      <div class="content">
+        <p><strong>{{ .Params.jobtitle }}</strong></p>
+
+        {{.Content}}
+        
+        <p>
+          <strong>School</strong>: {{ .Params.school }} '{{ .Params.class }}</a><br />
+          <strong>Email</strong>: <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a><br />
+          <strong>LinkedIn</strong>: <a href="{{ .Params.linkedinurl }}">{{ .Params.linkedinurl }}</a>
+        </p>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <img src="{{ .Params.image }}" class="team-image img-fluid" />
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -21,12 +21,14 @@
 <div class="container">
   <div class="row">
     {{ range where .Pages.ByWeight ".Params.promoted" true }}
-    <div class="col-12 col-md-6 mb-2">{{ .Render "summary-large" }}</div>
+    <div class="col-12 col-md-6 mb-2">{{ .Render "summary" }}</div>
     {{ end }}
   </div>
-  <div class="row  pt-6 pb-6">
-    {{ range where .Pages.ByWeight ".Params.promoted" "!=" true}}
-    <div class="col-12 col-md-4 mb-3">{{ .Render "summary" }}</div>
+  <div class="row pt-6 pb-6">
+    {{ if .Site.Data.team }}
+      {{ range .Site.Data.team }}
+        {{ partial "member.html" . }}
+      {{ end }}
     {{ end }}
   </div>
 </div>
