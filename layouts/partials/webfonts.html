@@ -1,7 +1,10 @@
 <!--https://github.com/typekit/webfontloader-->
 <script type="text/javascript">
   WebFontConfig = {
-    google: { families: ["Inter|Nunito:900"] },
+    google: { families: ["Inter|Nunito:900&display=swap"] },
+    active: () => {
+      sessionStorage.fontsLoaded = true;
+    }
   };
   (function () {
     var wf = document.createElement("script");

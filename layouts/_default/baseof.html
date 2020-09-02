@@ -8,7 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ block "meta_tags" . }}{{end}}
   <link rel="icon" type="image/png" href="{{ "favicon.png" | relURL }}">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@900&display=swap">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <!-- CSS-->
   {{ if .Site.IsServer }}
@@ -20,6 +21,9 @@
   {{ end }}
 
   {{ block "header_css" . }}{{ end }}
+
+  <!-- https://github.com/typekit/webfontloader/issues/429#issuecomment-619617621 -->
+  <script>sessionStorage.fontsLoaded&&document.documentElement.classList.add("wf-active");</script>
 
 </head>
 
