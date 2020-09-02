@@ -11,6 +11,7 @@ module.exports = {
         'h4',
         'ul',
         'li',
+        'blockquote',
         'hamburger',
         'hamburger-inner',
         'hamburger-box',
