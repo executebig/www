@@ -1,0 +1,5 @@
+/grant      /programs/grant
+/research   /programs/research
+/events     /programs/events
+/advising   /programs/advising
+*           /404                  404
