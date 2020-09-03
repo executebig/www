@@ -52,19 +52,19 @@ disableHugoGeneratorInject = true
       weight = 3
 
   # Footer Menu
-  [[menu.footer]]
-    name = "GitHub"
-    url = "https://github.com/executebig/"
-      weight = 1
       
-  
+
   [[menu.footer]]
     name = "Brand"
     url = "/brand/"
       weight = 2
 
   [[menu.footer]]
-    name = "Donate"
-    url = "/donate/"
+    name = "Privacy"
+    url = "/privacy/"
       weight = 3
     
+  [[menu.footer]]
+    name = "Donate"
+    url = "/donate/"
+      weight = 4
