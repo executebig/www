@@ -1,10 +1,8 @@
 {{ $section := where (where $.Site.RegularPages "Section" "team") ".Params.promoted" true }}
-<table>
-  {{ range $section }}
-  <tr>
-    <td><strong>{{ .Page.Params.nickname }}</strong></td>
-    <td>{{ .Page.Params.jobtitle }}</td>
-    <td><a href="https://maps.google.com/maps?q={{ .Page.Params.location }}" target="_blank">{{ .Page.Params.location }}</a></td>
-  </tr>
-  {{ end }}
-</table>
+
+{{ range $section }}
+  <h3 class="rounded-text"><a href="{{ .Page.RelPermalink }}"><strong>{{ .Page.Params.title }}</strong></a> &middot; {{ .Page.Params.jobtitle }}</h3>
+  <p>
+    {{ .Page.Params.location }}
+  </p>
+{{ end }}

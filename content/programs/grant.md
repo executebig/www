@@ -9,6 +9,9 @@ weight: 2
 
 A scholarship awarded to passionate high school hackers in need, giving them the opportunity to attend the best high school hackathons.
 
+<!-- Announcement Block -->
+{{< announcement content="<h3>COVID-19 Response</h3>Due to public health concerns, our Travel Grant program has been suspended until the COVID-19 emergency ends. We're looking forward to supporting more students when in-person events return. Please do not hesitate to <a href=\"/contact\">contact us</a> if you have more questions." class="danger" >}}
+
 {{< button "Apply Now" "/act/grant" "disabled" >}}
 
 ## Here's the story.
@@ -44,11 +47,10 @@ Share your event experience with us and your event organizers in the form of a b
 
 There're no restrictions, no prerequisites, and no complicated forms. Answer a few questions, give us some time to review, and you'll be on your way to one of the best weekends of your life.
 
-{{< button "Apply Now" "/act/grant" "disabled" >}}
+<!-- Announcement Block -->
+{{< announcement content="<h3>COVID-19 Response</h3>Due to public health concerns, our Travel Grant program has been suspended until the COVID-19 emergency ends. We're looking forward to supporting more students when in-person events return. Please do not hesitate to <a href=\"/contact\">contact us</a> if you have more questions." class="danger" >}}
 
-> ### COVID-19 Response
-> 
-> Due to the recent outbreak of the COVID-19 pandemic around the nation, we're suspending the reviewing process of Travel Grant for events happening in March & early April. All previously approved applicants are not directly affected, but students are encouraged to re-evaluate their traveling plans. You may still submit your applications for future events, even if the event does not have a definite date. Please do not hesitate to contact us if you have more questions.
+{{< button "Apply Now" "/act/grant" "disabled" >}}
 
 ---
 

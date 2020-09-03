@@ -9,6 +9,9 @@ weight: 3
 
 We've organized innovative, purpose-driven events impacting thousands of students. Now, we help private institutions like yours to start your own.
 
+<!-- Announcement Block -->
+{{< announcement content="<h3>COVID-19 Response</h3>Due to public health concerns, our in-person events have been suspended until the COVID-19 emergency ends. We're looking forward to partnering with you to create great programs when we are able to safely do so. Please do not hesitate to <a href=\"/contact\">contact us</a> if you have more questions." class="danger" >}}
+
 ## We know what it takes to build a stellar innovation program from ground up.
 
 As high schoolers, we were lucky enough to experience the magic of hackathons. We went on to run our own programs for our communities, build platforms for our schools, blog profusely about our stories, and share similar stories on a national stage.

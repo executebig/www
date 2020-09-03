@@ -10,6 +10,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   z-index: 2;
+  margin-bottom: 1rem;
+
+  &.danger {
+    background-color: $highlight-offset;
+  }
+
 
   @include media-breakpoint-up(sm) {
     align-items: center;
@@ -20,6 +26,10 @@
   .announcement-box-top {
     padding: 20px;
     line-height: 1.75;
+
+    h1,h2,h3,h4,h5 {
+      margin-top: 0;
+    }
 
     @include media-breakpoint-up(md) {
     }

@@ -1,0 +1,15 @@
+{{ $.Scratch.Add "button" (.Get "button") }}
+{{ $.Scratch.Add "link" (.Get "link" | default "#") }}
+{{ $.Scratch.Add "content" (.Get "content") }}
+{{ $.Scratch.Add "class" (.Get "class") }}
+
+<div class="announcement {{ $.Scratch.Get "class" }}">
+  <div class="announcement-box-top">
+    {{ safeHTML ($.Scratch.Get "content") }}
+  </div>
+    {{ if $.Scratch.Get "button" }}
+      <div class="announcement-box-bottom">
+        <a href="{{ ($.Scratch.Get "link") | relURL }}" class="button">{{ $.Scratch.Get "button" }}</a>
+      </div>
+    {{ end }}
+</div>
