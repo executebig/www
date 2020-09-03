@@ -6,7 +6,7 @@
 <meta property="og:title" content="{{ .Site.Params.homepage_meta_tags.meta_og_title }}" />
 <meta property="og:type" content="{{ .Site.Params.homepage_meta_tags.meta_og_type }}" />
 <meta property="og:url" content="{{ .Site.Params.homepage_meta_tags.meta_og_url }}" />
-<meta property="og:image" content="{{ .Site.Params.homepage_meta_tags.meta_og_image }}" />
+<meta property="og:image" content="{{if not .IsHome}}https://og.executebig.org/{{ safeURL (plainify .Title) }}?theme=light&fontSize=120px{{else}}https://og.executebig.org/{{ safeURL (plainify .Site.Title) }}?theme=dark&fontSize=200px{{ end }}" />
 <meta property="og:description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}" />
 <meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
 <meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />

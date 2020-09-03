@@ -7,6 +7,18 @@
   <title>{{ block "title" . }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ block "meta_tags" . }}{{end}}
+  {{ define "meta_tags" }}
+    <meta name="description" content="{{ .Params.description | default .Site.Params.homepage_meta_tags.meta_og_description }}" />
+    <meta property="og:title" content="{{ .Title }} – {{ .Site.Title }}" />
+    <meta property="og:type" content="{{ .Title }} – {{ .Site.Title }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:image" content="https://og.executebig.org/{{ safeURL (plainify .Title) }}?theme=light&fontSize=150px" />
+    <meta property="og:description" content="{{ .Params.description | default .Site.Params.homepage_meta_tags.meta_og_description }}" />
+    <meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
+    <meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
+    <meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
+  {{ end }}
+
   <link rel="icon" type="image/png" href="{{ "favicon.png" | relURL }}">
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
