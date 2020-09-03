@@ -1,6 +1,6 @@
 ---
 title: "Research"
-description: "Building the first open-source dataset on STEM event attendance."
+description: "Building the first open-source dataset on STEM event attendance to identify trends among students of underrepresented demographics and develop ways to improve diversity in CS."
 icon: "/images/icons/research.svg"
 draft: false
 featured: true
