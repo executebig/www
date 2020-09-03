@@ -5,15 +5,6 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
-  <!-- https://css-tricks.com/loading-web-fonts-with-the-web-font-loader/ -->
-  <script>
-    (function() {
-      if (sessionStorage.fonts) {
-        document.documentElement.classList.add('wf-active');
-      }
-    })();
-  </script>
-
   <title>{{ block "title" . }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ block "meta_tags" . }}{{end}}
@@ -32,6 +23,9 @@
   <link rel="icon" type="image/png" href="{{ "favicon.png" | relURL }}">
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nunito:wght@900&display=swap" media="print" onload="this.media='all'" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nunito:wght@900" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nunito:wght@900&display=swap" /></noscript>
 
   <!-- CSS-->
   {{ if .Site.IsServer }}
@@ -66,8 +60,6 @@
   {{ else }}
   <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
-
-  {{ partial "webfonts.html" . }}
 
   {{ partial "analytics.html" . }}
 </body>
