@@ -3,7 +3,11 @@
 {{ define "main" }}
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
   <div class="row justify-content-start">
-    <div class="col-12 col-md-8">
+    
+    <div class="col-12 col-md-4 order-md-2">
+      <img src="{{ .Params.image }}" class="team-image img-fluid" />
+    </div>
+    <div class="col-12 col-md-8 order-md-1">
       <h1 class="title">{{.Title}}</h1>
       
       <div class="content">
@@ -15,9 +19,6 @@
           <h3>Email</h3><p><a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></p>
           <h3>LinkedIn</h3><p><a href="{{ .Params.linkedinurl }}">{{ .Params.linkedinurl }}</a></p>
       </div>
-    </div>
-    <div class="col-12 col-md-4">
-      <img src="{{ .Params.image }}" class="team-image img-fluid" />
     </div>
   </div>
 </div>

@@ -1,4 +1,9 @@
 .team-image {
   border-radius: 10px;
-  width: 100%;
+  margin-bottom: 2rem;
+  width: 50%;
+  
+  @include media-breakpoint-up(md) {
+    width: 100%;
+  }
 }
