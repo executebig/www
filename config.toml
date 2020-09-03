@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Execute Big"
 
 disableHugoGeneratorInject = true
+disableKinds = ["categories", "tags"]
 
 [params]
   [params.tracking] 
@@ -68,3 +69,5 @@ disableHugoGeneratorInject = true
     name = "Donate"
     url = "/donate/"
       weight = 4
+
+[taxonomies]
