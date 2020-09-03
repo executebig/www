@@ -1,5 +1,6 @@
 ---
 title: 'Act'
+private: true
 ---
 
 # Actionable Pages

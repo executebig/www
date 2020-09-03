@@ -2,6 +2,7 @@
 title: "Thanks!"
 layout: donate
 icon: "/images/icons/party.svg"
+private: true
 ---
 
 Your donation has been processed successfully. You will receive a receipt and an IRS form W-9 via email soon. Please keep both documents for tax purposes.

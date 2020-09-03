@@ -71,3 +71,7 @@ disableKinds = ["categories", "tags"]
       weight = 4
 
 [taxonomies]
+
+[sitemap]
+  filename = "sitemap.xml"
+  priority = 0.5
