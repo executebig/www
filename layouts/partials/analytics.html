@@ -3,7 +3,7 @@
 {{ else }}
 
   {{- if .Site.Params.tracking.id -}}
-  <script defer src="https://dwarf.executebig.org/dwarf.js" data-ackee-server="https://dwarf.executebig.org" data-ackee-domain-id="{{- .Site.Params.tracking.id -}}" data-ackee-opts='{ "ignoreLocalhost": true,  "detailed": true }'></script>
+  <script async defer data-website-id="{{- .Site.Params.tracking.id -}}" src="{{- .Site.Params.tracking.host -}}"></script>
   {{ end }}
 
 {{ end }}

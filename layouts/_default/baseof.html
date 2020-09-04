@@ -37,6 +37,8 @@
   {{ end }}
 
   {{ block "header_css" . }}{{ end }}
+  
+  {{ partial "analytics.html" . }}
 </head>
 
 <body class='page {{ block "body_classes" . }}{{ end }}'>
@@ -60,8 +62,6 @@
   {{ else }}
   <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
-
-  {{ partial "analytics.html" . }}
 </body>
 
 </html>

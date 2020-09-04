@@ -7,7 +7,8 @@ disableKinds = ["categories", "tags"]
 
 [params]
   [params.tracking] 
-    id = "837ce14a-7f21-44d1-a621-5f048aceda2c"
+    id = "826fd4a9-b041-450f-812f-c1734f2808e5"
+    host = "https://umami.executebig.org/umami.js"
 
   [params.stripe]
     testKey = "pk_test_51HFmyUGd5RDXy0STaqkryz2uhc4LjMMkAeeMenLrDFAKdsWRaB5iWBLOkmR1KOD39liVOD2JK9Q930qHbcJiFNmq00Pxo6VlMp"

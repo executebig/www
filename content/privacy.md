@@ -40,17 +40,12 @@ We host our software systems in the cloud via the following infrastructure provi
 ## Tracking & Data Collection
 
 To get information about the behavior of our visitors, we use
-[Ackee](https://ackee.electerious.com). Our instance of Ackee is deployed and shown as **`dwarf.executebig.org`** or **`dwarf.elf.executebig.org`**,
-and all information collected by Ackee is stored on our own servers.
+[Umami](https://umami.is/). Our instance of Ackee is deployed and shown as **`umami.executebig.org`**,
+and all information collected by Umami is stored on our own servers.
 
-This analytics software gives us insight about our visitors only in general, but not
-about individuals per say, as it does not track visitors and does not store any
-personal identifiable information. For example, all information will be hashed together with a salt
-that changes daily, and daily salt is never stored anywhere, so we can never trace our analytics data
-back to a specific user. Go to their [documentation](https://docs.ackee.electerious.com/#/docs/Anonymization)
-to find out what Ackee collects.
-
-**Ackee does not use cookies to collect analytics data.**
+This analytics software gives us insight about our visitors only in general. Umami does not collect any personally 
+identifiable information and anonymizes all data collected. Users cannot be identified and are never tracked across websites. 
+Umami does not use any cookies in the tracking code.
 
 ## Questions & Data Controls
 
