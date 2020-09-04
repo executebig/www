@@ -21,7 +21,7 @@ At Execute Big, we have the knowledge and experience needed to approach the task
 
 We're open-sourcing this data set so that others can also add onto and utilize it for research purpose, and as STEM events grow and evolve over time, this data set can continue to provide insight on what policies, programs, or tools are working and how well.
 
-**Read about our privacy promise for research data [here](/media/research-privacy.pdf).**
+**Read about our privacy promise for research data [here](/research-privacy).**
 
 {{< button "Submit Your Data »" "/act/research/" >}}
 
