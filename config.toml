@@ -34,7 +34,7 @@ disableKinds = ["categories", "tags"]
     meta_twitter_creator = "@executebig"
 
   [params.footer]
-    copyright_text = 'A 501(c)(3) nonprofit, EIN 85-2160468.'
+    copyright_text = 'A 501(c)(3) nonprofit, EIN 85-2160468. Status pending.'
 
 [menu]
   # Main Menu
