@@ -1,1 +1,6 @@
-<a href="{{ index .Params 1 }}" class="button cta {{ index .Params 2 }}">{{ index .Params 0 }}</a>
+{{ $.Scratch.Add "external" (.Get "external") }}
+{{ $.Scratch.Add "text" (.Get "text") }}
+{{ $.Scratch.Add "class" (.Get "class") }}
+{{ $.Scratch.Add "url" (.Get "url") }}
+
+<a href="{{ $.Scratch.Get "url" }}" class="button cta {{ $.Scratch.Get "class" }}"{{ if $.Scratch.Get "external" }} target="_blank"{{ end }}>{{ $.Scratch.Get "text" }}</a>

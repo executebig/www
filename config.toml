@@ -65,11 +65,17 @@ disableKinds = ["categories", "tags"]
     name = "Privacy"
     url = "/privacy/"
       weight = 3
+
+  [[menu.footer]]
+      name = "Transparency"
+      url = "/transparency/"
+      weight = 4
     
   [[menu.footer]]
     name = "Donate"
     url = "/donate/"
-      weight = 4
+      weight = 5
+    
 
 [taxonomies]
 

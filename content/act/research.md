@@ -4,7 +4,7 @@ title: 'Contribute to Research'
 
 **If you are an event organizer, we need your help!** We're now collecting anonymous attendee data from past hackathons or any other STEM-related events. The submission process is easy, and we're happy to credit you or your event on our report.
 
-{{< button "Start Submission »" "https://airtable.com/shrU6CxQW90nF5Jdi" >}}&ensp; {{< button "Privacy Promise" "/media/research-privacy.pdf" >}}
+{{< button text="Start Submission »" url="https://airtable.com/shrU6CxQW90nF5Jdi" external=true >}}&ensp; {{< button text="Privacy Promise" url="/research-privacy" >}}
 
 ## Who do we need data from?
 
@@ -53,7 +53,7 @@ Execute Big is committed to making sure that our data covers all sorts of events
 
 We will use your event's data to find out the gender balance in attendance of CS events in relation to location, age groups, event sizes, and more, so we can find out better ways to engage underrepresented minorities in the world of technology.
 
-{{< button "Start Submission »" "https://airtable.com/shrU6CxQW90nF5Jdi" >}}
+{{< button text="Start Submission »" url="https://airtable.com/shrU6CxQW90nF5Jdi" external=true >}}
 
 ## Who do I contact for this project?
 

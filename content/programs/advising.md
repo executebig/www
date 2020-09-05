@@ -27,4 +27,4 @@ We prioritize applications from events that commit to donating to Execute Big. F
 
 We can't wait to work with you and your team to create the best event for your local community.
 
-{{< button "Apply Now »" "https://airtable.com/shrt3CR5YIaSyLMuC" >}}
+{{< button text="Apply Now »" url="https://airtable.com/shrt3CR5YIaSyLMuC" external=true >}}

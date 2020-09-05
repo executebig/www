@@ -47,4 +47,4 @@ You don't have to answer these questions in order! You're the director—tell us
 
 Grab your link — you will need it in the next step.
 
-{{< button "Submit Application »" "https://airtable.com/shrUUvKKekpkMHBn3" >}}
+{{< button text="Submit Application »" url="https://airtable.com/shrUUvKKekpkMHBn3" >}}

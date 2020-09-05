@@ -23,7 +23,7 @@ We're open-sourcing this data set so that others can also add onto and utilize i
 
 **Read about our privacy promise for research data [here](/research-privacy).**
 
-{{< button "Submit Your Data »" "/act/research/" >}}
+{{< button text="Submit Your Data »" url="/act/research/" external=true >}}
 
 ## Let's Talk.
 

@@ -12,7 +12,7 @@ A scholarship awarded to passionate high school hackers in need, giving them the
 <!-- Announcement Block -->
 {{< announcement content="<h3>COVID-19 Response</h3>Due to public health concerns, our Travel Grant program has been suspended until the COVID-19 emergency ends. We're looking forward to supporting more students when in-person events return. Please do not hesitate to <a href=\"/contact\">contact us</a> if you have more questions." class="danger" >}}
 
-{{< button "Apply Now" "/act/grant" "disabled" >}}
+{{< button text="Apply Now" url="/act/grant" class="disabled" >}}
 
 ## Here's the story.
 
@@ -50,7 +50,7 @@ There're no restrictions, no prerequisites, and no complicated forms. Answer a f
 <!-- Announcement Block -->
 {{< announcement content="<h3>COVID-19 Response</h3>Due to public health concerns, our Travel Grant program has been suspended until the COVID-19 emergency ends. We're looking forward to supporting more students when in-person events return. Please do not hesitate to <a href=\"/contact\">contact us</a> if you have more questions." class="danger" >}}
 
-{{< button "Apply Now" "/act/grant" "disabled" >}}
+{{< button text="Apply Now" url="/act/grant" class="disabled" >}}
 
 ---
 
