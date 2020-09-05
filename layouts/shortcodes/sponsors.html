@@ -1,7 +1,7 @@
 <div class="sponsors row">
   {{ if .Site.Data.sponsors }}
     {{ range .Site.Data.sponsors }}
-    <div class="sponsor col-md-3 my-auto">
+    <div class="sponsor col-md-3 col-6 my-auto">
       <a href="{{ .url }}" target="_blank"><img src="/images/sponsors/{{ .logo }}" alt="{{ .name }}" class="img-responsive" /></a>
     </div>
     {{ end }}
