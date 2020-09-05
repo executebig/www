@@ -18,4 +18,12 @@ Your donation will enable us to support more underrepresented students in the lo
 
 We believe it is incredibly important for a non-profit organization to keep everything transparent. We are committed to making sure your support can create maximum impact for students in need.
 
-{{< button "Transparency (In Construction)" "#" "disabled" >}}
+{{< button text="Transparency (In Construction)" url="/transparency/finances" >}}
+
+***
+
+## Our Sponsors
+
+Some generous companies provided us with grants or their own products to make Execute Big's operations possible. 
+
+{{< sponsors >}}

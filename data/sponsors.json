@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Linode",
+    "logo": "linode.svg",
+    "link": "https://linode.com/"
+  },
+  {
+    "name": "StickerMule",
+    "logo": "stickermule.svg",
+    "link": "https://stickermule.com"
+  },
+  {
+    "name": "Zapier",
+    "logo": "zapier.png",
+    "link": "https://zapier.com/"
+  },
+  {
+    "name": "Designmodo",
+    "logo": "designmodo.png",
+    "link": "https://designmodo.com/"
+  },
+  {
+    "name": "Bugsnag",
+    "logo": "bugsnag.svg",
+    "link": "https://www.bugsnag.com/"
+  },
+  {
+    "name": "DigitalOcean",
+    "logo": "digitalocean.svg",
+    "link": "https://digitalocean.com/"
+  }
+]

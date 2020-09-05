@@ -12,7 +12,6 @@ module.exports = {
         'ul',
         'li',
         'table',
-
         'blockquote',
         'hamburger',
         'hamburger-inner',
@@ -21,7 +20,7 @@ module.exports = {
         'page-home',
         'lock-scroll','open'
       ],
-      whitelistPatternsChildren: [/^hamburger?/, /^(main-menu)(-)?/, /^content/]
+      whitelistPatternsChildren: [/^hamburger?/, /^(main-menu)(-)?/, /^content/, /^sponsors/]
     },
     autoprefixer: {},
     cssnano: { preset: 'default' }
