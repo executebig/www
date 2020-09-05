@@ -41,12 +41,12 @@ We host our software systems in the cloud via the following infrastructure provi
 ## Tracking & Data Collection
 
 To get information about the behavior of our visitors, we use
-[Umami](https://umami.is/). Our instance of Ackee is deployed and shown as **`umami.executebig.org`**,
+[Umami](https://umami.is/). Our instance of Umami is deployed and shown as **`umami.executebig.org`**,
 and all information collected by Umami is stored on our own servers.
 
 This analytics software gives us insight about our visitors only in general. Umami does not collect any personally 
 identifiable information and anonymizes all data collected. Users cannot be identified and are never tracked across websites. 
-Umami does not use any cookies in the tracking code.
+Umami does not use any cookies in the tracking code, either.
 
 ## Additional Policies
 
