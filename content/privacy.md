@@ -15,13 +15,14 @@ The only third parties that we share data with are trusted, and we only share wh
 
 - **Stripe**, for third-party payment processing. We use industry-standard methods when handling your transaction information, and we do not store or collect your payment details.
 - **Airtable**, for storing our operations data (ex. when you apply to our programs, or become a supporter).
+- **Zapier**, for automation our data-processing workflow (ex. sending you a confirmation email after you apply to our program).
 - **Substack**, to send emails and newsletters to people who have consented to be on our mailing list. We only share your name and email address with them, and we only share that information when you have consented for that information to be shared (ex. when you sign up for our newsletter, or become a supporter).
 
 ### Program-Specific Providers
 
 When participating in our events and programs, you may also be asked to use the following platforms and services to register yourself or communicate with us:
 
-- **Google Forms**
+- **GSuite** (including Gmail, Drive, Photos, and Forms)
 - **Zoom**
 - **OpenPhone**
 - **Notion**
@@ -47,7 +48,15 @@ This analytics software gives us insight about our visitors only in general. Uma
 identifiable information and anonymizes all data collected. Users cannot be identified and are never tracked across websites. 
 Umami does not use any cookies in the tracking code.
 
-## Questions & Data Controls
+## Additional Policies
+
+Aside from our organizational privacy disclosure, you may also be interested in reading about our commitment to privacy in other
+programs of Execute Big. These policies outline the steps that we are taking to ensure we collect, process, and potentially release the right 
+information to create a safe environment for you to be involved in our programs. 
+
+* **Research**: [Privacy Promise for Research Data](/research-privacy)
+
+## Questions & Data Control
 
 You may request a copy of your data or ask us questions about this privacy disclosure by [contacting us](/contact) through 
 emailing, calling, or writing to us. 
