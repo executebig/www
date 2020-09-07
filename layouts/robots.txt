@@ -1,0 +1,9 @@
+User-agent: *
+
+{{ range .Data.Pages }}
+{{ if .Params.private }}
+Disallow: {{.RelPermalink}}
+{{ end }}
+{{ end }}
+
+Sitemap: https://executebig.org/sitemap.xml

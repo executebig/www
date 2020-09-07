@@ -5,6 +5,8 @@ title = "Execute Big"
 disableHugoGeneratorInject = true
 disableKinds = ["categories", "tags"]
 
+enableRobotsTXT = true
+
 [params]
   [params.tracking] 
     id = "826fd4a9-b041-450f-812f-c1734f2808e5"
