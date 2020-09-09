@@ -1,5 +1,5 @@
 ---
-title: "Student Highlight: Priya Kalra's at TechTogether Boston"
+title: "Student Highlight: Priya Kalra at TechTogether Boston"
 date: 2020-02-20
 author: Priya Kalra
 editor: Mingjie Jiang
@@ -85,6 +85,8 @@ we packed up our belongings and waited for the closing ceremony. The closing
 ceremony was extremely sad because that meant the amazing weekend was coming to
 an end. After exchanging contact information with my new friends, and saying
 goodbye, it was time to board the bus back to Philadelphia.
+
+![Priya](images/1.jpg)
 
 Thanks to Execute Big, I was able to have the unique opportunity of attending
 TechTogether Boston and improving my knowledge of STEM. Throughout the process,
