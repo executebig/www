@@ -1,0 +1,7 @@
+<div class="summary">
+  <a href="{{ .Permalink }}">
+    <h2>{{ .Title }}</h2>
+  </a>
+    <p class="meta"><strong>{{ dateFormat "Jan 2, 2006" .Params.date }}</strong> by <strong>{{.Params.author}}</strong>{{if .Params.featured}} (Pinned){{ end }}</p>
+  <p>{{ .Description | default .Content | plainify | htmlUnescape | truncate 280 "…" }}</p>
+</div>

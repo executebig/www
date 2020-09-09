@@ -1,0 +1,24 @@
+.page-journals-single {
+  .post-header {
+    margin-bottom: 2rem;
+
+    .meta {
+      font-family: $font-family-heading;
+      font-size: 1.15rem;
+    }
+  }
+
+  .press-footer {
+    margin-top: 2rem;
+    border-top: $hint 2px dotted;
+    padding-top: 1rem;
+
+    @include media-breakpoint-up(md) {
+      border-left: $hint 2px dotted;
+      padding-left: 1rem;
+      margin-top: 0;
+      border-top: none;
+      padding-top: 0;
+    }
+  }
+}

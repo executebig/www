@@ -50,27 +50,19 @@
 </div>
 {{end}}
 
-<!-- {{if .Site.Data.features}}
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
-      {{ range .Site.Data.features }}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {{ if .image }}
-          <div class="feature-image"><img alt="{{ .Title }} logo" src="{{ .image | relURL }}" /></div>
-          {{ end }}
-          <h2 class="feature-title">{{ .title }}</h2>
-          <div class="feature-content">
-            <p>{{ .description }}</p>
-          </div>
-        </div>
+<div class="strip strip-grey journal">
+  <div class="container pt-6 pb-6">
+    <h3>Featured Journal</h3>
+    <div class="row justify-content-start">
+      <div class="col-12">
+      {{ range first 1 (where (where .Site.RegularPages "Type" "journals") ".Params.featured" "=" true) }}
+      <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+      <p>{{ .Description | default .Content | plainify | htmlUnescape | truncate 240 "…" }}</p>
+      {{ end }}
       </div>
-      {{end}}
     </div>
   </div>
 </div>
-{{end}} -->
 
 {{ end }}
 

@@ -51,9 +51,14 @@ enableRobotsTXT = true
       weight = 2
 
   [[menu.main]]
+      name = "Journals"
+      url = "/journals/"
+      weight = 3
+    
+  [[menu.main]]
       name = "Donate"
       url = "/donate/"
-      weight = 3
+      weight = 4
 
   # Footer Menu
       
@@ -72,11 +77,16 @@ enableRobotsTXT = true
       name = "Transparency"
       url = "/transparency/"
       weight = 4
+
+  [[menu.footer]]
+      name = "Contact"
+      url = "/contact/"
+      weight = 5
     
   [[menu.footer]]
     name = "Donate"
     url = "/donate/"
-      weight = 5
+      weight = 6
     
 
 [taxonomies]

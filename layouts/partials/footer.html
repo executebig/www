@@ -9,7 +9,7 @@
           <ul>
             {{ $currentPage := . }}
             {{ range .Site.Menus.footer }}
-            <li class="menu-item-{{ .Name | lower }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
+            <li class="menu-item-{{ .Name | lower }}{{ if $currentPage.IsMenuCurrent "footer" . }} active{{ end }}">
               <a href="{{.URL}}">
                 {{ .Name }}
               </a>

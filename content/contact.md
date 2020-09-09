@@ -1,7 +1,6 @@
 ---
 title: "Contact"
-menu: "main"
-icon: "/images/icons/write.svg"
+icon: "/images/icons/chat.svg"
 ---
 
 Got any interesting ideas that you'd like to share with us? Want to discuss a potential partnership? Interested in hearing how Execute Big works from the inside? We'd love to chat with you!
