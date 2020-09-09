@@ -1,5 +1,5 @@
 ---
-title: "Index"
+title: "Student Highlight: Priya Kalra's at TechTogether Boston"
 date: 2020-02-20
 author: Priya Kalra
 editor: Mingjie Jiang
