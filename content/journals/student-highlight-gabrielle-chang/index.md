@@ -1,6 +1,6 @@
 ---
 title: "Student Highlight: Gabrielle Chang's Trip to Superposition"
-date: 2020-09-09T18:42:48-04:00
+date: 2020-04-11
 featured_image: images/featured.jpg
 author: Gabrielle Chang
 editor: Mingjie Jiang
