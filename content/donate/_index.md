@@ -2,6 +2,7 @@
 title: "Donate"
 layout: donate
 icon: "/images/icons/donate.svg"
+description: We rely on people like you to bring life-changing experiences to students in need, and your donation will enable us to support more underrepresented students in the long term.
 ---
 
 We rely on people like you to bring life-changing experiences to students in need, and your donation will enable us to support more underrepresented students in the long term.

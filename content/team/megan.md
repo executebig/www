@@ -11,6 +11,7 @@ linkedinurl: "https://www.linkedin.com/in/megancui"
 location: "Cambridge, MA"
 promoted: true
 weight: 1
+description: Megan made hackathons in the greater Cincinnati region the next big thing, running five hackathons of her own including the Midwest’s largest and Cincinnati’s first.
 ---
 
 Megan made hackathons in the greater Cincinnati region the next big

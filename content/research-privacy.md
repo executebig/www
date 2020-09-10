@@ -1,6 +1,7 @@
 ---
 title: "Privacy of Research Data"
 icon: "/images/icons/lock.svg"
+description: "To aid you in your decision-making, we would like to share our privacy policy and promise."
 ---
 
 Dear organizers,

@@ -1,6 +1,7 @@
 ---
 title: "Brand"
 icon: "/images/icons/heart.svg"
+description: "We want to spend most of our time on improving our programs and creating impact, so our branding is also built with simplicity in mind."
 ---
 
 ## Welcome to Execute Big v2.

@@ -3,6 +3,7 @@ title: 'Team'
 intro_image: "/images/features/sf.jpg"
 intro_image_absolute: false
 intro_image_hide_on_mobile: false
+description: We're at our best when we are making — founded by hackers, for hackers, Execute Big is bringing the superpower of coding to all.
 ---
 
 # Meet The Team
