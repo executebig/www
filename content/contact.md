@@ -16,6 +16,8 @@ Execute Big is a **fully-remote** organization. We do not have a physical addres
 
 {{< address >}}
 
+If you are an event partner and are planning to ship us physical material via FedEx, UPS, etc., please reach out to us and we'll provide you with a physical address. 
+
 ## Phone
 
 You can reach us by phone at **[(240) 222-5244](tel:+12402225244)** during business hours. However, it's very likely that we will not be able to pick up. If possible, please schedule a meeting with us via [Calendly](https://calendly.com/itsmingjie/chat).
