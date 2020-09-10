@@ -17,6 +17,12 @@
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
   font-family: $font-family-heading;
+  
+  @include media-breakpoint-down(md) {
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
 
   &.cta {
     text-decoration: none;
