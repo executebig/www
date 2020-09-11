@@ -19,6 +19,17 @@
         &:hover {
           text-decoration: underline;
         }
+
+        /* Code from https://stackoverflow.com/a/20249560 by 350D (Vladimir Sobolev) */
+        > span::before {
+            display: block;
+            content: attr(data-name);
+            font-weight: bold;
+            height: 1px;
+            color: transparent;
+            overflow: hidden;
+            visibility: hidden;
+        }
       }
       &.active {
         > a {
