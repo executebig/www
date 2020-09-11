@@ -24,7 +24,7 @@ So, on the morning of February 28th, I caught a flight to San Francisco, approxi
 
 By 10AM the next day, I had walked to the Uber HQ, where I was ushered by friendly volunteers to the event area to check in. Immediately, I was impressed by how well-organized and professional the entire was. The “hacking” space was spotless, and lined with ample power strips. The kitchen area was thoughtfully stocked with snacks for every dietary restriction. The sponsor swag was lined up neatly for participants to pick up. Organizers and volunteers were everywhere, constantly circling the space to make sure everything was OK. 
 
-After a helpful opening ceremony, it was time to begin. After some consideration, I thought the category I’d aim towards would be “Best Solo Hack”. Although I usually love meeting strangers and having a group of teammates, this was sort of a personal challenge to see if I could rely on myself to build a project. Ultimately, I created a game, EXTINCTly, which you can read more about here. 
+After a helpful opening ceremony, it was time to begin. After some consideration, I thought the category I’d aim towards would be “Best Solo Hack”. Although I usually love meeting strangers and having a group of teammates, this was sort of a personal challenge to see if I could rely on myself to build a project. Ultimately, I created a game, EXTINCTly, which you can read more about [here](https://devpost.com/software/extinctly). 
 
 ![Opening Ceremony](images/3.png)
 
