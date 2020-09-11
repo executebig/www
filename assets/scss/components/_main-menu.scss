@@ -20,6 +20,7 @@
           text-decoration: underline;
         }
 
+        /* Code from https://stackoverflow.com/a/20249560 by 350D (Vladimir Sobolev) */
         > span::before {
             display: block;
             content: attr(data-name);
