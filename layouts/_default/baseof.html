@@ -7,6 +7,7 @@
   
   <title>{{ block "title" . }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
   {{ block "meta_tags" . }}{{end}}
   {{ define "meta_tags" }}
     <meta name="description" content="{{ .Params.description | default .Site.Params.homepage_meta_tags.meta_og_description }}" />
