@@ -28,6 +28,8 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nunito:wght@900" />
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nunito:wght@900&display=swap" /></noscript>
 
+  {{ partial "schema" . }}
+
   <!-- CSS-->
   {{ if .Site.IsServer }}
   {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
