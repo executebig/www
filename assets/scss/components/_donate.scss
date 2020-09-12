@@ -46,6 +46,10 @@
 
   .button#donateButton {
     margin-right: 1rem;
+    
+    .spinner-border-sm {
+      margin-bottom: 3px;
+    }
   }
 
   p.legal {

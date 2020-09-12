@@ -54,6 +54,10 @@
   });
 
   donateButton.addEventListener("click", function () {
+    donateButton.innerHTML = "<span class=\"spinner-border spinner-border-sm\" role=\"status\" aria-hidden=\"true\"></span>&ensp;Loading..."
+    donateButton.setAttribute("disabled", true)
+    donateButton.classList.add("disabled")
+
     fetch("/.netlify/functions/donate", {
       method: "POST",
       body: JSON.stringify({
