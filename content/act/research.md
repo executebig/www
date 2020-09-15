@@ -1,5 +1,6 @@
 ---
 title: 'Contribute to Research'
+description: We're now collecting anonymous attendee data from past hackathons or any other STEM-related events. Start your submission here!
 ---
 
 **If you are an event organizer, we need your help!** We're now collecting anonymous attendee data from past hackathons or any other STEM-related events. The submission process is easy, and we're happy to credit you or your event on our report.
@@ -47,7 +48,7 @@ In our case, since a lot of event attendees are minors, it is especially importa
 
 Regardless, here’s our commitment to you: even if you submit any sensitive information to us during the data collection process, we will never use them, and we will discard any information that we are not using immediately.
 
-$$ Why do we need these data?
+## Why do we need these data?
 
 Never had there been a large enough sample database to allow researchers and future event organizers to realize what the state of the nation is when it comes to innovative events like hackathons. There are organizations that have collected specific sets of information — MLH, who specializes in collegiate events, and CodeDay, who specializes in intimate, beginner-centric event — yet it’s hard to understand what we’re dealing with daily when it comes to generalizing demographic data. The information that these organizations released are often unique to their own platform, yet it can be very different when you look only slightly beyond that.
 

@@ -1,5 +1,6 @@
 ---
 title: "Legal Disclosures"
+description: "Nonprofit legal disclosures as required by states." 
 layout: donate
 icon: "/images/icons/legal.svg"
 ---

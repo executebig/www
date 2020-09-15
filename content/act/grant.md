@@ -1,5 +1,6 @@
 ---
 title: 'Apply to Travel Grant'
+description: Start your application to Travel Grant here. For your application, you’ll need to submit a 1-10 minute video.
 ---
 
 ## Welcome!

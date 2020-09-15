@@ -1,6 +1,10 @@
 <div class="summary">
     <h2>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ if isset .Params "symboliclink" }}
+        <a href="{{ .Params.symboliclink }}"{{ if .Params.external }} target="_blank"{{end}}>{{ .Title }}</a>
+      {{else}}
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ end }}
     </h2>
     <p>{{ .Description | default .Content | plainify | htmlUnescape | truncate 180 "…" }}</p>
 </div>
