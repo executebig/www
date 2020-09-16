@@ -20,7 +20,7 @@ module.exports = {
         'page-home',
         'lock-scroll','open'
       ],
-      whitelistPatternsChildren: [/^hamburger?/, /^(main-menu)(-)?/, /^content/, /^sponsors/]
+      whitelistPatternsChildren: [/^hamburger?/, /^(main-menu)(-)?/, /^content/, /^sponsors/, /^(spinner)(-)?/]
     },
     autoprefixer: {},
     cssnano: { preset: 'default' }
