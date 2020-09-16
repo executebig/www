@@ -11,7 +11,7 @@
         border: none;
       }
     }
-  
+
     input {
       border: none;
       color: $primary;
@@ -19,52 +19,53 @@
       font-size: 5rem;
       appearance: textfield;
       opacity: 1;
-  
+
       &::-webkit-outer-spin-button,
       &::-webkit-inner-spin-button {
         -webkit-appearance: none;
-        margin: 0; 
+        margin: 0;
       }
-  
+
       &::placeholder {
         color: $primary;
-        opacity: .5;
+        opacity: 0.5;
       }
-  
-      &:focus, &:active {
+
+      &:focus,
+      &:active {
         border: none;
         box-shadow: none;
       }
-  
+
       &.danger {
         color: $danger;
-        opacity: .8;
+        opacity: 0.8;
       }
     }
-  
   }
 
-  .button#donateButton {
+  .button#donateButton,
+  .button#coverFee {
     margin-right: 1rem;
-    
+
     .spinner-border-sm {
       margin-bottom: 3px;
     }
   }
 
   p.legal {
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-style: italic;
     line-height: 1.5;
     color: $steel;
   }
-  
+
   .check {
     p {
       font-size: 1rem;
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
     }
-    
+
     .address {
       line-height: 1.5;
       font-weight: bold;
@@ -76,13 +77,13 @@
 img.signature {
   margin-right: 2rem;
   filter: grayscale(1);
-  
+
   -webkit-user-drag: none;
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
   user-drag: none;
-  
+
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -96,5 +97,4 @@ img.signature {
   &.mingjie {
     height: 9rem;
   }
-  
 }
