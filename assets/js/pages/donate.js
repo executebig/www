@@ -3,10 +3,18 @@ const coverFeeButton = document.getElementById("coverFee");
 const amountField = document.getElementById("amount");
 const feeAmount = document.getElementById("fee");
 const donateAmount = document.getElementById("total");
+const dollarSign = document.getElementById("dollarSign");
 
 const validate = (value) => {
   if (isNaN(value) || value < 0.5 || value > 999999.99) {
-    amountField.classList.add("danger");
+    if (value !== "") {
+      amountField.classList.add("danger");
+      dollarSign.classList.add("danger");
+    } else {
+      amountField.classList.remove("danger");
+      dollarSign.classList.remove("danger");
+    }
+
     donateButton.classList.add("disabled");
     coverFeeButton.classList.add("disabled");
 
@@ -16,22 +24,20 @@ const validate = (value) => {
     return false;
   } else {
     amountField.classList.remove("danger");
+    dollarSign.classList.remove("danger");
     donateButton.classList.remove("disabled");
     coverFeeButton.classList.remove("disabled");
 
-    donateAmount.innerText = value;
     v = parseFloat(value);
+
+    donateAmount.innerText = v.toFixed(2);
     feeAmount.innerText = ((v + 0.3) / (1 - 0.029) - v).toFixed(2);
+
     return true;
   }
 };
 
-amountField.addEventListener("keydown", function () {
-  validate(this.value);
-});
-
-amountField.addEventListener("keyup", function (e) {
-  event.preventDefault();
+amountField.addEventListener("keyup", function () {
   validate(this.value);
 });
 

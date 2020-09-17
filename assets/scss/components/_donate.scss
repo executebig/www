@@ -9,6 +9,13 @@
         font-size: 5rem;
         background-color: transparent;
         border: none;
+
+        transition: all .2s ease;
+
+        &.danger {
+          color: $danger;
+          opacity: 0.8;
+        }
       }
     }
 
@@ -19,6 +26,7 @@
       font-size: 5rem;
       appearance: textfield;
       opacity: 1;
+      transition: all .2s ease;
 
       &::-webkit-outer-spin-button,
       &::-webkit-inner-spin-button {

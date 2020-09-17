@@ -9,9 +9,9 @@ We rely on people like you to bring life-changing experiences to students in nee
 
 {{< donate "Donate" >}}
 
-Stripe, our payment processor, charges us **2.9% + 30¢** per payment processed. If you would like to make a recurring donation, you can **[sponsor us on GitHub](https://github.com/sponsors/executebig)**. Donations through GitHub Sponsors will not incur a fee. 
+[Stripe](https://stripe.com), our payment processor, charges us **2.9% + 30¢** per payment processed. If you would like to make a recurring donation, you can **[sponsor us on GitHub](https://github.com/sponsors/executebig)**. Donations through GitHub Sponsors will not incur a fee. 
 
-You may also **[donate by check](/donate/check)**. 
+**You may also [donate by check](/donate/check)**. 
 
 Your donation is tax-deductible in the United States to the extent permitted by law. Execute Big is a 501(c)(3) non-profit with the EIN 85-2160468. 
 [State nonprofit disclosures](/donate/legal).
