@@ -1,28 +1,36 @@
 module.exports = {
   plugins: {
-    '@fullhuman/postcss-purgecss': {
-      content: ['layouts/**/*.html'],
+    "@fullhuman/postcss-purgecss": {
+      content: ["layouts/**/*.html"],
       whitelist: [
-        'highlight',
-        'pre',
-        'code',
-        'content',
-        'h3',
-        'h4',
-        'ul',
-        'li',
-        'table',
-        'blockquote',
-        'hamburger',
-        'hamburger-inner',
-        'hamburger-box',
-        'page',
-        'page-home',
-        'lock-scroll','open'
+        "highlight",
+        "pre",
+        "code",
+        "content",
+        "h3",
+        "h4",
+        "ul",
+        "li",
+        "table",
+        "blockquote",
+        "hamburger",
+        "hamburger-inner",
+        "hamburger-box",
+        "page",
+        "page-home",
+        "lock-scroll",
+        "open",
       ],
-      whitelistPatternsChildren: [/^hamburger?/, /^(main-menu)(-)?/, /^content/, /^sponsors/, /^(spinner)(-)?/]
+      whitelistPatternsChildren: [
+        /^hamburger?/,
+        /^(main-menu)(-)?/,
+        /^content/,
+        /^sponsors/,
+        /^(spinner)(-)?/,
+        /^donationContainer/,
+      ],
     },
     autoprefixer: {},
-    cssnano: { preset: 'default' }
-  }
-}
+    cssnano: { preset: "default" },
+  },
+};
