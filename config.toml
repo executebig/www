@@ -36,7 +36,7 @@ enableRobotsTXT = true
     meta_twitter_creator = "@executebig"
 
   [params.footer]
-    copyright_text = 'A Maryland public charity, EIN 85-2160468.'
+    copyright_text = 'A 501(c)(3) public charity, EIN 85-2160468.'
 
 [menu]
   # Main Menu

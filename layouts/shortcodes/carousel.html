@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 {{ end }}
 
-<div class="carousel" data-flickity='{ "lazyLoad": 1, "autoPlay": 2000, "wrapAround": true }'>
+<div class="carousel" data-flickity='{ "lazyLoad": 2, "autoPlay": 2000, "wrapAround": true, "pageDots": false, "freeScroll": true, "freeScrollFriction": 0.03 }'>
     {{- with (.Get "dir") -}} 
     {{- $files := readDir (print "/static/" .) }}
     {{- range $files -}} 
