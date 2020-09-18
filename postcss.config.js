@@ -28,6 +28,7 @@ module.exports = {
         /^sponsors/,
         /^(spinner)(-)?/,
         /^donationContainer/,
+        /^carousel/,
       ],
     },
     autoprefixer: {},

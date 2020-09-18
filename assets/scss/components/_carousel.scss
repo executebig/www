@@ -1,12 +1,35 @@
 .carousel {
-	overflow: hidden;
-	border-radius: 10px;
+  padding-bottom: 25px;
 
-	.slide {
-        margin: 0;
+  .carousel-cell {
+    width: 66%;
+    height: 400px;
+    margin-right: 10px;
+    background-color: $hint;
+    border-radius: 10px;
 
-        &.hidden {
-            display: none;
-        }
-	}
+    img {
+      display: block;
+      height: 100%;
+      object-fit: cover;
+      margin: 0 auto;
+      max-width: 100%;
+      opacity: 0;
+      -webkit-transition: all 0.4s;
+      transition: all 0.4s;
+      border-radius: 10px;
+      filter: blur(5px);
+
+      &.flickity-lazyloaded,
+      &.flickity-lazyerror {
+        opacity: 1;
+      }
+    }
+
+    &.is-selected {
+      img {
+        filter: none;
+      }
+    }
+  }
 }
