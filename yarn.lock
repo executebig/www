@@ -4789,10 +4789,10 @@ strip-ansi@^6.0.0:
   dependencies:
     ansi-regex "^5.0.0"
 
-stripe@^8.96.0:
-  version "8.96.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-8.96.0.tgz#10c3f91406716dc7fdf1c92d54e1e8a4d205cc3f"
-  integrity sha512-9bfPq7UYt9+q1pLznyrqWKtyeN1OAdsTQ8X6rleZW0fUeT1jpOhQaEVxq0vnbeqncbiJ1i46JvZp0FUNrfKZ4g==
+stripe@^8.97.0:
+  version "8.97.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-8.97.0.tgz#61b17d14f01400890e5dfa6a2affc4aa97a08982"
+  integrity sha512-BMcwidED1qB8oWfrGFMoNG5RAXQyaopxOUmw1eo8CpdLihG0+6Dl+ReCAhemJ6a55Mqmirrmks9HIDkgtZKvSA==
   dependencies:
     "@types/node" ">=8.1.0"
     qs "^6.6.0"
