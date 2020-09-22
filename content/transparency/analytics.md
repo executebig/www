@@ -17,6 +17,6 @@ Running since **September 4, 2020**.
 
 Running since **September 4, 2020**.
 
-## [goblin.executebig.org](https://umami.executebig.org/share/uq5mv0Gq/Goblin)
+## [finances.executebig.org](https://umami.executebig.org/share/uq5mv0Gq/Finances)
 
 Running since **September 21, 2020**.
