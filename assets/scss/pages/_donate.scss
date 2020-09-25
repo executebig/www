@@ -1,0 +1,33 @@
+.page-donate {
+  .donation-stats {
+    padding: .2rem 1.5rem;
+    background-color: rgba(	38, 109, 211, .08);
+    border-radius: 10px;
+
+    h1 {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .stat-set {
+      margin-bottom: 1.5rem;
+
+      p {
+        font-family: $font-family-heading;
+        color: $dark;
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        line-height: 1.35;
+      }
+
+      p.value {
+        color: $primary;
+        font-size: 3rem;
+      }
+    }
+  }
+}

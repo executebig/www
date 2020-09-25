@@ -1,16 +1,74 @@
-{{ define "body_classes" }}page-donate{{ end }}
-
-{{ define "main" }}
+{{ define "body_classes" }}page-donate{{ end }} {{ define "main" }}
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
+      <img src="{{.Params.icon}}" class="page-icon" />
+      <h1 class="title">Give to Execute Big</h1>
+    </div>
+  </div>
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-5 order-md-2">
+      <div class="content donation-stats mt-4">
+        <h1 class="title">Transparency in Finances</h1>
+        <p>
+          We believe it is incredibly important for a non-profit organization to
+          keep everything transparent. We are committed to making sure your
+          support can create maximum impact for students in need.
+        </p>
+        <a href="https://finances.executebig.org" class="button cta" target="_blank">Finances Portal »</a>
+
+        <div class="row justify-content-start mt-3">
+          <div class="col-12">
+            <div class="stat-set">
+              <p>Total Balance</p>
+              <p class="value" id="totalBalance">&ndash;</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-start">
+          <div class="col-6">
+            <div class="stat-set">
+              <p>Donation (Month)</p>
+              <p class="value" id="amountToDate">&ndash;</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="stat-set">
+              <p>Expenses (Month)</p>
+              <p class="value" id="expToDate">&ndash;</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-12 col-md-7">
       <div class="service service-single">
-        <img src="{{.Params.icon}}" class="page-icon" />
-        <h1 class="title">Give to Execute Big</h1>
         <div class="content mt-4">{{.Content}}</div>
       </div>
     </div>
   </div>
 </div>
+
+<script>
+  fetch("https://finances.executebig.org/api/stats")
+    .then((data) => data.json())
+    .then((d) => {
+      document.getElementById("amountToDate").innerText = currency(
+        d.curMonthRev
+      );
+      document.getElementById("expToDate").innerText = currency(d.curMonthExp);
+      document.getElementById("totalBalance").innerText = currency(d.balance);
+    });
+
+  const currency = (v) => {
+    const thirds = /\B(?=(\d{3})+(?!\d))/g;
+
+    return v >= 0
+      ? "$" + v.toFixed(2).replace(thirds, ",")
+      : "-$" + Math.abs(v).toFixed(2).replace(thirds, ",");
+  };
+</script>
 
 {{ end }}
