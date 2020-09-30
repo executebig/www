@@ -1,0 +1,19 @@
+{{ define "body_classes" }}page-subscribe-list{{ end }}
+
+{{ define "main" }}
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-8">
+        <img src="{{.Params.icon}}" class="page-icon" />
+        <h1 class="title">{{ .Title }}</h1>
+      </div>
+    </div>
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-8">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

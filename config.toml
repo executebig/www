@@ -46,11 +46,6 @@ enableRobotsTXT = true
       weight = 1
 
   [[menu.main]]
-      name = "Team"
-      url = "/team/"
-      weight = 2
-
-  [[menu.main]]
       name = "Journals"
       url = "/journals/"
       weight = 3
@@ -60,8 +55,17 @@ enableRobotsTXT = true
       url = "/donate/"
       weight = 4
 
+  [[menu.main]]
+      name = "Subscribe"
+      url = "/subscribe/"
+      weight = 5
+
   # Footer Menu
       
+  [[menu.footer]]
+      name = "Team"
+      url = "/team/"
+      weight = 1
 
   [[menu.footer]]
     name = "Brand"
