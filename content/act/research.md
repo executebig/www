@@ -63,3 +63,9 @@ We will use your event's data to find out the gender balance in attendance of CS
 This project is led by co-founders of Execute Big: Megan Cui, a rising sophomore at Harvard, and Mingjie Jiang, an incoming freshman at UC Berkeley. Execute Big is a public charity with the EIN 85-2160468.
 
 If you have questions or suggestions about the research project, please feel free to email team@executebig.org to get in touch with us.
+
+## With Support From...
+
+These are only some of the amazing events who have shared their data with us, listed in no particular order.
+
+{{< research-events >}}
