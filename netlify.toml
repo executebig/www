@@ -38,3 +38,33 @@ HUGO_ENABLEGITINFO = "true"
 
 [[plugins]]
   package = "netlify-plugin-inline-source"
+
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+
+	[plugins.inputs]
+
+	baseUrl = "https://executebig.org"
+	sitemapPath = "/sitemap.xml"
+	providers = [
+		"google",
+		"bing",
+		"yandex"
+	]
+
+[[plugins]]
+package = "netlify-plugin-checklinks"
+
+[[plugins]]
+package = "netlify-plugin-subfont"
+
+  [plugins.inputs]
+  entryPoints = [
+    "*.html",
+  ]
+
+  recursive = true
+  fontDisplay = "swap"
+  inlineCss = true
+  inlineFonts = true
+  fallbacks = true
