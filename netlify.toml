@@ -51,17 +51,3 @@ HUGO_ENABLEGITINFO = "true"
 		"bing",
 		"yandex"
 	]
-
-[[plugins]]
-package = "netlify-plugin-subfont"
-
-  [plugins.inputs]
-  entryPoints = [
-    "*.html",
-  ]
-
-  recursive = true
-  fontDisplay = "swap"
-  inlineCss = true
-  inlineFonts = false
-  fallbacks = true
