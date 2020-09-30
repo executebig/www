@@ -23,13 +23,14 @@ We're open-sourcing this data set so that others can also add onto and utilize i
 
 **Read about our privacy promise for research data [here](/research-privacy).**
 
-{{< button text="Submit Your Data »" url="/act/research/" external=true >}}
+{{< button text="Submit Your Data »" url="/act/research/" >}}
 
 ## With Support From...
 
+These are only some of the amazing events who have shared their data with us, listed in no particular order.
+
 {{< research-events >}}
 
-*(in no particular order)*
 
 ## Let's Talk.
 

@@ -66,6 +66,6 @@ If you have questions or suggestions about the research project, please feel fre
 
 ## With Support From...
 
-{{< research-events >}}
+These are only some of the amazing events who have shared their data with us, listed in no particular order.
 
-*(in no particular order)*
+{{< research-events >}}
