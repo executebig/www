@@ -53,9 +53,6 @@ HUGO_ENABLEGITINFO = "true"
 	]
 
 [[plugins]]
-package = "netlify-plugin-checklinks"
-
-[[plugins]]
 package = "netlify-plugin-subfont"
 
   [plugins.inputs]
