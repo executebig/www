@@ -1,0 +1,9 @@
+{{ $urlPre := "https://quest.executebig.org/api" }}
+{{ $eventsJ := getJSON $urlPre "/public" }}
+<div class="sponsors row">
+    {{ range $eventsJ }}
+    <div class="sponsor col-md-2 col-4 my-auto">
+        <a href="{{ .website }}" target="_blank"><img src="{{ .logo }}" alt="{{ .name }}" class="img-responsive" /></a>
+    </div>
+    {{ end }}
+</div>

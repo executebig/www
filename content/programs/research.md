@@ -25,6 +25,12 @@ We're open-sourcing this data set so that others can also add onto and utilize i
 
 {{< button text="Submit Your Data »" url="/act/research/" external=true >}}
 
+## With Support From...
+
+{{< research-events >}}
+
+*(in no particular order)*
+
 ## Let's Talk.
 
 This project is led by co-founders of Execute Big: Megan Cui, a rising sophomore at Harvard, and Mingjie Jiang, an incoming freshman at UC Berkeley. Execute Big is a public charity with the EIN 85-2160468.
