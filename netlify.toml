@@ -51,3 +51,6 @@ HUGO_ENABLEGITINFO = "true"
 		"bing",
 		"yandex"
 	]
+
+[[plugins]]
+package = "netlify-plugin-hashfiles"
