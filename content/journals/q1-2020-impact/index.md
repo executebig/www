@@ -4,8 +4,7 @@ date: 2020-02-11T12:44:46-04:00
 author: Megan Cui
 editor: Mingjie Jiang
 featured_image: images/featured.jpg
-weight: 1
-featured: true
+featured: false
 draft: false
 ---
 
