@@ -3,16 +3,18 @@
   overflow-wrap: normal;
   background-color: $white-offset;
   border-radius: 4px;
-  // box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
   width: 100%;
   align-items: center;
   z-index: 2;
   margin-bottom: 1rem;
 
+  h3 {
+    font-family: $font-family-heading;
+  }
+
   &.danger {
     background-color: $highlight-offset;
   }
-
 
   @include media-breakpoint-up(sm) {
     align-items: center;
