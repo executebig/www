@@ -80,6 +80,10 @@ body {
   }
 }
 
+#instantclick-bar {
+  background: $primary;
+}
+
 // Display breakpoints for DEV
 {{ if .Site.IsServer }}
 body:after {
