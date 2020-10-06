@@ -3,7 +3,7 @@
 {{ else }}
 
   {{- if .Site.Params.tracking.id -}}
-  <script async defer data-website-id="{{- .Site.Params.tracking.id -}}" src="{{- .Site.Params.tracking.host -}}"></script>
+  <script data-website-id="{{- .Site.Params.tracking.id -}}" src="{{- .Site.Params.tracking.host -}}"></script>
   {{ end }}
 
 {{ end }}
