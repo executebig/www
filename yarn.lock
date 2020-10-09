@@ -4746,10 +4746,10 @@ strip-ansi@^6.0.0:
   dependencies:
     ansi-regex "^5.0.0"
 
-stripe@^8.107.0:
-  version "8.107.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-8.107.0.tgz#d69b143c19d36bbe77db198fc66f951e01d9daa6"
-  integrity sha512-K0CJUK+f9EJKPys6u3NjO3juFb95q16R7yWGCIUgBLIEh1Vbhk3sp56A4EXSMepIflO9P4C9T67TlPb5fzGn7Q==
+stripe@^8.108.0:
+  version "8.108.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-8.108.0.tgz#1c34e8b2e894ee724f1550cc375f8d72fa83d436"
+  integrity sha512-osl5kuBaJkkovbkwpfLPlcdTN8i99zDZu5CM/CiXameT2K1355g+dkMaOFVBhpoRrWuFZZF2hKtXKI6/MG50PA==
   dependencies:
     "@types/node" ">=8.1.0"
     qs "^6.6.0"
