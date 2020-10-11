@@ -10,7 +10,7 @@
         background-color: transparent;
         border: none;
 
-        transition: all .2s ease;
+        transition: all 0.2s ease;
 
         &.danger {
           color: $danger;
@@ -26,7 +26,7 @@
       font-size: 5rem;
       appearance: textfield;
       opacity: 1;
-      transition: all .2s ease;
+      transition: all 0.2s ease;
 
       &::-webkit-outer-spin-button,
       &::-webkit-inner-spin-button {
@@ -99,10 +99,10 @@ img.signature {
   user-select: none;
 
   &.megan {
-    height: 5rem;
+    height: 8rem;
   }
 
   &.mingjie {
-    height: 9rem;
+    height: 5.5rem;
   }
 }
