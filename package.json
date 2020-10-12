@@ -14,7 +14,7 @@
     "postcss": "^8.1.1",
     "postcss-cli": "^8.1.0",
     "postcss-import": "^12.0.1",
-    "stripe": "^8.108.0"
+    "stripe": "^8.109.0"
   },
   "scripts": {
     "dev": "netlify-lambda serve _functions",
