@@ -4811,10 +4811,10 @@ strip-ansi@^6.0.0:
   dependencies:
     ansi-regex "^5.0.0"
 
-stripe@^8.115.0:
-  version "8.115.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-8.115.0.tgz#1a4d0fe5037b4a9176ae67498c069b2ad7fae03a"
-  integrity sha512-f6S4ZtbWGJWLPPC79OcqVEHrmgeVoUT+oOGVe0NPJw+KqHgUBsIjIv8mJcc24/D+a6Vd9whqHobUIUZVQz9dCQ==
+stripe@^8.116.0:
+  version "8.116.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-8.116.0.tgz#298829cc3aea3e51cbc64222e4bd1b0db03605f9"
+  integrity sha512-XqEOAs3hownb4miWxsCWKb70REMGE1cChO3o1PkT9kVZw5oRhp5O51TBykFWJgY2NV9rQHi6Yy1dKb2CUu3KDQ==
   dependencies:
     "@types/node" ">=8.1.0"
     qs "^6.6.0"
