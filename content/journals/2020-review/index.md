@@ -16,7 +16,7 @@ First and foremost, we hope you and your family are doing well and are safe. To 
 
 We recently made the difficult decision to leave [Hack Club Bank](https://hackclub.com/bank) and form our own nonprofit entity. Hack Club Bank served as a critical launchpad for us to ship our programs without worries about operational overhead, but as we've expanded, we've realized the importance of having complete financial and legal autonomy over our operations to maximize efficiency and reduce uncertainty. 
 
-Though we have moved out of Hack Club Bank, we have nothing but positive regards for it. It made it possible for the two of us to focus on developing innovative programming, as opposed to spreading our attention the government shenanigans often needed to incorporate and become a registered 501(c)(3). For any students who want to start a nonprofit that are considering going through the formal nonprofit formation process, we strongly recommend Hack Club Bank as an initial launch point to work on programming before sinking money into the expensive bureaucratic process. 
+Though we have moved out of Hack Club Bank, we have nothing but positive regard for it. It made it possible for the two of us to focus on developing innovative programming, as opposed to spreading our attention the government shenanigans often needed to incorporate and become a registered 501(c)(3). For any students who want to start a nonprofit that is considering going through the formal nonprofit formation process, we strongly recommend Hack Club Bank as an initial launch point to work on programming before sinking money into the expensive bureaucratic process. 
 
 A separate journal about how we prepared for the transition will be posted soon!
 
