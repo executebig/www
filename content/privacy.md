@@ -17,7 +17,7 @@ The only third parties that we share data with are trusted, and we only share wh
 - [**Stripe**](https://stripe.com/privacy), for third-party payment processing. We use industry-standard methods when handling your transaction information, and we do not store or collect your payment details.
 - [**Airtable**](https://airtable.com/privacy), for storing our operations data (ex. when you apply to our programs, or become a supporter).
 - [**Zapier**](https://zapier.com/privacy), for automation our data-processing workflow (ex. sending you a confirmation email after you apply to our program).
-- [**Buttondown**](https://buttondown.email/privacy), to send emails and newsletters to people who have consented to be on our mailing list. We only share your name and email address with them, and we only share that information when you have consented for that information to be shared (ex. when you sign up for our newsletter, or become a supporter). 
+- [**Substack**](https://substack.com/privacy), to send emails and newsletters to people who have consented to be on our mailing list. We only share your name and email address with them, and we only share that information when you have consented for that information to be shared (ex. when you sign up for our newsletter, or become a supporter). 
 
 ### Program-Specific Providers
 
