@@ -1,9 +1,12 @@
 {{ $urlPre := "https://quest.executebig.org/api" }}
 {{ $eventsJ := getJSON $urlPre "/public" }}
-<div class="sponsors row">
+{{ define "header_css" }}
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+{{ end }}
+<div class="carousel" data-flickity='{ "lazyLoad": 2, "autoPlay": 2000, "wrapAround": true, "pageDots": false, "freeScroll": true, "freeScrollFriction": 0.03 }'>
     {{ range $eventsJ }}
-    <div class="sponsor col-md-2 col-4 my-auto">
-        <a href="{{ .website }}" target="_blank"><img src="{{ .logo }}" alt="{{ .name }}" class="img-responsive" /></a>
-    </div>
-    {{ end }}
+    <div class="carousel-cell logos" style="background-color: aliceblue">
+        <a href="{{ .website }}" target="_blank"><img data-flickity-lazyload="{{ .logo }}" alt="{{ .name }}" style="padding: 10%; object-fit: scale-down;" /></a></div>
+    {{- end }}
 </div>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>

@@ -8,6 +8,10 @@
     background-color: $hint;
     border-radius: 10px;
 
+    &.logos {
+      height: 200px;
+    }
+
     img {
       display: block;
       height: 100%;
