@@ -1,7 +1,7 @@
 ---
 title: "Our 2020 in Review"
 author: Megan Cui & Mingjie Jiang
-date: 2020-10-01T12:41:04-04:00
+date: 2020-10-27T16:04:00-04:00
 featured_image: images/featured.jpg
 featured: true
 draft: false
