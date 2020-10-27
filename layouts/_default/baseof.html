@@ -56,15 +56,13 @@
   {{ partial "sub-footer.html" . }}
 
   {{ $scripts := resources.Get "js/scripts.js" }}
+  {{ $instantclick := resources.Get "js/libs/instantpage.js" }}
 
   {{ block "footer_js" . }}
   {{ end }}
 
-  {{ if .Site.IsServer }}
-  <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
-  {{ else }}
-  <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
-  {{ end }}
+  {{ $jsbundle := slice $instantclick $scripts | resources.Concat "js/bundle.js" }}
+  <script type="text/javascript" src="{{ ($jsbundle | minify | fingerprint).RelPermalink }} " data-no-instant></script>
 </body>
 
 </html>

@@ -1,12 +1,32 @@
 [
     {
-        "name": "Github",
-        "link": "https://github.com/executebig",
-        "image": "images/github.svg"
-    },
-    {
         "name": "Twitter",
         "link": "https://twitter.com/executebig",
-        "image": "images/twitter.svg"
+        "image": "images/social/twitter.svg"
+    },
+    {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/ExecuteBig",
+        "image": "images/social/facebook.svg"
+    },
+    {
+        "name": "Instagram",
+        "link": "https://instagram.com/executebig",
+        "image": "images/social/instagram.svg"
+    },
+    {
+        "name": "Github",
+        "link": "https://github.com/executebig",
+        "image": "images/social/github.svg"
+    },
+    {
+        "name": "LinkedIn",
+        "link": "https://linkedin.com/company/ExecuteBig",
+        "image": "images/social/linkedin.svg"
+    },
+    {
+        "name": "YouTube",
+        "link": "https://www.youtube.com/channel/UCkty_DrIUFfp7lBpCJS49nQ",
+        "image": "images/social/youtube.svg"
     }
 ]
