@@ -56,7 +56,7 @@
 <div class="strip strip-grey journal">
   <div class="container pt-6 pb-6">
     {{ range first 1 (where (where .Site.RegularPages "Type" "journals") ".Params.featured" "=" true) }}
-    <h3>Featured Journal by {{ .Params.author }}</h3>
+    <h3>Published {{dateFormat "Jan 2, 2006" .Params.date}} by {{ .Params.author }}</h3>
     <div class="row justify-content-start">
       <div class="col-12">
       <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>

@@ -10,4 +10,4 @@ intro_image_hide_on_mobile: true
 A **minimal** & **transparent** student-run organization founded to enable all students to experience and explore computer science education. 
 
 <!-- Announcement Block -->
-{{< announcement content="Due to public health concerns, our regular programs are suspended until the COVID-19 emergency ends. However, we're keeping our promise to continue to impact the student hacker community with the launch of our own research project. Check out the website to learn more." button="Research »" link="/programs/research" >}}
+{{< announcement content="<h3>We have important news to share!</h3> Read our latest journal entry to see what we have been up to over the past 6 months." button="2020 in Review »" link="/journals/2020-review/" >}}

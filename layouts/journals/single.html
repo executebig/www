@@ -19,7 +19,7 @@
     <div class="col-12 col-md-8">
       <div class="post-header">
         <h1 class="title">{{.Title}}</h1>
-        <p class="meta">Posted {{ dateFormat "Jan 2, 2006" .Params.date }} by {{ .Params.author }}, edited by {{ .Params.editor }}</p>
+        <p class="meta">Posted {{ dateFormat "Jan 2, 2006" .Params.date }} by {{ .Params.author }}{{if .Params.editor }}, edited by {{ .Params.editor }}{{end}}</p>
       </div>
     </div>
   </div>
@@ -29,7 +29,9 @@
       <div class="content">{{.Content}}</div>
     </div>
     <div class="col-12 col-md-4">
-      {{ partial "press-footer" . }}
+      <div class="mt-4">
+        {{ partial "press-footer" . }}
+      </div>
     </div>
   </div>
 </div>
