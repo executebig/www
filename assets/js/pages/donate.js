@@ -31,7 +31,7 @@ const validate = (value) => {
     v = parseFloat(value);
 
     donateAmount.innerText = v.toFixed(2);
-    feeAmount.innerText = ((v + 0.3) / (1 - 0.029) - v).toFixed(2);
+    feeAmount.innerText = ((v + 0.3) / (1 - 0.022) - v).toFixed(2);
 
     return true;
   }
