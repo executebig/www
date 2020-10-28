@@ -9,7 +9,7 @@ We rely on people like you to bring life-changing experiences to students in nee
 
 {{< donate "Donate" >}}
 
-[Stripe](https://stripe.com), our payment processor, charges us **2.9% + 30¢** per payment processed. If you would like to make a recurring donation, you can **[sponsor us on GitHub](https://github.com/sponsors/executebig)**. Donations through GitHub Sponsors will not incur a fee. 
+[Stripe](https://stripe.com), our payment processor, charges us **2.2% + 30¢** per payment processed. If you would like to make a recurring donation, you can **[sponsor us on GitHub](https://github.com/sponsors/executebig)**. Donations through GitHub Sponsors will not incur a fee. 
 
 **You may also [donate by check](/donate/check)**. 
 
