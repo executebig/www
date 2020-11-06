@@ -11,7 +11,7 @@
     "cssnano": "^4.1.10",
     "dotenv": "^8.2.0",
     "netlify-lambda": "^2.0.1",
-    "postcss": "^8.1.4",
+    "postcss": "^8.1.6",
     "postcss-cli": "^8.2.0",
     "postcss-import": "^13.0.0",
     "stripe": "^8.120.0"
