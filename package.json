@@ -12,7 +12,7 @@
     "dotenv": "^8.2.0",
     "netlify-lambda": "^2.0.1",
     "postcss": "^8.1.7",
-    "postcss-cli": "^8.2.0",
+    "postcss-cli": "^8.3.0",
     "postcss-import": "^13.0.0",
     "stripe": "^8.121.0"
   },
