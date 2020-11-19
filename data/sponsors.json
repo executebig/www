@@ -28,5 +28,10 @@
     "name": "DigitalOcean",
     "logo": "digitalocean.svg",
     "link": "https://digitalocean.com/"
+  },
+  {
+    "name": "Checkly",
+    "logo": "checkly.svg",
+    "link": "https://www.checklyhq.com/"
   }
 ]
