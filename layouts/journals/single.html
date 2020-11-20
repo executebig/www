@@ -28,10 +28,10 @@
       <div>
         <div class="aside tags">
           <h2>Tags</h2>
-          {{ $taxo := "journals/tag" }}
+          {{ $taxo := "journals/tags" }}
           {{ range .Param $taxo }}
           {{ with site.GetPage (printf "/%s/%s" $taxo (. | urlize)) }}
-          <a href="{{ .Permalink }}"><span class="tag badge badge-pill badge-primary">{{ .Title }}</span></a>
+          <a href="{{ .RelPermalink }}"><span class="tag badge badge-pill badge-primary">{{ .Title }}</span></a>
           {{ end }}
           {{ end }}
         </div>

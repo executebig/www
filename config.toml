@@ -97,7 +97,7 @@ home = ["HTML","RSS","Algolia"]
       weight = 5    
 
 [taxonomies]
-  journals_tags = "journals/tag"
+  journals_tags = "journals/tags"
 
 [sitemap]
   filename = "sitemap.xml"
