@@ -5,7 +5,7 @@ author: Savitha Srinivasan
 editor: Mingjie Jiang
 featured: false
 draft: false
-"journals/tag": [ Students, Travel Grant, Programs ]
+"journals/tags": [ Students, Travel Grant, Programs ]
 ---
 
 Hi! I’m Savitha Srinivasan, a high school senior from Seattle, Washington. I am a computer scientist, biologist, artist, and above all, STEAM-inist. As a woman and minority in STEM, I initially never thought I would be interested in Computer Science; I always considered myself more of an “art-sy” person being an avid dancer and musician. I found biology intriguing for the same reasons I  loved art; it was a very visual science, and I loved being able to see life, at the micro & macroscopic levels. However, before entering high school, I stumbled into a week-long summer course on computational biology and decided to try it out. It was then that I realized the power of computer science; it was a tool through which I could implement algorithms that were biologically, extremely relevant. From there, I didn’t stop. I went on to self-learn machine learning techniques and apply them to research biological problems I was interested in. 

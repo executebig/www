@@ -6,7 +6,7 @@ editor: Mingjie Jiang
 featured_image: images/1.jpg
 featured: false
 draft: false
-"journals/tag": [ Students, Travel Grant, Programs ]
+"journals/tags": [ Students, Travel Grant, Programs ]
 ---
 
 Hi! My name is Priya Kalra and I am a junior in the magnet program at

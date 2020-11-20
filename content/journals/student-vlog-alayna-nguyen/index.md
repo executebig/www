@@ -6,7 +6,7 @@ author: Alayna Nguyen
 editor: Mingjie Jiang
 featured: false
 draft: false
-"journals/tag": [ Students, Travel Grant, Programs, Video ]
+"journals/tags": [ Students, Travel Grant, Programs, Video ]
 ---
 
 With the help of Execute Big's Travel Grant, high school junior Alayna Nguyen from Naperville, IL was able to attend PixelHacks IV, a 24-hour all-female student-run hackathon in the Bay Area. Alayna and her team created [Vitality](https://devpost.com/software/vitality), a web app that recommends recipes based on different users' dietary restrictions. They won the Best UiPath Automation Hacks award at PixelHacks!

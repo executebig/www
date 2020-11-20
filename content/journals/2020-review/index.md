@@ -6,7 +6,7 @@ featured_image: images/featured.jpg
 featured: true
 draft: false
 weight: 100
-"journals/tag": [ Updates, Impact Report ]
+"journals/tags": [ Updates, Impact Report ]
 ---
 
 ## So, the story continues...

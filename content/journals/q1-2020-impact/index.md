@@ -6,7 +6,7 @@ editor: Mingjie Jiang
 featured_image: images/featured.jpg
 featured: false
 draft: false
-"journals/tag": [ Updates, Impact Report ]
+"journals/tags": [ Updates, Impact Report ]
 ---
 
 In July of 2019, I helped run the fifth and final hackathon of my high school career. Finally, my hackathon experience had come full circle: my last hackathon happened at the University of Cincinnati—the exact place where my journey had first started in 2016.
