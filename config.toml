@@ -7,6 +7,15 @@ disableKinds = ["categories"]
 
 enableRobotsTXT = true
 
+[outputs]
+home = ["HTML","RSS","Algolia"]
+
+[outputFormats.Algolia]
+  mediaType = "application/json"
+  baseName = "algolia"
+  isPlainText = true
+  notAlternative = true
+
 [params]
   [params.tracking] 
     id = "826fd4a9-b041-450f-812f-c1734f2808e5"
