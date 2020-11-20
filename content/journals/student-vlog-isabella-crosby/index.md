@@ -6,6 +6,7 @@ author: Isabella Crosby
 editor: Mingjie Jiang
 featured: false
 draft: false
+"journals/tag": [ Students, Travel Grant, Programs, Video ]
 ---
 
 Recently, we had the pleasure of supporting Isabella Crosby, a high school freshman, and 2 other students to attend Superposition IV, the Bay Area's largest all-female hackathon. During the weekend, Isabella and her teammates created _"[It's ok not to be ok](https://devpost.com/software/it-s-ok-not-to-be-ok)"_, an attempt at a website that helps people with mental illness. 

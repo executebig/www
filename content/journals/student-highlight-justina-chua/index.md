@@ -6,6 +6,7 @@ editor: Mingjie Jiang & Megan Cui
 featured_image: images/7.png
 featured: false
 draft: false
+"journals/tag": [ Students, Travel Grant, Programs ]
 ---
 
 Hey there! I’m Justina Chua, a high school senior from Vernon Hills, Illinois. I’m passionate about technology and computer science education. I lead Hack Club at school, run programs for younger students in my community, organize GirlCon (a Chicago-based technology conference), and serve as a Tech Together Boston Ambassador. I also compete in programming competitions, build enterprise code for State Farm, and dabble in side projects; I’m currently working on a digital wellbeing app!

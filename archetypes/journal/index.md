@@ -5,4 +5,5 @@ featured_image: images/featured.jpg
 featured: false
 draft: false
 weight: 100
+"journals/tag": [updates]
 ---

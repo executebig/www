@@ -1,20 +1,17 @@
 {{ define "meta_tags" }}
-  <meta name="description" content="{{ .Description | default .Content | plainify | htmlUnescape | truncate 180 "…" }}" />
-  <meta property="og:title" content="{{ .Title }} – {{ .Site.Title }} Journals" />
-  <meta property="og:type" content="{{ .Title }} – {{ .Site.Title }} Journals" />
-  <meta property="og:url" content="{{ .Permalink }}" />
-  <meta property="og:image" content="https://og.executebig.org/{{ safeURL (plainify .Title) }}?theme=light&fontSize=100px" />
-  <meta property="og:description" content="{{ .Description | default .Content | plainify | htmlUnescape | truncate 180 "…" }}" />
-  <meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
-  <meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
-  <meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
+<meta name="description" content="{{ .Description | default .Content | plainify | htmlUnescape | truncate 180 "…" }}" />
+<meta property="og:title" content="{{ .Title }} – {{ .Site.Title }} Journals" />
+<meta property="og:type" content="{{ .Title }} – {{ .Site.Title }} Journals" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:image" content="https://og.executebig.org/{{ safeURL (plainify .Title) }}?theme=light&fontSize=100px" />
+<meta property="og:description" content="{{ .Description | default .Content | plainify | htmlUnescape | truncate 180 "…" }}" />
+<meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
+<meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
+<meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
 {{ end }}
-
 {{ define "body_classes" }}page-journals-single{{ end }}
-
 {{ define "main" }}
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-  
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="post-header">
@@ -23,12 +20,22 @@
       </div>
     </div>
   </div>
-
-  <div class="row justify-content-start">
+  <div class="row justify-content-start mt-3">
     <div class="col-12 col-md-8">
       <div class="content">{{.Content}}</div>
     </div>
     <div class="col-12 col-md-4">
+      <div>
+        <div class="aside tags">
+          <h2>Tags</h2>
+          {{ $taxo := "journals/tag" }}
+          {{ range .Param $taxo }}
+          {{ with site.GetPage (printf "/%s/%s" $taxo (. | urlize)) }}
+          <a href="{{ .Permalink }}"><span class="tag badge badge-pill badge-primary">{{ .Title }}</span></a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
       <div class="mt-4">
         {{ partial "press-footer" . }}
       </div>

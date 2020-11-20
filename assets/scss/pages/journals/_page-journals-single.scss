@@ -8,17 +8,27 @@
     }
   }
 
-  .press-footer {
-    margin-top: 2rem;
-    border-top: $hint 2px dotted;
-    padding-top: 1rem;
-
-    @include media-breakpoint-up(md) {
-      border-left: $hint 2px dotted;
-      padding-left: 1rem;
-      margin-top: 0;
-      border-top: none;
-      padding-top: 0;
+  .content {
+    h1,
+    h2,
+    h3 {
+      &:first-child {
+        margin-top: 0;
+      }
     }
+  }
+}
+
+.aside {
+  margin-top: 2rem;
+  border-top: $hint 2px dotted;
+  padding-top: 1rem;
+
+  @include media-breakpoint-up(md) {
+    border-left: $hint 2px dotted;
+    padding-left: 1rem;
+    margin-top: 0;
+    border-top: none;
+    padding-top: 0;
   }
 }

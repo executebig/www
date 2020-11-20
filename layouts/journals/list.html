@@ -1,19 +1,16 @@
 {{ define "body_classes" }}page-journals{{ end }}
-
 {{ define "main" }}
-<div class="container pb-3 pt-6 pt-md-10 pb-md-5">
+<div class="container pt-6 pt-md-10">
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="service service-single">
         <img src="{{.Params.icon}}" class="page-icon" />
         <h1 class="title">Journals</h1>
-        <div class="content mt-4">{{.Content}}</div>
+        <div class="content mb-5">{{.Content}}</div>
       </div>
     </div>
   </div>
 </div>
-
-
 <div class="container pb-md-12 pb-6">
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
@@ -21,7 +18,14 @@
       <div class="mb-4">{{ .Render "summary" }}</div>
       {{ end }}
     </div>
+    <div class="col-12 col-md-4">
+      <div class="aside tags">
+        <h2>View By Tags</h3>
+          {{range ($.Site.GetPage "taxonomyTerm" "journals/tag").Pages }}
+            <a href="{{ .RelPermalink }}"><span class="tag badge badge-pill badge-primary">{{.Title}}</span></a>
+          {{end}}
+      </div>
+    </div>
   </div>
 </div>
-
 {{ end }}

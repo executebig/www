@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Execute Big"
 
 disableHugoGeneratorInject = true
-disableKinds = ["categories", "tags"]
+disableKinds = ["categories"]
 
 enableRobotsTXT = true
 
@@ -88,6 +88,7 @@ enableRobotsTXT = true
       weight = 5    
 
 [taxonomies]
+  journals_tags = "journals/tag"
 
 [sitemap]
   filename = "sitemap.xml"

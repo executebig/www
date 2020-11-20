@@ -6,6 +6,7 @@ author: Gabrielle Chang
 editor: Mingjie Jiang
 featured: false
 draft: false
+"journals/tag": [ Students, Travel Grant, Programs ]
 ---
 
 Hi all, I hope you’re doing well (and social distancing)! I’m Gabrielle Chang, a high school senior from Hinsdale, Illinois. Next year I'll (most likely) be pursuing a degree in computer science from Caltech. Outside of school, I'm passionate about environmental activism, iOS app development, and Minecraft. Feel free to ask me about any of those- as my name might suggest, I can be gabby when talking about topics I care about!
