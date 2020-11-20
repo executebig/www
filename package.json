@@ -7,6 +7,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "atomic-algolia": "^0.3.19",
     "autoprefixer": "^9.8.6",
     "cssnano": "^4.1.10",
     "dotenv": "^8.2.0",
@@ -18,6 +19,8 @@
   },
   "scripts": {
     "dev": "netlify-lambda serve _functions",
-    "build": "netlify-lambda build _functions"
+    "build": "netlify-lambda build _functions && yarn algolia",
+    "dry": "hugo --gc --minify",
+    "algolia": "atomic-algolia"
   }
 }
