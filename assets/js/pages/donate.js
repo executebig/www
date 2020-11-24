@@ -65,8 +65,12 @@ const launchDonate = (el, amount) => {
   coverFeeButton.setAttribute("disabled", true);
   coverFeeButton.classList.add("disabled");
 
-  fetch("/.netlify/functions/donate", {
+  fetch("/api/donate", {
     method: "POST",
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
     body: JSON.stringify({
       host: document.location.origin,
       amount: amount,
