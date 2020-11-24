@@ -1,0 +1,35 @@
+{
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.78.2"
+    }
+  },
+  "redirects": [
+    {
+      "source": "/grant",
+      "destination": "/programs/grant",
+      "permanent": false
+    },
+    { "source": "/branding", "destination": "/brand", "permanent": false },
+    {
+      "source": "/research",
+      "destination": "/programs/research",
+      "permanent": false
+    },
+    {
+      "source": "/events",
+      "destination": "/programs/events",
+      "permanent": false
+    },
+    {
+      "source": "/advising",
+      "destination": "/programs/advising",
+      "permanent": false
+    },
+    {
+      "source": "/blog/(.*)",
+      "destination": "/journals/$1",
+      "permanent": false
+    }
+  ]
+}
