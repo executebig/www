@@ -5,7 +5,7 @@ description: We're now collecting anonymous attendee data from past hackathons o
 
 **If you are an event organizer, we need your help!** We're now collecting anonymous attendee data from past hackathons or any other STEM-related events. The submission process is easy, and we're happy to credit you or your event on our report.
 
-{{< button text="Start Submission »" url="https://airtable.com/shrU6CxQW90nF5Jdi" external=true >}}&ensp; {{< button text="Privacy Promise" url="/research-privacy" >}}
+{{< button text="Start Submission »" url="https://airtable.com/shrU6CxQW90nF5Jdi" external="true" >}}&ensp; {{< button text="Privacy Promise" url="/research-privacy" >}}
 
 {{< announcement content="<h3>Research Update</h3>We're working with <strong>prospective organizers</strong> to commit their STEM events to contributing useful anonymous attendee data. If you're planning on running a STEM event, we'd love to chat with you to make your event a part of our research project!" button="Schedule a Chat" link="https://calendly.com/megancui/30min" >}}
 
@@ -56,7 +56,7 @@ Execute Big is committed to making sure that our data covers all sorts of events
 
 We will use your event's data to find out the gender balance in attendance of CS events in relation to location, age groups, event sizes, and more, so we can find out better ways to engage underrepresented minorities in the world of technology.
 
-{{< button text="Start Submission »" url="https://airtable.com/shrU6CxQW90nF5Jdi" external=true >}}
+{{< button text="Start Submission »" url="https://airtable.com/shrU6CxQW90nF5Jdi" external="true" >}}
 
 ## Who do I contact for this project?
 

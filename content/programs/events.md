@@ -30,8 +30,8 @@ We know that fostering creativity and innovation at a young age sets the pricele
 
 With our help, you can be a pioneer in the field of education.
 
-{{< button text="Request Consultation" url="https://forms.gle/mgncUxpV21w59jNk7" external=true >}}&ensp;
-{{< button text="Our Portfolio" url="/media/event-portfolio.pdf" external=true >}}
+{{< button text="Request Consultation" url="https://forms.gle/mgncUxpV21w59jNk7" external="true" >}}&ensp;
+{{< button text="Our Portfolio" url="/media/event-portfolio.pdf" external="true" >}}
 
 ---
 
