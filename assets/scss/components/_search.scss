@@ -1,0 +1,116 @@
+.search-container {
+  position: fixed;
+  background: rgba(38, 109, 211, 0.9);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s, visibility 0.35s, height 0.35s;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10;
+
+  &.open {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+    z-index: 20;
+  }
+
+  input#search-input {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 70rem;
+    border-radius: 1rem;
+    border: none;
+    font-family: $font-family-heading;
+    font-size: 3.5rem;
+    appearance: textfield;
+    opacity: 1;
+    transition: all 0.2s ease;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 2rem;
+    color: rgba(38, 109, 211, 0.8);
+
+    @include media-breakpoint-down(md) {
+      width: 90%;
+      font-size: 2rem;
+      padding: 10px 1rem;
+    }
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    &::placeholder {
+      color: rgba(38, 109, 211, 0.3);
+    }
+
+    &:focus,
+    &:active {
+      border: none;
+      box-shadow: none;
+      background-color: #fff;
+      color: $black;
+    }
+  }
+
+  a#cancelSearch {
+    color: #fff;
+    font-family: $font-family-heading;
+    font-size: 2rem;
+    margin-top: 1rem;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.algolia-autocomplete {
+  .aa-input {
+    width: 100%;
+  }
+  .aa-hint {
+    width: 100%;
+    color: #999;
+  }
+  .aa-dropdown-menu {
+    width: 100%;
+    padding: 10px 8px;
+    background-color: transparent;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+
+    .aa-suggestion {
+      cursor: pointer;
+      margin: 5px 0;
+      padding: 8px 6px;
+      border-radius: 5px;
+      font-family: $font-family-heading;
+      color: #fff;
+      font-size: 2.5rem;
+
+      @include media-breakpoint-down(md) {
+        font-size: 1.5rem;
+      }
+
+      em {
+        font-weight: bold;
+        font-style: normal;
+      }
+    }
+
+    .aa-suggestion.aa-cursor {
+      background-color: $primary;
+      color: #fff;
+    }
+  }
+}

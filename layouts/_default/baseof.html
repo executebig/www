@@ -56,7 +56,7 @@
   <script type="text/javascript" src="{{ ($jsbundle | minify | fingerprint).RelPermalink }} " data-no-instant></script>
   <script src="https://cdn.jsdelivr.net/npm/algoliasearch/dist/algoliasearchLite.min.js" data-no-instant></script>
   <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js" data-no-instant></script>
-  <!-- Initialise search -->
+  <!-- Initialize search -->
   <script data-no-instant>
     var client = algoliasearch("5UQN5RC9UK", "19f815aefb3ec262ec3e715b0bbe4e85");
     {{ if eq (getenv "HUGO_ENV") "production" }}
@@ -64,7 +64,7 @@
     {{ else }}
       var index = client.initIndex("dev_EB_WWW");
     {{ end }}
-    autocomplete('#search-input', { hint: false }, [
+    autocomplete('#search-input', { hint: false, appendTo: "#searchResults" }, [
       {
         source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
         displayKey: 'title',
@@ -74,8 +74,11 @@
           }
         }
       }
-    ]).on("autocomplete:selected", function (event, suggestion, dataset, context) {
-      console.log(event, suggestion, dataset, context);
+    ]).on("autocomplete:shown", function(event, suggestion, dataset, context) {
+      document.getElementById('cancelSearch').style.visibility = 'hidden'
+    }).on("autocomplete:closed", function(event, suggestion, dataset, context) {
+      document.getElementById('cancelSearch').style.visibility = 'visible'
+    }).on("autocomplete:selected", function (event, suggestion, dataset, context) {
       window.location.href = suggestion.href
     });
   </script>

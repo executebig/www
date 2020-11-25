@@ -46,6 +46,7 @@ $sub-footer-text-color: $white;
 @import 'components/logo';
 @import 'components/main-menu';
 @import 'components/main-menu-mobile';
+@import 'components/search';
 @import 'components/hamburger';
 @import 'components/buttons';
 @import 'components/announcement';
@@ -61,7 +62,6 @@ $sub-footer-text-color: $white;
 @import 'components/page-icon';
 @import 'components/sponsors';
 @import 'components/tags';
-@import 'components/algolia';
 
 // Pages
 @import 'pages/home';

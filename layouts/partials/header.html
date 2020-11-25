@@ -4,6 +4,7 @@
       <a href="{{ .Site.BaseURL }}"><img height={{ .Site.Params.logo.desktop_height }} alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.desktop | relURL }}" /></a>
     </div>
     {{ partial "main-menu.html" . }}
+    {{ partial "search.html" . }}
     {{ partial "hamburger.html" . }}
   </div>
 </div>
