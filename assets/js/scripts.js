@@ -11,17 +11,23 @@ menuTrigger.onclick = function () {
   body.classList.toggle("lock-scroll");
 };
 
-searchToggle.forEach(el => {
+searchToggle.forEach((el) => {
   el.onclick = toggleSearch;
-})
+});
 cancelTrigger.onclick = toggleSearch;
 
 function toggleSearch() {
   searchContainer.classList.toggle("open");
   menuTrigger.classList.toggle("is-active");
   body.classList.toggle("lock-scroll");
+
+  if (searchContainer.classList.contains("open")) {
+    window.setTimeout(function () {
+      document.querySelector("#search-input").focus();
+    }, 50);
+  }
 }
 
 instantsearch.widgets.searchBox({
-  showLoadingIndicator: true
+  showLoadingIndicator: true,
 });
