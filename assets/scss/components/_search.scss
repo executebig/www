@@ -24,7 +24,7 @@
 
   input#search-input {
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
     max-width: 70rem;
     border-radius: 1rem;
     border: none;
@@ -39,7 +39,7 @@
 
     @include media-breakpoint-down(md) {
       width: 90%;
-      font-size: 2rem;
+      font-size: 1.5rem;
       padding: 10px 1rem;
     }
 
@@ -70,6 +70,10 @@
 
     &:hover {
       text-decoration: none;
+    }
+
+    @include media-breakpoint-down(md) {
+      font-size: 1.5rem;
     }
   }
 }
