@@ -1,8 +1,8 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- $section := $.Site.GetPage "section" .Section }}
 {{- range .Site.AllPages -}}
-  {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
-    {{- $.Scratch.Add "index" (dict "date" .Date.UTC.Unix "description" .Params.description "fuzzywordcount" .FuzzyWordCount "kind" .Kind "lastmod" .Lastmod.UTC.Unix "permalink" .Permalink "readingtime" .ReadingTime "relpermalink" .RelPermalink "title" .Title "type" .Type "weight" .Weight "wordcount" .WordCount "section" .Section "authors" .Params.Authors) }}
+  {{- if (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) -}}
+    {{- $.Scratch.Add "index" (dict "objectID" (print .File.UniqueID) "private" .Params.private "date" .Date.UTC.Unix "description" .Params.description "fuzzywordcount" .FuzzyWordCount "kind" .Kind "lastmod" .Lastmod.UTC.Unix "permalink" .Permalink "readingtime" .ReadingTime "relpermalink" .RelPermalink "title" .Title "type" .Type "weight" .Weight "wordcount" .WordCount "section" .Section "authors" .Params.Authors) }}
   {{- end -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
