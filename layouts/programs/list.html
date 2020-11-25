@@ -1,5 +1,4 @@
 {{ define "body_classes" }}page-programs-list{{ end }}
-
 {{ define "main" }}
 <div class="intro">
   <div class="container">
@@ -9,19 +8,29 @@
       </div>
       {{ if .Params.intro_image }}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img loading="lazy" 
-          class="intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}"
-          src="{{ .Params.intro_image | relURL }}" />
+        <img loading="lazy" class="intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}" src="{{ .Params.intro_image | relURL }}" />
       </div>
       {{ end }}
     </div>
   </div>
 </div>
-
 <div class="container pt-6 pb-6">
   <div class="row">
     {{ range .Pages.ByWeight }}
+    {{ if not .Params.private }}
     <div class="col-12 col-md-6 mb-3">{{ .Render "summary" }}</div>
+      {{ else }}
+      <div class="col-12 col-md-6 mb-3">
+        <div class="service service-summary">
+          <div class="service-content">
+            <h2 class="service-title piloting">
+              <a>Coming Soon <span class="badge badge-warning" style="font-size: .9rem; vertical-align: middle;">Invite-Only Pilot</span></a>
+            </h2>
+            <p>We're hard at work planning something new. Interested in getting a preview and sharing some thoughts? <a href="/contact">Contact us</a>, and we'd love to chat with you!</p>
+          </div>
+        </div>
+      </div>
+    {{ end }}
     {{ end }}
   </div>
 </div>

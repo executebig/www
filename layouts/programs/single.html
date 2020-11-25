@@ -6,7 +6,7 @@
     <div class="col-12 col-md-8">
       <div class="service service-single">
         <img src="{{.Params.icon}}" class="page-icon" />
-        <h1 class="title">{{.Title}}</h1>
+        <h1 class="title">{{.Title}} {{ if .Params.pilot }} <span class="badge badge-warning" style="font-size: 1rem; vertical-align: middle;">Invite-Only Pilot</span> {{ end }}</h1>
         <div class="content">{{.Content}}</div>
       </div>
     </div>

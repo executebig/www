@@ -12,3 +12,10 @@
     }
   }
 }
+
+
+.service-title {
+  &.piloting {
+    color: rgba(47, 47, 65, .7);
+  }
+}

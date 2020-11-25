@@ -1,6 +1,5 @@
 {{ define "title" }}{{ .Site.Title }}{{ end}}
 {{ define "body_classes" }}page-home{{ end }}
-
 {{ define "meta_tags" }}
 <meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
 <meta property="og:title" content="{{ .Site.Params.homepage_meta_tags.meta_og_title }}" />
@@ -12,7 +11,6 @@
 <meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
 <meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
 {{ end }}
-
 {{ define "main" }}
 <div class="intro">
   <div class="container">
@@ -28,17 +26,29 @@
     </div>
   </div>
 </div>
-
 {{ $programs := where (where .Site.RegularPages "Type" "programs") ".Params.featured" true }}
 {{if gt (len $programs) 0}}
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
-      {{ $services := where (where .Site.RegularPages "Type" "programs") ".Params.featured" true }}
+      {{ $services := (where .Site.RegularPages "Type" "programs") }}
       {{ range first 4 (sort $services ".Params.weight") }}
+      {{ if not .Params.private }}
       <div class="col-12 col-md-6 mb-3">
         {{ .Render "summary" }}
       </div>
+      {{ else }}
+      <div class="col-12 col-md-6 mb-3">
+        <div class="service service-summary">
+          <div class="service-content">
+            <h2 class="service-title piloting">
+              <a>Coming Soon <span class="badge badge-warning" style="font-size: .9rem; vertical-align: middle;">Invite-Only Pilot</span></a>
+            </h2>
+            <p>We're hard at work planning something new. Interested in getting a preview and sharing some thoughts? <a href="/contact">Contact us</a>, and we'd</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
       {{ end }}
     </div>
     <div class="row justify-content-center">
@@ -52,22 +62,19 @@
   </div>
 </div>
 {{end}}
-
 <div class="strip strip-grey journal">
   <div class="container pt-6 pb-6">
     {{ range first 1 (where (where .Site.RegularPages "Type" "journals") ".Params.featured" "=" true) }}
     <h3>Published {{dateFormat "Jan 2, 2006" .Params.date}} by {{ .Params.author }}</h3>
     <div class="row justify-content-start">
       <div class="col-12">
-      <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-      <p>{{ .Description | default .Content | plainify | htmlUnescape | truncate 240 "…" }}</p>
+        <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+        <p>{{ .Description | default .Content | plainify | htmlUnescape | truncate 240 "…" }}</p>
       </div>
     </div>
     {{ end }}
   </div>
 </div>
-
 {{ end }}
-
 {{ define "footer_js" }}
 {{ end }}
