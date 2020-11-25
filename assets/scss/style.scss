@@ -38,6 +38,7 @@ $sub-footer-text-color: $white;
 @import 'libraries/hamburgers/hamburgers';
 
 // Components
+/*! purgecss start ignore */
 @import 'components/type';
 @import 'components/page';
 @import 'components/header';
@@ -62,6 +63,7 @@ $sub-footer-text-color: $white;
 @import 'components/page-icon';
 @import 'components/sponsors';
 @import 'components/tags';
+/*! purgecss end ignore */
 
 // Pages
 @import 'pages/home';
