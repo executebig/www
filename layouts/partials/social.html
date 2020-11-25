@@ -1,7 +1,7 @@
 {{ if .Site.Data.social }}
 <div class="social">
     {{ range .Site.Data.social }}
-        <a href="{{ .link }}" target="_blank"><img src="{{ .image | relURL }}" title="{{ .name }}" alt="{{ .name }}" /></a>
+        <a href="{{ .link }}" target="_blank" rel="noopener"><img src="{{ .image | relURL }}" title="{{ .name }}" alt="{{ .name }}" /></a>
     {{ end }}
 </div>
 {{ end }}

@@ -27,7 +27,3 @@ function toggleSearch() {
     }, 50);
   }
 }
-
-instantsearch.widgets.searchBox({
-  showLoadingIndicator: true,
-});
