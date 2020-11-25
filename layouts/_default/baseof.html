@@ -70,6 +70,7 @@
         displayKey: 'title',
         templates: {
           suggestion: function (suggestion) {
+            console.log(suggestion)
             return suggestion._highlightResult.title.value;
           }
         }
@@ -79,7 +80,7 @@
     }).on("autocomplete:closed", function(event, suggestion, dataset, context) {
       document.getElementById('cancelSearch').style.visibility = 'visible'
     }).on("autocomplete:selected", function (event, suggestion, dataset, context) {
-      window.location.href = suggestion.href
+      window.location.href = suggestion.permalink
     });
   </script>
 </body>
