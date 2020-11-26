@@ -1,9 +1,16 @@
 [
   {
-      "name": "Sean Kim",
-      "image": "/images/team/sean.jpg",
-      "school": "University of Illinois at Chicago",
-      "class": 22,
-      "jobtitle": "Co-founder"
+    "name": "Brian Xiang",
+    "image": "/images/team/brian.png",
+    "school": "Wootton High School",
+    "class": 20,
+    "jobtitle": "Student-as-a-Service"
+  },
+  {
+    "name": "Sean Kim",
+    "image": "/images/team/sean.jpg",
+    "school": "University of Illinois at Chicago",
+    "class": 22,
+    "jobtitle": "Co-founder"
   }
 ]
