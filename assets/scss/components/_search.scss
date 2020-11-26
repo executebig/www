@@ -22,6 +22,17 @@
     z-index: 20;
   }
 
+  span.search-category {
+    font-size: 1rem;
+    vertical-align: middle;
+    background-color: $white;
+    color: $primary;
+    
+    @include media-breakpoint-down(md) {
+      font-size: .8rem;
+    }
+  }
+
   input#search-input {
     margin: 0 auto;
     width: 90%;

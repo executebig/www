@@ -1,20 +1,48 @@
-var body = document.querySelector("body");
-var menuTrigger = document.querySelector("#toggle-main-menu-mobile");
-var menuContainer = document.querySelector("#main-menu-mobile");
-var searchToggle = document.querySelectorAll(".searchToggle");
-var searchContainer = document.querySelector("#search-container");
-var cancelTrigger = document.querySelector("#cancelSearch");
+const body = document.querySelector("body");
+const menuTrigger = document.querySelector("#toggle-main-menu-mobile");
+const menuContainer = document.querySelector("#main-menu-mobile");
+const searchToggle = document.querySelectorAll(".searchToggle");
+const searchContainer = document.querySelector("#search-container");
+const cancelTrigger = document.querySelector("#cancelSearch");
 
-var client = algoliasearch("5UQN5RC9UK", "19f815aefb3ec262ec3e715b0bbe4e85");
-var index = client.initIndex(searchIndex);
+const client = algoliasearch("5UQN5RC9UK", "19f815aefb3ec262ec3e715b0bbe4e85");
+const index = client.initIndex(searchIndex);
+
+function newHitsSource(index, params) {
+  return function doSearch(query, cb) {
+    index
+      .search(query, params)
+      .then(function (res) {
+        cb(res.hits, res);
+      })
+      .catch(function (err) {
+        console.error(err);
+        cb([]);
+      });
+  };
+}
+
+String.prototype.toProperCase = function () {
+  return this.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+};
 
 autocomplete("#search-input", { hint: false, appendTo: "#searchResults" }, [
   {
-    source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+    source: newHitsSource(index, { hitsPerPage: 5 }),
     displayKey: "title",
     templates: {
       suggestion: function (suggestion) {
-        return suggestion._highlightResult.title.value;
+        console.log(suggestion)
+
+        let prefix = suggestion.type.toProperCase()
+
+        if (suggestion.type === "journals/tags") {
+          prefix = "Tag"
+        } else if (prefix === suggestion.title) {
+          prefix = "Page"
+        }
+
+        return `<span class="badge search-category">${prefix}</span>&ensp;` + suggestion._highlightResult.title.value;
       },
     },
   },
