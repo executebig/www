@@ -10,7 +10,7 @@ weight: 2
 A scholarship awarded to passionate high school hackers in need, giving them the opportunity to attend the best high school hackathons.
 
 <!-- Announcement Block -->
-{{< announcement content="<h3>COVID-19 Response</h3>Due to public health concerns, our Travel Grant program has been suspended until the COVID-19 emergency ends. We're looking forward to supporting more students when in-person events return. Please do not hesitate to <a href=\"/contact\">contact us</a> if you have more questions." class="danger" >}}
+{{< announcement content="<p class='title'>COVID-19 Response</p>Due to public health concerns, our Travel Grant program has been suspended until the COVID-19 emergency ends. We're looking forward to supporting more students when in-person events return. Please do not hesitate to <a href=\"/contact\">contact us</a> if you have more questions." class="danger" >}}
 
 {{< button text="Apply Now" url="/act/grant" class="disabled" >}}
 

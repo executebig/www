@@ -28,6 +28,12 @@
       margin-top: 0;
     }
 
+    p.title {
+      font-family: $font-family-heading;
+      margin-bottom: .6rem;
+      color: $black;
+    }
+
     @include media-breakpoint-up(md) {
     }
   }

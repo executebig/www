@@ -29,6 +29,6 @@ You can reach us by phone at **[(240) 222-5244](tel:+12402225244)** during busin
 ## Grab Coffee
 
 <!-- Announcement Block -->
-{{< announcement content="<h3>COVID-19 Response</h3>We're unable to hang out with you physically during the pandemic, but when that's over, we'd love to meet with you in-person if you are in the area!" class="danger" >}}
+{{< announcement content="<p class='title'>COVID-19 Response</p>We're unable to hang out with you physically during the pandemic, but when that's over, we'd love to meet with you in-person if you are in the area!" class="danger" >}}
 
 {{< locations >}}

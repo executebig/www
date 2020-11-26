@@ -38,4 +38,4 @@ near impossible to figure out which event and which student this data is referri
 Please [contact us](/contact) by reaching out to team@executebig.org if you have any additional questions about our work and privacy promise. We look forward to working with you.
 
 <!-- Announcement Block -->
-{{< announcement content="<h3>Download in PDF</h3> You can download this file in PDF format to share with other organizers." button="Download »" link="/media/research-privacy.pdf" >}}
+{{< announcement content="<p class='title'>Download in PDF</p> You can download this file in PDF format to share with other organizers." button="Download »" link="/media/research-privacy.pdf" >}}
