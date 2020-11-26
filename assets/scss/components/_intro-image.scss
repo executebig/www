@@ -3,9 +3,13 @@
   height: 360px;
   border-radius: 10px;
   margin-bottom: 2rem;
-  
-  object-fit: scale-down;
-  
+
+  object-fit: cover;
+
+  &.home-intro {
+    object-fit: scale-down;
+  }
+
   @include media-breakpoint-up(md) {
     margin-bottom: 0;
     position: absolute;
