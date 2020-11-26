@@ -32,6 +32,7 @@ home = ["HTML","RSS","Algolia"]
     mobile = "images/logo-mobile.svg"
     desktop = "images/logo.svg"
     desktop_height = "36px"
+    desktop_width = "131px"
     alt = "Execute Big Pig"
 
   [params.homepage_meta_tags]

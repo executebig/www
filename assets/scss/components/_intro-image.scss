@@ -4,7 +4,7 @@
   border-radius: 10px;
   margin-bottom: 2rem;
   
-  object-fit: cover;
+  object-fit: scale-down;
   
   @include media-breakpoint-up(md) {
     margin-bottom: 0;

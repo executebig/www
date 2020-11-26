@@ -16,18 +16,6 @@
     }
   }
 
-  .footer-title {
-    color: #fff;
-    font-size: 1.3rem;
-    font-family: $font-family-heading;
-    font-weight: bold;
-    margin-bottom: 10px;
-
-    @include media-breakpoint-up(sm) {
-      margin: 0;
-    }
-  }
-
   ul {
     list-style: none;
     margin: 0;
