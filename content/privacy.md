@@ -36,7 +36,6 @@ Additionally, if we are shipping you physical material, your information (name, 
 We host our software systems in the cloud via the following infrastructure providers:
 
 - [**Cloudflare**](https://www.cloudflare.com/privacypolicy/)
-- [**Netlify**](https://www.netlify.com/privacy/)
 - [**Vercel**](https://vercel.com/legal/privacy-policy)
 - [**DigitalOcean**](https://www.digitalocean.com/legal/privacy-policy)
 
