@@ -61,13 +61,13 @@ home = ["HTML","RSS","Algolia"]
       weight = 3
     
   [[menu.main]]
-      name = "Donate"
-      url = "/donate/"
+      name = "Transparency"
+      url = "/transparency/"
       weight = 4
 
   [[menu.main]]
-      name = "Subscribe"
-      url = "/subscribe/"
+      name = "Donate"
+      url = "/donate/"
       weight = 5
 
   # Footer Menu
@@ -88,14 +88,14 @@ home = ["HTML","RSS","Algolia"]
       weight = 3
 
   [[menu.footer]]
-      name = "Transparency"
-      url = "/transparency/"
-      weight = 4
+    name = "Press"
+    url = "/press/"
+      weight = 5
 
   [[menu.footer]]
       name = "Contact"
       url = "/contact/"
-      weight = 5    
+      weight = 6
 
 [taxonomies]
   journals_tags = "journals/tags"

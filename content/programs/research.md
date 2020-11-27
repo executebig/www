@@ -34,6 +34,6 @@ These are only some of the amazing events who have shared their data with us, li
 
 ## Let's Talk.
 
-This project is led by co-founders of Execute Big: Megan Cui, a rising sophomore at Harvard, and Mingjie Jiang, an incoming freshman at UC Berkeley. Execute Big is a public charity with the EIN 85-2160468.
+This project is led by co-founders of Execute Big: Megan Cui, a second-year at Harvard, and Mingjie Jiang, a first-year at UC Berkeley. Execute Big is a public charity with the EIN 85-2160468.
 
 Have anything specific that you'd love to see included in the research? We are always willing to add your new ideas to our list. Please feel free to email team@executebig.org to get in touch with us. You can also support us by donating. Let's work together to create the future of CS education.

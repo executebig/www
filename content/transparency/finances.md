@@ -3,9 +3,8 @@ title: "Finances"
 description: "Everything going in and out of our bank accounts."
 ---
 
-Our banking infrastructure is provided by [Mercury](https://mercury.com/), a bank built for startups. 
+We have built an easy-to-use finance data dashboard so we can easily share our income and expenditure data with the public.
 
-We are currently in the process of building Goblin, an easy-to-use finance data dashboard. The early-stage preview version is 
-already live! 
+Our banking infrastructure is provided by [Mercury](https://mercury.com/), a bank built for startups.
 
 {{< button text="Finances Portal »" url="https://finances.executebig.org" external="true" >}}
