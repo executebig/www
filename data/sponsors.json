@@ -15,11 +15,6 @@
     "link": "https://zapier.com/"
   },
   {
-    "name": "Designmodo",
-    "logo": "designmodo.png",
-    "link": "https://designmodo.com/"
-  },
-  {
     "name": "Bugsnag",
     "logo": "bugsnag.svg",
     "link": "https://www.bugsnag.com/"
@@ -33,5 +28,10 @@
     "name": "Checkly",
     "logo": "checkly.svg",
     "link": "https://www.checklyhq.com/"
+  },
+  {
+    "name": "Vercel",
+    "logo": "vercel-dark.svg",
+    "link": "https://vercel.com/?utm_source=executebig&utm_campaign=oss"
   }
 ]
