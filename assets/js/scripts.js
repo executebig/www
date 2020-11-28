@@ -23,7 +23,9 @@ function newHitsSource(index, params) {
 }
 
 String.prototype.toProperCase = function () {
-  return this.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+  return this.replace(/\w\S*/g, function (txt) {
+    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+  });
 };
 
 autocomplete("#search-input", { hint: false, appendTo: "#searchResults" }, [
@@ -32,17 +34,18 @@ autocomplete("#search-input", { hint: false, appendTo: "#searchResults" }, [
     displayKey: "title",
     templates: {
       suggestion: function (suggestion) {
-        console.log(suggestion)
-
-        let prefix = suggestion.type.toProperCase()
+        let prefix = suggestion.type.toProperCase();
 
         if (suggestion.type === "journals/tags") {
-          prefix = "Tag"
+          prefix = "Tag";
         } else if (prefix === suggestion.title) {
-          prefix = "Page"
+          prefix = "Page";
         }
 
-        return `<span class="badge search-category">${prefix}</span>&ensp;` + suggestion._highlightResult.title.value;
+        return (
+          `<span class="badge search-category">${prefix}</span>&ensp;` +
+          suggestion._highlightResult.title.value
+        );
       },
     },
   },
@@ -57,6 +60,15 @@ autocomplete("#search-input", { hint: false, appendTo: "#searchResults" }, [
     window.location.href = suggestion.permalink;
   });
 
+document.onkeydown = function (evt) {
+  evt = evt || window.event;
+  if ("key" in evt && (evt.key === "Escape" || evt.key === "Esc")) {
+    if (searchContainer.classList.contains("open")) {
+      toggleSearch();
+    }
+  }
+};
+
 menuTrigger.onclick = function () {
   menuContainer.classList.toggle("open");
   menuTrigger.classList.toggle("is-active");
@@ -70,7 +82,6 @@ cancelTrigger.onclick = toggleSearch;
 
 function toggleSearch() {
   searchContainer.classList.toggle("open");
-  menuTrigger.classList.toggle("is-active");
   body.classList.toggle("lock-scroll");
 
   if (searchContainer.classList.contains("open")) {

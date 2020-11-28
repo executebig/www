@@ -15,11 +15,34 @@
   flex-direction: column;
   z-index: 10;
 
+  .search-bar {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 70rem;
+
+    @include media-breakpoint-down(md) {
+      width: 90%;
+    }
+    
+    .algolia-logo {
+      position: absolute;
+      right: 1rem;
+      top: -2rem;
+      height: 20px;
+      opacity: .75;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
   &.open {
     opacity: 1;
     visibility: visible;
     height: 100%;
-    z-index: 20;
+    z-index: 40;
   }
 
   span.search-category {
@@ -27,16 +50,13 @@
     vertical-align: middle;
     background-color: $white;
     color: $primary;
-    
+
     @include media-breakpoint-down(md) {
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
   }
 
   input#search-input {
-    margin: 0 auto;
-    width: 90%;
-    max-width: 70rem;
     border-radius: 1rem;
     border: none;
     font-family: $font-family-heading;
@@ -45,11 +65,10 @@
     opacity: 1;
     transition: all 0.2s ease;
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px 2rem;
+    padding: 10px 1.5rem;
     color: rgba(38, 109, 211, 0.8);
 
     @include media-breakpoint-down(md) {
-      width: 90%;
       font-size: 1.5rem;
       padding: 10px 1rem;
     }
