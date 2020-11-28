@@ -60,3 +60,9 @@ Absolutely! The Fellowship will be 100% personalized for the background and skil
 ### I have more questions!
 
 We’re more than happy to help out. Please send an email to [fellowship@executebig.org](mailto:fellowship@executebig.org), and we will get back to you as soon as possible.
+
+---
+
+## Credits
+
+_This program is inspired by models developed by initiatives like [CodeDay](https://www.codeday.org/), [Build the Future DeCal](https://thefuture.build/), [Hack Club](https://hackclub.com), as well as various fellowship programs and hackathons. We're proud to be able to devote our resources to making tech education more accessible for all._
