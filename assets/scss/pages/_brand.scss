@@ -34,4 +34,12 @@
   &.typography {
     flex-direction: column;
   }
+
+  &.icons {
+    .row {
+      .col {
+        text-align: center;
+      }
+    }
+  }
 }
