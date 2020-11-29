@@ -9,3 +9,5 @@ description: We believe that a well-run student organization should not be scare
 # Transparency
 
 We believe that a well-run student organization should not be scared to share what they have been doing with the public. Here, you can see everything that we have made public for inspection.
+
+{{< carbon >}}

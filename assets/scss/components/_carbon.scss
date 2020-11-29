@@ -1,0 +1,16 @@
+.carbon {
+  #wcb.carbonbadge {
+    text-align: left;
+    --b1: #ffffff;
+    --b2: #266dd3;
+
+    #wcb_g {
+      color: $primary;
+      font-family: $font-family-base;
+    }
+
+    #wcb_a {
+      font-family: $font-family-base;
+    }
+  }
+}
