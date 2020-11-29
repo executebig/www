@@ -1,6 +1,6 @@
 {{ if ( getenv "VERCEL" ) }}
 <p class="mb-0">
-    <a href="https://github.com/{{ getenv 'VERCEL_GIT_REPO_OWNER' }}/{{ getenv 'VERCEL_GIT_REPO_SLUG' }}/commit/{{ getenv 'VERCEL_GIT_COMMIT_SHA' }}" target="_blank" ref="nofollow">
+    <a href='https://github.com/{{ getenv "VERCEL_GIT_REPO_OWNER" }}/{{ getenv "VERCEL_GIT_REPO_SLUG" }}/commit/{{ getenv "VERCEL_GIT_COMMIT_SHA" }}' target="_blank" ref="nofollow">
         <code>{{ getenv "VERCEL_ENV" }} from {{ getenv "VERCEL_GIT_REPO_OWNER" }}/{{ getenv "VERCEL_GIT_REPO_SLUG" }}@{{ getenv "VERCEL_GIT_COMMIT_SHA" }}:{{ getenv "VERCEL_GIT_COMMIT_REF" }}</code>
     </a>
 </p>
