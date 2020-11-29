@@ -3,6 +3,7 @@ const menuTrigger = document.querySelector("#toggle-main-menu-mobile");
 const menuContainer = document.querySelector("#main-menu-mobile");
 const searchToggle = document.querySelectorAll(".searchToggle");
 const searchContainer = document.querySelector("#search-container");
+const searchBar = document.querySelector(".search-bar");
 const cancelTrigger = document.querySelector("#cancelSearch");
 
 const client = algoliasearch("5UQN5RC9UK", "19f815aefb3ec262ec3e715b0bbe4e85");
@@ -79,14 +80,30 @@ searchToggle.forEach((el) => {
   el.onclick = toggleSearch;
 });
 cancelTrigger.onclick = toggleSearch;
+searchContainer.onclick = function (e) {
+  var e = e || window.event;
+  if (e.target !== this) return;
+  else if (!this.classList.contains("open")) return;
+  else toggleSearch();
+};
 
 function toggleSearch() {
   searchContainer.classList.toggle("open");
   body.classList.toggle("lock-scroll");
+  searchBar.style.opacity ^= 1;
+
+  if (!searchBar.classList.contains("active")) {
+    /* trigger reflow */
+    searchBar.style.animation = "none";
+    searchBar.offsetHeight;
+    searchBar.style.animation = null;
+  }
+
+  searchBar.classList.toggle("active");
 
   if (searchContainer.classList.contains("open")) {
     window.setTimeout(function () {
       document.querySelector("#search-input").focus();
-    }, 50);
+    }, 100);
   }
 }
