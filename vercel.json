@@ -11,6 +11,7 @@
       "permanent": false
     },
     { "source": "/branding", "destination": "/brand", "permanent": false },
+    { "source": "/branding/", "destination": "/brand", "permanent": false },
     {
       "source": "/research",
       "destination": "/programs/research",
