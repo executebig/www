@@ -11,3 +11,5 @@ We deploy everything on _Elf_, our own [CapRover](https://caprover.com/) server,
 If you need assistence redeploying our projects, please feel free to [reach out](/contact)! 
 
 {{< button text="GitHub @executebig »" url="https://github.com/executebig/" external="true" >}}
+
+{{< git-meta >}}

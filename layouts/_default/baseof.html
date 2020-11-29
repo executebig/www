@@ -57,7 +57,7 @@
   {{ $jsbundle := slice $instantclick $algoliaSearch $autoComplete $scripts | resources.Concat "js/bundle.js" }}
   <!-- Initialize search -->
   <script data-no-instant>
-    {{ if eq (getenv "HUGO_ENV") "production" }}
+    {{ if eq (getenv "VERCEL_ENV") "production" }}
       const searchIndex = "prod_EB_WWW"
     {{ else }}
       const searchIndex = "dev_EB_WWW"

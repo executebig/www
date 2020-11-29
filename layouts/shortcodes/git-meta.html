@@ -1,0 +1,4 @@
+{{ if ( getenv "VERCEL" ) }}
+<p class="mb-0"><code>{{ getenv "VERCEL_GIT_PROVIDER" }}/{{ getenv "VERCEL_GIT_REPO_SLUG" }}@{{ getenv "VERCEL_GIT_COMMIT_SHA" }}</code></p>
+<p><code>{{ getenv "VERCEL_GIT_PROVIDER" }}: {{ getenv "VERCEL_GIT_COMMIT_MESSAGE" }}</code></p>
+{{ end }}
