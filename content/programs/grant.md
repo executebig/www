@@ -1,7 +1,7 @@
 ---
 title: "Travel Grant"
 description: "A scholarship awarded to passionate high school hackers in need, giving them the opportunity to attend the best high school hackathons."
-icon: "/images/icons/grant.svg"
+icon: "/images/icons/travel.svg"
 draft: false
 featured: true
 weight: 2
