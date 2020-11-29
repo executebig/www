@@ -69,10 +69,10 @@
 <div class="strip strip-grey journal">
   <div class="container pt-6 pb-6">
     {{ range first 1 (where (where .Site.RegularPages "Type" "journals") ".Params.featured" "=" true) }}
-    <h3>Published {{dateFormat "Jan 2, 2006" .Params.date}} by {{ .Params.author }}</h3>
+    <p class="metadata">Published {{dateFormat "Jan 2, 2006" .Params.date}} by {{ .Params.author }}</p>
     <div class="row justify-content-start">
       <div class="col-12">
-        <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
         <p>{{ .Description | default .Content | plainify | htmlUnescape | truncate 240 "…" }}</p>
       </div>
     </div>
