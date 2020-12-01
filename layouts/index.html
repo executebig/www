@@ -42,6 +42,7 @@
         {{ .Render "summary" }}
       </div>
       {{ else }}
+      {{ if .Params.pilot }}
       <div class="col-12 col-md-6 mb-3">
         <div class="service service-summary">
           <div class="service-content">
@@ -52,6 +53,7 @@
           </div>
         </div>
       </div>
+      {{ end }}
       {{ end }}
       {{ end }}
     </div>

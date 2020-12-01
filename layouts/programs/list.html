@@ -19,17 +19,19 @@
     {{ range .Pages.ByWeight }}
     {{ if not .Params.private }}
     <div class="col-12 col-md-6 mb-3">{{ .Render "summary" }}</div>
-      {{ else }}
-      <div class="col-12 col-md-6 mb-3">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title piloting">
-              Coming Soon <span class="badge badge-warning" style="font-size: .9rem; vertical-align: middle;">Invite-Only Pilot</span>
-            </h2>
-            <p>We're hard at work planning something new. Interested in getting a preview and sharing some thoughts? <a href="/contact">Contact us</a>, and we'd love to chat with you!</p>
-          </div>
+    {{ else }}
+    {{ if .Params.pilot }}
+    <div class="col-12 col-md-6 mb-3">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title piloting">
+            Coming Soon <span class="badge badge-warning" style="font-size: .9rem; vertical-align: middle;">Invite-Only Pilot</span>
+          </h2>
+          <p>We're hard at work planning something new. Interested in getting a preview and sharing some thoughts? <a href="/contact">Contact us</a>, and we'd love to chat with you!</p>
         </div>
       </div>
+    </div>
+    {{ end }}
     {{ end }}
     {{ end }}
   </div>
