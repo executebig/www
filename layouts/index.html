@@ -20,9 +20,11 @@
       </div>
       {{ if .Params.intro_image }}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <object tabindex="-1" id="pig" type="image/svg+xml" data="/images/features/pig-drop.svg" class="home-intro intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}"></object>
+        <object tabindex="-1" id="pig" type="image/svg+xml" data="/images/features/pig-drop.svg" class="home-intro intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}">
+          <img src="/images/features/pig-drop.svg" width="308" height="360" alt="Execute Big's 'Flying Pig' mascot" />
+        </object>
         <script src="https://cdn.jsdelivr.net/npm/vivus@0.4.5/dist/vivus.min.js" integrity="sha256-EQbVGDv8AeB/IA3V0dU2OSI1PDKb8wEG3sRDAdkgoGc=" crossorigin="anonymous" async></script>
-        <script>
+        <script async>
           new Vivus('pig', { type: 'oneByOne', duration: 150, pathTimingFunction: Vivus.EASE });
         </script>
       </div>
