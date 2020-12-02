@@ -1,9 +1,17 @@
 .tags {
+  a {
     span.tag {
-        padding: 0.5em 0.8em;
-        font-family: $font-family-heading;
-        text-transform: uppercase;
-        margin-bottom: .5rem;
-        background-color:#2F2F41;
+      padding: 0.5em 0.8em;
+      font-family: $font-family-heading;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      background-color: #2f2f41;
     }
+
+    &:hover {
+      span.tag {
+        background-color: $primary;
+      }
+    }
+  }
 }
