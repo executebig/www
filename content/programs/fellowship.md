@@ -8,6 +8,9 @@ pilot: true
 new: true
 ---
 
+<!-- Announcement Block -->
+{{< announcement content="<p class='title'>Work in Progress!</p>You have stumbled upon a page that is still in the works. The information presented on this page may not be finalized yet! If you would like to learn more ahead of time, please feel free to <a href='/contact'>contact us</a>." class="danger" >}}
+
 Execute Big Fellowship is a six-week virtual program to introduce beginner students to the interdisciplinary world of computer science.
 
 Our introductory program places an emphasis on learning about technology at work rather than traditional computer programming course experience. With a highly-personalized, interactive educational model, cohorts will leave with a nuanced understanding of the industry, professional mentorship, and a technical computer programming background to seal the deal.
@@ -39,7 +42,7 @@ facilitated by the co-founders of the organization: Megan Cui (Harvard '23) and 
 
 ### Who can apply?
 
-Execute Big Fellowship is aimed at students currently attending **9th to 11th grade of high school**. At this time, we are only able to accept students attending school in the United States, and students will need to receive a nomination from a teacher to apply. If you are unable to find a teacher sponsor but is still interested in applying, please email [fellowship@executebig.org](mailto:fellowship@executebig.org).
+Execute Big Fellowship is aimed at students currently attending **9th to 11th grade of high school**. At this time, we are only able to accept students attending school in the United States, and students will need to receive a nomination from a teacher to apply. If you are unable to find a teacher sponsor but are still interested in applying, please email [fellowship@executebig.org](mailto:fellowship@executebig.org).
 
 ### How do students apply?
 
