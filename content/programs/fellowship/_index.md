@@ -1,5 +1,6 @@
 ---
 title: "Fellowship"
+layout: "single"
 description: "A six-week virtual program to introduce beginner students to the interdisciplinary world of computer science."
 icon: "/images/icons/rocket.svg"
 private: true
@@ -9,6 +10,8 @@ new: true
 ---
 
 <!-- Announcement Block -->
+**Cohort 0: March 5 &ndash; April 16, 2021 &middot; 15 Students**
+
 {{< announcement content="<p class='title'>Work in Progress!</p>You have stumbled upon a page that is still in the works. The information presented on this page may not be finalized yet! If you would like to learn more ahead of time, please feel free to <a href='/contact'>contact us</a>." class="danger" >}}
 
 Execute Big Fellowship is a six-week virtual program to introduce beginner students to the interdisciplinary world of computer science.
@@ -35,34 +38,34 @@ A computer science education is hard to come by, and it can make technology seem
 
 ## FAQs
 
-### Who runs the Fellowship?
-
+{{< expand "Who runs the Fellowship?" >}}
 The Fellowship is run by Execute Big, a non-profit organization dedicated to making computer science education accessible for everyone. It will be
 facilitated by the co-founders of the organization: Megan Cui (Harvard '23) and Mingjie Jiang (UC Berkeley '24). You can check out their profiles [here »](/team).
+{{< /expand >}}
 
-### Who can apply?
-
+{{< expand "Who can apply?" >}}
 Execute Big Fellowship is aimed at students currently attending **9th to 11th grade of high school**. At this time, we are only able to accept students attending school in the United States, and students will need to receive a nomination from a teacher to apply. If you are unable to find a teacher sponsor but are still interested in applying, please email [fellowship@executebig.org](mailto:fellowship@executebig.org).
+{{< /expand >}}
 
-### How do students apply?
-
+{{< expand "How do students apply?" >}}
 We require that every student receive a nomination from a teacher to apply. After the teacher nominates them, they will receive an invitation to submit an application within 24 hours. The application will not require any technical knowledge or experience to complete &mdash; we are more interested in learning about the student's creativity and character through the application process.
+{{< /expand >}}
 
-### How many students will you select?
-
+{{< expand "How many students will you select?" >}}
 We will admit around 15 students for the current cohort. We keep our cohorts small in order to allow us to better personalize the program for our students.
+{{< /expand >}}
 
-### How much does it cost?
-
+{{< expand "How much does it cost?" >}}
 The Fellowship is completely free for students during the pilot. Execute Big is funded by donors and sponsors &mdash; you can donate to us [here »](/donate).
+{{< /expand >}}
 
-### Can I apply if I don't know how to code?
-
+{{< expand "Can I apply if I don't know how to code?" >}}
 Absolutely! The Fellowship will be 100% personalized for the background and skill level of the current cohort of students, so no prior experience is required to apply.
+{{< /expand >}}
 
-### I have more questions!
-
+{{< expand "I have more questions!" >}}
 We’re more than happy to help out. Please send an email to [fellowship@executebig.org](mailto:fellowship@executebig.org), and we will get back to you as soon as possible.
+{{< /expand >}}
 
 ---
 

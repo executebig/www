@@ -32,13 +32,12 @@
     </div>
   </div>
 </div>
-{{ $programs := where (where .Site.RegularPages "Type" "programs") ".Params.featured" true }}
+{{ $programs := where (where .Site.Pages "Type" "programs") ".Params.layout" "single" }}
 {{if gt (len $programs) 0}}
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
-      {{ $services := (where .Site.RegularPages "Type" "programs") }}
-      {{ range first 4 (sort $services ".Params.weight") }}
+      {{ range first 4 (sort $programs ".Params.weight") }}
       {{ if not .Params.private }}
       <div class="col-12 col-md-6 mb-3">
         {{ .Render "summary" }}
@@ -62,9 +61,6 @@
     <div class="row justify-content-center">
       <div class="col-auto">
         <a class="button button-primary" href="{{ "programs/" | relURL }}">View Programs</a>
-      </div>
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "act/" | relURL }}">Get Involved</a>
       </div>
     </div>
   </div>

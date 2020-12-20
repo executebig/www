@@ -23,8 +23,23 @@
       "permanent": false
     },
     {
+      "source": "/act/grant",
+      "destination": "/programs/grant/apply",
+      "permanent": false
+    },
+    {
+      "source": "/act/research",
+      "destination": "/programs/research/contribute",
+      "permanent": false
+    },
+    {
+      "source": "/programs/advising",
+      "destination": "/programs/archived/advising",
+      "permanent": false
+    },
+    {
       "source": "/advising",
-      "destination": "/programs/advising",
+      "destination": "/programs/archived/advising",
       "permanent": false
     },
     {

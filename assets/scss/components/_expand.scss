@@ -1,0 +1,45 @@
+.expandable {
+  .expand-label {
+    cursor: pointer;
+
+    h3 {
+      user-select: none;
+      transition: all 0.2s ease-in-out;
+
+      &::after {
+        transition: all 0.35s ease-in-out;
+        border-style: solid;
+        border-width: .2rem .2rem 0 0;
+        color: $primary;
+        content: "";
+        display: inline-block;
+        height: 0.45rem;
+        position: relative;
+        transform: rotate(135deg);
+        vertical-align: top;
+        width: 0.45rem;
+        left: 0.75rem;
+        top: 0.3rem;
+        bottom: 0;
+      }
+    }
+
+    &.active {
+      h3 {
+        color: $primary;
+        &::after {
+          top: 0.5em;
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+
+  .expand-content {
+      display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+}

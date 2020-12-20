@@ -1,5 +1,6 @@
 ---
 title: "Events"
+layout: "single"
 description: "We've organized innovative, purpose-driven events impacting thousands of students. Now, we help private institutions like yours to start your own."
 icon: "/images/icons/events.svg"
 draft: false
@@ -35,16 +36,20 @@ With our help, you can be a pioneer in the field of education.
 
 ---
 
-## FAQ
+## FAQs
 
-### What's the cost?
+{{< expand "What's the cost?" >}}
 For each event, we charge a set amount to reimburse our team of event organizers and to support the growth of Execute Big as an organization. Part of your payment will be tax-deductible.
+{{< /expand >}}
 
-### What is “hacking”?
+{{< expand "What is “hacking”?" >}}
 No, we’re not “hacking” servers or databases. The word is being constructively re-defined as building things—apps, games, websites, etc.
+{{< /expand >}}
 
-### How are we non-profit?
+{{< expand "How are we non-profit?" >}}
 Execute Big is a non-profit organization. The team only receives a fair compensation for their contribution, and the rest is passed on as a donation to the organization.
+{{< /expand >}}
 
-### Got more questions?
+{{< expand "Got more questions?" >}}
 We're more than happy to help out. We can be reached via email at team@executebig.org. You can schedule a call with us when you are next available via email as well.
+{{< /expand >}}

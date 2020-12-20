@@ -1,5 +1,6 @@
 ---
 title: "Research"
+layout: "single"
 description: "Building the first open-source dataset on STEM event attendance to identify trends among students of underrepresented demographics and develop ways to improve diversity in CS."
 icon: "/images/icons/research.svg"
 draft: false
@@ -23,7 +24,7 @@ We're open-sourcing this data set so that others can also add onto and utilize i
 
 **Read about our privacy promise for research data [here](/research-privacy).**
 
-{{< button text="Submit Your Data »" url="/act/research/" >}}
+{{< button text="Submit Your Data »" url="/programs/research/contribute" >}}
 
 ## With Support From...
 
