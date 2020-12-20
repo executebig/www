@@ -55,7 +55,7 @@ Aside from our organizational privacy disclosure, you may also be interested in 
 programs of Execute Big. These policies outline the steps that we are taking to ensure we collect, process, and potentially release the right 
 information to create a safe environment for you to be involved in our programs. 
 
-* **Research**: [Privacy Promise for Research Data](/research-privacy)
+* **Research**: [Privacy Promise for Research Data](/research/privacy)
 
 ## Questions & Data Control
 

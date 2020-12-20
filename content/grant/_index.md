@@ -1,6 +1,7 @@
 ---
 title: "Travel Grant"
 layout: "single"
+type: "programs"
 description: "A scholarship awarded to passionate high school hackers in need, giving them the opportunity to attend the best high school hackathons."
 icon: "/images/icons/travel.svg"
 draft: false
@@ -13,7 +14,7 @@ A scholarship awarded to passionate high school hackers in need, giving them the
 <!-- Announcement Block -->
 {{< announcement content="<p class='title'>COVID-19 Response</p>Due to public health concerns, our Travel Grant program has been suspended until the COVID-19 emergency ends. We're looking forward to supporting more students when in-person events return. Please do not hesitate to <a href=\"/contact\">contact us</a> if you have more questions." class="danger" >}}
 
-{{< button text="Apply Now" url="/programs/grant/apply" class="disabled" >}}
+{{< button text="Apply Now" url="/grant/apply" class="disabled" >}}
 
 ## Here's the story.
 

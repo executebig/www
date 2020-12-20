@@ -1,6 +1,7 @@
 ---
 title: "Research"
 layout: "single"
+type: "programs"
 description: "Building the first open-source dataset on STEM event attendance to identify trends among students of underrepresented demographics and develop ways to improve diversity in CS."
 icon: "/images/icons/research.svg"
 draft: false
@@ -22,9 +23,9 @@ At Execute Big, we have the knowledge and experience needed to approach the task
 
 We're open-sourcing this data set so that others can also add onto and utilize it for research purpose, and as STEM events grow and evolve over time, this data set can continue to provide insight on what policies, programs, or tools are working and how well.
 
-**Read about our privacy promise for research data [here](/research-privacy).**
+**Read about our privacy promise for research data [here](/research/privacy).**
 
-{{< button text="Submit Your Data »" url="/programs/research/contribute" >}}
+{{< button text="Submit Your Data »" url="/research/contribute" >}}
 
 ## With Support From...
 

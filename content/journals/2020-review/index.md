@@ -27,7 +27,7 @@ COVID-19 limited the scope of our programs and impact, but we didn't want that t
 
 In April, we decided to launch a research project studying the participation of underrepresented minorities (focusing on women and students of color) in STEM events in an effort to develop tangible proposals on improving diversity in STEM. As a part of this project, we're working on developing the first open-source data set on STEM event attendance.
 
-Learn how you can contribute to our project: [Research »](https://executebig.org/programs/research/)
+Learn how you can contribute to our project: [Research »](https://executebig.org/research/)
 
 ## New: Commitment to Transparency
 

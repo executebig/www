@@ -5,7 +5,7 @@ description: We're now collecting anonymous attendee data from past hackathons o
 
 **If you are an event organizer, we need your help!** We're now collecting anonymous attendee data from past hackathons or any other STEM-related events. The submission process is easy, and we're happy to credit you or your event on our report.
 
-{{< button text="Start Submission »" url="https://airtable.com/shrU6CxQW90nF5Jdi" external="true" >}}&ensp; {{< button text="Privacy Promise" url="/research-privacy" >}}
+{{< button text="Start Submission »" url="https://airtable.com/shrU6CxQW90nF5Jdi" external="true" >}}&ensp; {{< button text="Privacy Promise" url="/research/privacy" >}}
 
 {{< announcement content="<p class='title'>Research Update</p>We're working with <strong>prospective organizers</strong> to commit their STEM events to contributing useful anonymous attendee data. If you're planning on running a STEM event, we'd love to chat with you to make your event a part of our research project!" button="Schedule a Chat" link="https://calendly.com/megancui/30min" >}}
 

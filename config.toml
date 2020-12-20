@@ -50,10 +50,6 @@ home = ["HTML","RSS","Algolia"]
 
 [menu]
   # Main Menu
-  [[menu.main]]
-    name = "Programs"
-    url = "/programs/"
-      weight = 1
 
   [[menu.main]]
       name = "Journals"
@@ -69,6 +65,11 @@ home = ["HTML","RSS","Algolia"]
       name = "Donate"
       url = "/donate/"
       weight = 5
+    
+  [[menu.main]]
+      name = "Contact"
+      url = "/contact/"
+      weight = 6
 
   # Footer Menu
       
@@ -91,11 +92,6 @@ home = ["HTML","RSS","Algolia"]
     name = "Press"
     url = "/press/"
       weight = 5
-
-  [[menu.footer]]
-      name = "Contact"
-      url = "/contact/"
-      weight = 6
 
 [taxonomies]
   journals_tags = "journals/tags"

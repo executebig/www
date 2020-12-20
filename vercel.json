@@ -5,41 +5,36 @@
     }
   },
   "redirects": [
-    {
-      "source": "/grant",
-      "destination": "/programs/grant",
-      "permanent": false
-    },
     { "source": "/branding", "destination": "/brand", "permanent": false },
     { "source": "/branding/", "destination": "/brand", "permanent": false },
     {
-      "source": "/research",
-      "destination": "/programs/research",
-      "permanent": false
-    },
-    {
-      "source": "/events",
-      "destination": "/programs/events",
-      "permanent": false
-    },
-    {
       "source": "/act/grant",
-      "destination": "/programs/grant/apply",
+      "destination": "/grant/apply",
       "permanent": false
     },
     {
       "source": "/act/research",
-      "destination": "/programs/research/contribute",
+      "destination": "/research/contribute",
       "permanent": false
     },
     {
       "source": "/programs/advising",
-      "destination": "/programs/archived/advising",
+      "destination": "/archived/advising",
       "permanent": false
     },
     {
       "source": "/advising",
-      "destination": "/programs/archived/advising",
+      "destination": "/archived/advising",
+      "permanent": false
+    },
+    {
+      "source": "/programs/(.*)",
+      "destination": "/$1",
+      "permanent": false
+    },
+    {
+      "source": "/research-privacy",
+      "destination": "/research/privacy",
       "permanent": false
     },
     {

@@ -1,6 +1,7 @@
 ---
 title: "Events"
 layout: "single"
+type: "programs"
 description: "We've organized innovative, purpose-driven events impacting thousands of students. Now, we help private institutions like yours to start your own."
 icon: "/images/icons/events.svg"
 draft: false

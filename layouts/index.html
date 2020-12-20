@@ -36,6 +36,11 @@
 {{if gt (len $programs) 0}}
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row">
+      <div class="col-12">
+        <h1 style="font-size: 2.5rem;" class="mb-4">Our Programs</h1>
+      </div>
+    </div>
     <div class="row justify-content-start">
       {{ range first 4 (sort $programs ".Params.weight") }}
       {{ if not .Params.private }}
@@ -58,11 +63,6 @@
       {{ end }}
       {{ end }}
     </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "programs/" | relURL }}">View Programs</a>
-      </div>
-    </div>
   </div>
 </div>
 {{end}}
@@ -72,7 +72,7 @@
     <p class="metadata">Published {{dateFormat "Jan 2, 2006" .Params.date}} by {{ .Params.author }}</p>
     <div class="row justify-content-start">
       <div class="col-12">
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
         <p>{{ .Description | default .Content | plainify | htmlUnescape | truncate 240 "…" }}</p>
       </div>
     </div>
