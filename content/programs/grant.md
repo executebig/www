@@ -56,32 +56,40 @@ There're no restrictions, no prerequisites, and no complicated forms. Answer a f
 
 ## FAQ
 
-### Who can apply?
+
+{{< expand "Who can apply?" >}}
 Any middle or high school student in need of travel assistance can apply for Travel Grant. Due to resource limitations, we're not able to provide support for college students.
+{{< /expand >}}
 
-### How much money do I get?
+{{< expand "How much money do I get?" >}}
 Enough to cover your round-trip transportation to the event. In certain cases, we might offer partial coverage for your trip, but we will certainly support you to the maximum of our ability.
+{{< /expand >}}
 
-### How do I record my application?
+{{< expand "How do I record my application?" >}}
 Be creative. You're not going to a college interview! We're really curious to learn some interesting facts about you that we can't find elsewhere. Be specific: "I am passionate about coding" does not tell your story! But still keep it short — under 10 minutes. You can either upload it to Google Drive or YouTube Unlisted.
+{{< /expand >}}
 
-### Can I apply to multiple events?
-If you have multiple events in mind, you should only submit one application to the event that you want to attend the most. During the interview, let us know that you're considering other events, and we'll evaluate these choices with you. We are only able to support one event per student at a time.
 
-### Why do I need to record a video?
+{{< expand "Why do I need to record a video?" >}}
 Don't be stressed out! The purpose of the video is to allow us to get to know you as a person—how you communicate, how you establish your characters, etc. Afterall, we need to make sure we are using our limited resources to support a real student!
+{{< /expand >}}
 
-### How will I book my travel?
+{{< expand "How will I book my travel?" >}}
 Once you're accepted, you will be responsible for booking travel yourself (we'll send you the terms upon acceptance). We'll reimburse the cost after the event. If you can't front the money, let us know, and we'll book the travel for you.
+{{< /expand >}}
 
-### How early should I apply?
+{{< expand "How early should I apply?" >}}
 At least 4-5 weeks before the event. To try to provide support for as many students as we possibly can, we tend to avoid booking travel on short notice. However, if your transportation cost does not increase with time — train, bus, etc., you may apply slight later. You can always fill out your application as early as you wish!
+{{< /expand >}}
 
-### When will I receive the grant?
+{{< expand "When will I receive the grant?" >}}
 After the event, we will ask you to submit some form of reflection to us. The reflection can be in the form of a blog post, a video, a collection of pictures, and your project. The reflection will be shared with the event team, and we'll reimburse you via check as soon as we receive the reflection.
+{{< /expand >}}
 
-### Which events can I go to?
+{{< expand "Which events can I go to?" >}}
 Any hackathon that you're admitted to. Check with the hackathon first — they might be able to cover your travel already!
+{{< /expand >}}
 
-### I have more questions...
+{{< expand "I have more questions..." >}}
 Shoot us an email! team@executebig.org is the best address to reach us.
+{{< /expand >}}

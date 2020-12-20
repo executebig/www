@@ -1,0 +1,16 @@
+{{ $id := substr (md5 .Inner) 0 16 }}
+{{$expandMessage := T "Expand-title"}}
+{{ $title := .Get 0 | default $expandMessage}}
+<div class="expandable">
+    <div class="expand-label" onclick="document.getElementById('expandable-{{$id}}').classList.toggle('active');this.classList.toggle('active')">
+        <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
+        <h3 id="{{urlize $title}}" class="mt-2">
+            {{ $title }}
+        </h3>
+    </div>
+    <div class="expand-content" id="expandable-{{$id}}">
+        <p>
+            {{.Inner | markdownify}}
+        </p>
+    </div>
+</div>
