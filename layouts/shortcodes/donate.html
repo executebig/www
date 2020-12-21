@@ -26,7 +26,9 @@
   const stripe = Stripe(
     "{{ if .Site.IsServer }}{{ .Site.Params.stripe.testKey }}{{ else }}{{ .Site.Params.stripe.pubKey }}{{ end }}"
   );
+  const recaptchaKey = "{{ .Site.Params.recaptcha.siteKey }}"
 </script>
 
 {{ $donateScript := resources.Get "js/pages/donate.js" | fingerprint }}
+<script src="https://www.google.com/recaptcha/api.js?render={{ .Site.Params.recaptcha.siteKey }}"></script>
 <script src="{{ ($donateScript | minify | fingerprint).RelPermalink }}" defer></script>

@@ -25,6 +25,9 @@ home = ["HTML","RSS","Algolia"]
     testKey = "pk_test_51HFmyUGd5RDXy0STaqkryz2uhc4LjMMkAeeMenLrDFAKdsWRaB5iWBLOkmR1KOD39liVOD2JK9Q930qHbcJiFNmq00Pxo6VlMp"
     pubKey = "pk_live_51HFmyUGd5RDXy0STk1dGHANECh5LHKThHSHj3KvpMRPsoM4GbRjpuJKBrPtIJ3B8rkATb1zASRFuabQUWsu1PMr600Tj5wMNAZ"
 
+  [params.recaptcha]
+    siteKey = "6Lfutw4aAAAAAHBEOASx-3-fyjWT1gmzi636010I"
+
   [params.announcement]
     show = true
 
