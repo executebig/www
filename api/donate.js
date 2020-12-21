@@ -1,9 +1,8 @@
 require("dotenv").config();
 const stripe = require("stripe")(process.env.STRIPE_API_KEY);
-const fetch = require("node-fetch")
+const fetch = require("node-fetch");
 
 export default async (req, res) => {
-
   fetch(`https://www.google.com/recaptcha/api/siteverify?secret=${process.env.RECAPTCHA_SECRET}&response=${req.body.recaptcha}`, {
     method: "POST",
   })
