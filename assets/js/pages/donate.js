@@ -77,8 +77,7 @@ const launchDonate = (el, amount) => {
           },
           body: JSON.stringify({
             host: document.location.origin,
-            amount: amount,
-            recaptcha: token
+            amount: amount
           }),
         })
           .then(function (response) {
