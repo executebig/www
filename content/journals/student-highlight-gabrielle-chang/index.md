@@ -11,7 +11,7 @@ draft: false
 
 Hi all, I hope you’re doing well (and social distancing)! I’m Gabrielle Chang, a high school senior from Hinsdale, Illinois. Next year I'll (most likely) be pursuing a degree in computer science from Caltech. Outside of school, I'm passionate about environmental activism, iOS app development, and Minecraft. Feel free to ask me about any of those- as my name might suggest, I can be gabby when talking about topics I care about!
 
-![Gabrielle Chang](images/1.png)
+![Gabrielle](images/1.png)
 
 In the midst of this COVID-19 crisis, I think it’s worthwhile to practice gratitude for all the good things in our lives. Although there is some uncertainty in the present (Will we have a graduation? What about prom?), I’ve found reflecting on all the amazing past experiences I’ve had and whatever possibilities the future holds has helped keep me grounded and a little more calm. 
 
@@ -21,7 +21,7 @@ I first heard of Superposition through an Instagram story from one of its organi
 
 So, on the morning of February 28th, I caught a flight to San Francisco, approximately 1846 miles away from home. Luckily, that Friday was a teacher institute day at my school, so after some painful navigating (public transportation is not my forte), I was able to spend a day roaming the MoMA, Pier 39, and other Bay Area attractions. That night, I stayed in a shared hotel room with three strangers- definitely a new experience. 
 
-![Gabrielle Chang 2](images/2.png)
+![Some pictures that Gabrielle took on her trip](images/2.png)
 
 By 10AM the next day, I had walked to the Uber HQ, where I was ushered by friendly volunteers to the event area to check in. Immediately, I was impressed by how well-organized and professional the entire was. The “hacking” space was spotless, and lined with ample power strips. The kitchen area was thoughtfully stocked with snacks for every dietary restriction. The sponsor swag was lined up neatly for participants to pick up. Organizers and volunteers were everywhere, constantly circling the space to make sure everything was OK. 
 
@@ -35,8 +35,8 @@ The process to make this game was far from linear. At first, I constantly switch
 
 Throughout the event, I found it super easy to make new friends. Although many girls I met lived in completely different areas, we all shared common interests that made conversation easy- whether it be food, fashion, or whatever. Even though everyone was working hard on their individual projects, at times the event almost felt like a sleepover with friends. One of my favorite moments was when some of the Superposition organizers set up a makeshift ramen “shop” at 2AM, serving instant noodles to anyone who “ordered”- definitely Michelin-star-level stuff. 
 
-![Redbull](images/5.gif)
-![Hint](images/6.png)
+![Drinking Redbull while coding](images/5.gif)
+![Hint water](images/6.png)
 
 Another highlight was the Women in Tech panel. The panelists were all so sweet and truly came from diverse backgrounds. One panelist, Priscilla Wang, is not only Miss New York, but also the founder of a nonprofit “Girls Talk Tech”. Another, Karina Popovich, is not only a Cornell freshman, but also the CEO of a clothing line. They talked about everything from chasing dream internships to non-cliche advice to deal with imposter syndrome. 
 
@@ -44,7 +44,7 @@ Another highlight was the Women in Tech panel. The panelists were all so sweet a
 
 After a long night of hacking, it was time to be judged. I pitched to two Uber engineers who were gracious enough to give some quick advice before moving on to the next project. I thought that the judging environment was very healthy and not hyper-competitive like at other hackathons. Instead of focusing on just code, everyone celebrated the failures, bugs, and sleeplessness that came with it. The judges I presented to were probably most impressed with the fact that I didn’t have much Unity experience before this event, and handled problems as they arose. 
 
-![EXTINCT-ly](images/8.png)
+![Project: EXTINCT-ly](images/8.png)
 
 Although I don’t remember the flight back home very well (post-hackathon sleep really hits different), Superposition was definitely a memorable experience I won’t forget. After the hackathon ended, I found it easy to stay in touch with everyone that I met. The Superposition social media pages were frequently updated with post-hackathon opportunities, highlights, and thank-you’s. Most recently, I’ve been using some of the time at home to add more features to the game I created at Superposition and clean up some code. 
 
@@ -52,4 +52,4 @@ Although I don’t remember the flight back home very well (post-hackathon sleep
 
 In all, I’m so glad I had the opportunity to attend Superposition. It was probably one of the most carefully planned hackathons I’ve ever attended, and I will definitely be back next year. Cheers!
 
-![Impact](images/10.png)
+![Superposition: Impact presentation](images/10.png)
