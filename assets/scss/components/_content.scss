@@ -1,6 +1,6 @@
 .content {
   color: $black;
-  
+
   a {
     text-decoration: underline;
   }
@@ -10,6 +10,20 @@
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  .image {
+    margin-bottom: 10px;
+
+    img {
+      margin-bottom: 10px;
+    }
+
+    .image-caption {
+      color: $hint;
+      text-align: center;
+      font-size: 0.8rem;
+    }
   }
 
   strong {
@@ -23,7 +37,7 @@
   p {
     font-family: $font-family-base;
     color: $steel;
-    line-height: 1.75; 
+    line-height: 1.75;
     font-size: 1.2rem;
   }
 
@@ -46,7 +60,11 @@
     margin-top: 30px;
   }
 
-  h1, h2, h3, h4, h5 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     font-weight: 600;
     font-family: $font-family-heading;
   }
@@ -71,7 +89,7 @@
 
   li {
     margin-bottom: 5px;
-    line-height: 1.75; 
+    line-height: 1.75;
     font-size: 1.2rem;
     margin-left: 20px;
     color: $steel;
@@ -87,28 +105,62 @@
     margin-top: 30px;
     margin-bottom: 30px;
 
+    @include media-breakpoint-up(md) {
+      width: 120%;
+      margin-left: -10%;
+    }
+
     th,
     td {
       padding: 5px;
       vertical-align: top;
       border-top: 1px solid $white-offset;
+      vertical-align: middle;
+
+      &:first-child {
+        padding-left: 1rem;
+      }
+      
+      &:last-child {
+        padding-right: .5rem;
+      }
     }
 
-    thead th {
-      vertical-align: bottom;
-      border-bottom: 1px solid $white-offset;
-      text-align: left;
-      font-weight: bold;
+    thead {
+      background-color: rgba(38, 109, 211, 0.1);
+
+      tr {
+        border-radius: 10px;
+        th {
+          vertical-align: middle;
+          border-bottom: 1px solid $white-offset;
+          text-align: left;
+          font-weight: bold;
+          font-family: $font-family-heading;
+
+          &:first-child {
+            border-radius: 5px 0 0 5px;
+          }
+
+          &:last-child {
+            border-radius: 0 5px 5px 0;
+          }
+        }
+      }
     }
 
     tbody + tbody {
       border-top: 1px solid $white-offset;
+    }
+
+    tr {
+      height: 3rem;
     }
   }
 
   blockquote {
     padding: 0 1em;
     color: $steel;
-    border-left: .25em solid $secondary;
+    border-left: 0.25em solid $secondary;
   }
 }
