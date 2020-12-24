@@ -48,9 +48,6 @@ home = ["HTML","RSS","Algolia"]
     meta_twitter_site = "@executebig"
     meta_twitter_creator = "@executebig"
 
-  [params.footer]
-    copyright_text = 'A 501(c)(3) public charity, EIN 85-2160468.'
-
 [menu]
   # Main Menu
 

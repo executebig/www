@@ -9,6 +9,17 @@
     flex-direction: column;
     align-items: flex-start;
 
+    .footer-title {
+      text-align: baseline;
+
+      .legal {
+        font-size: 14px;
+        font-family: $font-family-base;
+        color: $white-offset;
+        font-weight: normal;
+      }
+    }
+
     @include media-breakpoint-up(sm) {
       justify-content: space-between;
       flex-direction: row;

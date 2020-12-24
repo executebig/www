@@ -6,9 +6,7 @@
           {{ if .Site.Data.social }}
           {{ partial "social.html" . }}
           {{ end }}
-          {{ if .Site.Params.footer.copyright_text }}
-          <div class="copyright">{{ .Site.Params.footer.copyright_text | safeHTML }} Powered by <a href="https://vercel.com/?utm_source=executebig&utm_campaign=oss" rel="noopener" target="_blank"><img src="/images/sponsors/vercel.svg" width="62" height="14" alt="Vercel" /></a></div>
-          {{ end }}
+          <div class="vercel">Powered by <a href="https://vercel.com/?utm_source=executebig&utm_campaign=oss" rel="noopener" target="_blank"><img src="/images/sponsors/vercel.svg" width="62" height="14" alt="Vercel" /></a></div>
         </div>
       </div>
     </div>
