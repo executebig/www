@@ -12,11 +12,8 @@
     .footer-title {
       text-align: baseline;
 
-      .legal {
-        font-size: 14px;
-        font-family: $font-family-base;
-        color: $white-offset;
-        font-weight: normal;
+      .tagline {
+        display: none;
       }
     }
 
@@ -24,6 +21,16 @@
       justify-content: space-between;
       flex-direction: row;
       align-items: center;
+
+      .footer-title {
+        .tagline {
+          display: inline;
+          font-size: 16px;
+          font-family: $font-family-base;
+          color: $white-offset;
+          font-weight: normal;
+        }
+      }
     }
   }
 

@@ -5,7 +5,7 @@ intro_image_absolute: false # edit /assets/scss/components/_intro-image.scss for
 intro_image_hide_on_mobile: true
 ---
 
-# Execute Big
+# Accessible CS exploration programs for all.
 
 A **minimal** & **transparent** student-run organization founded to enable all students to experience and explore computer science education. 
 
