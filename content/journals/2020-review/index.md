@@ -31,7 +31,7 @@ Learn how you can contribute to our project: [Research »](https://executebig.or
 
 ## New: Commitment to Transparency
 
-We've always believed in the power of transparency -- after all, we believe a well-run non-profit should not be afraid to share its progress with the public. Execute Big is and will remain committed to making sure that we stay as transparent as possible with our operations. 
+We've always believed in the power of transparency -- after all, we believe a well-run nonprofit should not be afraid to share its progress with the public. Execute Big is and will remain committed to making sure that we stay as transparent as possible with our operations. 
 
 While the global pandemic has halted our operations, it has left us with the time to build out additional infrastructure around Execute Big in order to make it transparent to you. Most of these tools are already live, so it's easy for you to learn about _what's poppin'_ here at Execute Big, and the task of releasing information as it becomes available will also be quick and easy. 
 

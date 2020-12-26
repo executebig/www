@@ -8,7 +8,7 @@ weight: 100
 "journals/tags": [resources, updates]
 ---
 
-Execute Big was founded over a year ago under a fiscal sponsor, and one year later, we decided to become an independent non-profit organization for legal and marketing independence. We’ve come a long way, and while we are not currently able to do much under the pandemic, we believe that there are still tons of potential for us to grow.
+Execute Big was founded over a year ago under a fiscal sponsor, and one year later, we decided to become an independent nonprofit organization for legal and marketing independence. We’ve come a long way, and while we are not currently able to do much under the pandemic, we believe that there are still tons of potential for us to grow.
 
 More recently, I received quite a few questions from fellow student leaders about founding their own nonprofit organizations, and through this journal, I hope to be able to answer these questions about the decision-making process behind entity-forming, and the process that of.
 
@@ -16,7 +16,7 @@ More recently, I received quite a few questions from fellow student leaders abou
 
 # A Reminder: Why?
 
-I’m a firm believer that a good non-profit organization (or any initiative) should maintain a strong balance between three core elements: mission, character, and skillset.
+I’m a firm believer that a good nonprofit organization (or any initiative) should maintain a strong balance between three core elements: mission, character, and skillset.
 
 **Character and skillset**: your team should consist of the right people to do the right thing. Your personalities should be compatible to work together over a very long period of time, and your abilities should almost perfectly complement one another to create a well-rounded “skill-tree”. These are quite trivial — you either have them, or you don’t.
 
