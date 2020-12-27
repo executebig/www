@@ -7,6 +7,9 @@ disableKinds = ["categories"]
 
 enableRobotsTXT = true
 
+paginate = 8
+paginatePath = "p"
+
 [outputs]
 home = ["HTML","RSS","Algolia"]
 
