@@ -7,6 +7,9 @@ disableKinds = ["categories"]
 
 enableRobotsTXT = true
 
+paginate = 8
+paginatePath = "p"
+
 [outputs]
 home = ["HTML","RSS","Algolia"]
 
@@ -47,9 +50,6 @@ home = ["HTML","RSS","Algolia"]
     meta_twitter_card = "summary_large_image"
     meta_twitter_site = "@executebig"
     meta_twitter_creator = "@executebig"
-
-  [params.footer]
-    copyright_text = 'A 501(c)(3) public charity, EIN 85-2160468.'
 
 [menu]
   # Main Menu

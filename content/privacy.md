@@ -1,10 +1,10 @@
 ---
 title: "Privacy Disclosure"
 icon: "/images/icons/lock.svg"
-description: "Execute Big is a non-profit organization that strongly believes your right to privacy, especially given we work with students on a regular basis. We only ask for your information when we actually need it, and we are very careful when handling data."
+description: "Execute Big is a nonprofit organization that strongly believes your right to privacy, especially given we work with students on a regular basis. We only ask for your information when we actually need it, and we are very careful when handling data."
 ---
 
-Execute Big is a non-profit organization that strongly believes your right to privacy, especially given we work with students on a regular basis. We only ask for your information when we actually need it, and we are very careful when handling data.
+Execute Big is a nonprofit organization that strongly believes your right to privacy, especially given we work with students on a regular basis. We only ask for your information when we actually need it, and we are very careful when handling data.
 
 We hope this privacy disclosure can give you some clarity with how we handle your personal information.
 

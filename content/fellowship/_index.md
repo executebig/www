@@ -40,7 +40,7 @@ A computer science education is hard to come by, and it can make technology seem
 ## FAQs
 
 {{< expand "Who runs the Fellowship?" >}}
-The Fellowship is run by Execute Big, a non-profit organization dedicated to making computer science education accessible for everyone. It will be
+The Fellowship is run by Execute Big, a nonprofit organization dedicated to making computer science education accessible for everyone. It will be
 facilitated by the co-founders of the organization: Megan Cui (Harvard '23) and Mingjie Jiang (UC Berkeley '24). You can check out their profiles [here »](/team).
 {{< /expand >}}
 

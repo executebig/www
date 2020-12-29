@@ -17,15 +17,35 @@
 <div class="container pb-md-12 pb-6">
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
-      {{ range .Pages.ByWeight }}
+      {{ range (.Paginate .RegularPagesRecursive).Pages.ByWeight }}
       <div class="mb-4">{{ .Render "summary" }}</div>
       {{ end }}
+      <div class="paginator">
+        {{ $paginator := .Paginator }}
+        {{ if $paginator.HasPrev }}
+        <a href="{{ $paginator.Prev.URL }}" class="pagination__link pagination__link--previous button float-left">
+          « Newer
+        </a>
+        {{ end }}
+        {{ if $paginator.HasNext }}
+        <a href="{{ $paginator.Next.URL }}" class="pagination__link pagination__link--next button float-right">
+          Older »
+        </a>
+        {{ end }}
+        <!-- <div class="pagination__pages d-flex justify-content-center">
+          {{ range $paginator.Pagers }}
+          <a href="{{ .URL }}" class="pagination__link button ml-1 {{ if not (eq $paginator.PageNumber .PageNumber) }}outline{{ end }}">
+            {{ .PageNumber }}
+          </a>
+          {{ end }}
+        </div> -->
+      </div>
     </div>
     <div class="col-12 col-md-4">
       <div class="aside tags">
         <h2>View By Tags</h3>
           {{range ($.Site.GetPage "taxonomyTerm" "journals/tags").Pages }}
-            <a href="{{ .RelPermalink }}"><span class="tag badge badge-pill badge-primary">{{.Title}}</span></a>
+          <a href="{{ .RelPermalink }}"><span class="tag badge badge-pill badge-primary">{{.Title}}</span></a>
           {{end}}
       </div>
     </div>

@@ -2,7 +2,7 @@
   <ul>
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
-    <li class="menu-item-{{ .Name | lower }}{{ if eq $currentPage.URL .URL }} active{{ end }}">
+    <li class="menu-item-{{ .Name | lower }}{{ if eq $currentPage.RelPermalink .URL }} active{{ end }}">
       <a href="{{.URL}}">
         {{ .Pre }}
         <span data-name="{{.Name}}">{{ .Name }}</span>

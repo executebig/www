@@ -47,8 +47,8 @@ For each event, we charge a set amount to reimburse our team of event organizers
 No, we’re not “hacking” servers or databases. The word is being constructively re-defined as building things—apps, games, websites, etc.
 {{< /expand >}}
 
-{{< expand "How are we non-profit?" >}}
-Execute Big is a non-profit organization. The team only receives a fair compensation for their contribution, and the rest is passed on as a donation to the organization.
+{{< expand "How are we nonprofit?" >}}
+Execute Big is a nonprofit organization. The team only receives a fair compensation for their contribution, and the rest is passed on as a donation to the organization.
 {{< /expand >}}
 
 {{< expand "Got more questions?" >}}

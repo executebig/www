@@ -13,25 +13,15 @@
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: #fff;
-  text-decoration: none!important;
+  text-decoration: none !important;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
   font-family: $font-family-heading;
-  
+
   @include media-breakpoint-down(md) {
     &:not(:last-child) {
       margin-bottom: 1rem;
     }
-  }
-
-  &.cta {
-    text-decoration: none;
-    font-size: 16px;
-  }
-
-  &.disabled {
-    pointer-events: none;
-    filter: grayscale(1)
   }
 
   &:hover {
@@ -40,5 +30,27 @@
     transform: translateY(-1px);
     //box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
     text-decoration: none;
+  }
+
+  &.cta {
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  &.outline {
+    color: $primary;
+    background-color: $white;
+    border: 2px solid $primary;
+
+    &:hover {
+      color: lighten($primary, 10%);
+      border: 2px solid lighten($primary, 10%);
+      background-color: $white;
+    }
+  }
+
+  &.disabled {
+    pointer-events: none;
+    filter: grayscale(1);
   }
 }

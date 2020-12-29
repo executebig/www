@@ -9,10 +9,28 @@
     flex-direction: column;
     align-items: flex-start;
 
+    .footer-title {
+      text-align: baseline;
+
+      .tagline {
+        display: none;
+      }
+    }
+
     @include media-breakpoint-up(sm) {
       justify-content: space-between;
       flex-direction: row;
       align-items: center;
+
+      .footer-title {
+        .tagline {
+          display: inline;
+          font-size: 16px;
+          font-family: $font-family-base;
+          color: $white-offset;
+          font-weight: normal;
+        }
+      }
     }
   }
 
