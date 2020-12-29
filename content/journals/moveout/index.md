@@ -1,6 +1,6 @@
 ---
 title: "Moving Out: A Writeup"
-date: 2020-12-22T12:26:15-05:00
+date: 2020-12-29
 author: Mingjie Jiang
 featured: false
 draft: false
