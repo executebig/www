@@ -19,7 +19,7 @@ We recently made the difficult decision to leave [Hack Club Bank](https://hackcl
 
 Though we have moved out of Hack Club Bank, we have nothing but positive regard for it. It made it possible for the two of us to focus on developing innovative programming, as opposed to worrying about the government shenanigans often needed to incorporate and become a registered nonprofit. For any students who want to start an initiative that are considering going through the formal nonprofit formation process, we strongly recommend Hack Club Bank as an initial launch point to work on programming before sinking money into the expensive bureaucratic process. 
 
-A separate journal about how we prepared for the transition will be posted soon!
+Read about how we prepared for the transition: [Moving Out: A Writeup »](/journals/moveout)
 
 ## New: Event Diversity Research
 
