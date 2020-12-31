@@ -12,7 +12,7 @@ Execute Big creates inclusive exploration programs for everyone. To accomplish t
 - Be thoughtful and humble when communicating ideas.
 - Don't be destructive or inflammatory.
 - Additional rules may apply at in-person events.
-- If you encounter an issue, please mail <conduct@executebig.org>.
+- If you encounter an issue, please mail <conduct@executebig.org>, or contact an Execute Big staff directly.
 
 ## Where does the Code of Conduct apply?
 
