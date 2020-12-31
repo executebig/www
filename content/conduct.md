@@ -20,7 +20,7 @@ If you join in or contribute to the Execute Big ecosystem in any way, you are en
 
 Explicit enforcement of the Code of Conduct applies to all virtual and in-person programs run by Execute Big, and should be applied indifferently to everyone, including all staff, contractors, volunteers, and students involved. It will also apply to any online communities, forums, and other mediums of communication operated by Execute Big.
 
-Please also that depending on our venue or partner requirements, you may be required to follow an additional set of rules to participate in our programs (e.g. the Student Code of Conduct of our host school). These will be distributed to you prior to the event.
+Please also note that depending on our venue or partner requirements, you may be required to follow an additional set of rules to participate in our programs (e.g. the Student Conduct of our host school, or the [Major League Hacking Code of Conduct](https://static.mlh.io/docs/mlh-code-of-conduct.pdf) for member events). These will be distributed to you prior to the event.
 
 ## Unwelcome Behavior
 
@@ -37,9 +37,7 @@ These actions are explicitly forbidden in Execute Big spaces and programs:
 
 You may report any concerning behavior by emailing <conduct@executebig.org> even when you are not directly involved, and an impartial staff will look into your case. Alternatively, if you are attending an in-person event, you may also report the behavior to an Execute Big staff or a school employee. We will do our best to make sure that your identity remains anonymous, and that you are provided with the results of the investigation.
 
-If you are reporting behavior that directly involves an Execute Big staff, you may choose to directly email a non-involved staff through the contact information listed on our [Team](/team) page.
-
-Changes to the Code of Conduct should be proposed by sending an email to the Execute Big team at <conduct@executebig.org>.
+If you are reporting behavior that directly involves an Execute Big staff, you may choose to directly email a non-involved staff through the contact information listed on our [Team](/team) page. 
 
 ## School-Partnered Events: Title IX
 
