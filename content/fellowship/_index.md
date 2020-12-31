@@ -4,24 +4,23 @@ layout: "single"
 type: "programs"
 description: "A six-week virtual program to introduce beginner students to the interdisciplinary world of computer science."
 icon: "/images/icons/rocket.svg"
-private: true
 weight: 3
+private: true
 pilot: true
 new: true
 ---
 
 <!-- Announcement Block -->
-**Cohort 0: March 5 &ndash; April 16, 2021 &middot; 15 Students**
-
-{{< announcement content="<p class='title'>Work in Progress!</p>You have stumbled upon a page that is still in the works. The information presented on this page may not be finalized yet! If you would like to learn more ahead of time, please feel free to <a href='/contact'>contact us</a>." class="danger" >}}
+**March 19 &ndash; April 30, 2021 (Cohort 0) &middot; 15 Students**
 
 Execute Big Fellowship is a six-week virtual program to introduce beginner students to the interdisciplinary world of computer science.
 
 Our introductory program places an emphasis on learning about technology at work rather than traditional computer programming course experience. With a highly-personalized, interactive educational model, cohorts will leave with a nuanced understanding of the industry, professional mentorship, and a technical computer programming background to seal the deal.
 
-#### Accepting teacher nominations now!
+{{< button text="Apply Now" url="/fellowship/apply" >}}
+{{< button text="Nominate a Student" url="/fellowship/nominate" class="outline" >}}
 
-{{< button text="Nominate a Student" url="https://airtable.com/shrCYlTB58B1WcbrS" external=true >}}
+_Applications are due February 12th, 2021!_
 
 ## Explore First
 
@@ -49,7 +48,11 @@ Execute Big Fellowship is aimed at students currently attending **9th to 11th gr
 {{< /expand >}}
 
 {{< expand "How do students apply?" >}}
-We require that every student receive a nomination from a teacher to apply. After the teacher nominates them, they will receive an invitation to submit an application within 24 hours. The application will not require any technical knowledge or experience to complete &mdash; we are more interested in learning about the student's creativity and character through the application process.
+We require that every student receive a nomination from a teacher to apply. After they have communicated with their teacher about the program and the nomination process, they can submit their application. The application will not require any technical knowledge or experience to complete &mdash; we are more interested in learning about the student's creativity and character through the application process.
+{{< /expand >}}
+
+{{< expand "When will I be notified if I am accepted?" >}}
+Student applications are due February 12th, and we will release our decisions within 2 days after the application deadline. All applicants will receive an email with their decisions and next steps.
 {{< /expand >}}
 
 {{< expand "How many students will you select?" >}}
@@ -72,4 +75,4 @@ We’re more than happy to help out. Please send an email to [fellowship@execute
 
 ## Credits
 
-_This program is inspired by models developed by initiatives like [CodeDay](https://www.codeday.org/), [Build the Future DeCal](https://thefuture.build/), [Hack Club](https://hackclub.com), as well as various fellowship programs and hackathons. We're proud to be able to devote our resources to making tech education more accessible for all._
+_This program is inspired by models developed by initiatives like [CodeDay](https://www.codeday.org/), [Build the Future DeCal](https://thefuture.build/), [Cal Hacks](https://calhacks.io), [Hack Club](https://hackclub.com), as well as various fellowship programs and hackathons. We're proud to be able to devote our resources to making tech education more accessible for all._
