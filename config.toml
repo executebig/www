@@ -87,9 +87,14 @@ home = ["HTML","RSS","Algolia"]
       weight = 2
 
   [[menu.footer]]
+    name = "Conduct"
+    url = "/conduct/"
+      weight = 3
+
+  [[menu.footer]]
     name = "Privacy"
     url = "/privacy/"
-      weight = 3
+      weight = 4
 
   [[menu.footer]]
     name = "Press"

@@ -18,6 +18,10 @@
   transition: all 0.15s ease;
   font-family: $font-family-heading;
 
+  &:not(:first-of-type) {
+    margin-left: 5px;
+  }
+
   @include media-breakpoint-down(md) {
     &:not(:last-child) {
       margin-bottom: 1rem;
@@ -40,11 +44,15 @@
   &.outline {
     color: $primary;
     background-color: $white;
-    border: 2px solid $primary;
+    -webkit-box-shadow:inset 0px 0px 0px 2px $primary;
+    -moz-box-shadow:inset 0px 0px 0px 2px $primary;
+    box-shadow:inset 0px 0px 0px 2px $primary;
 
     &:hover {
       color: lighten($primary, 10%);
-      border: 2px solid lighten($primary, 10%);
+      -webkit-box-shadow:inset 0px 0px 0px 2px lighten($primary, 10%);
+      -moz-box-shadow:inset 0px 0px 0px 2px lighten($primary, 10%);
+      box-shadow:inset 0px 0px 0px 2px lighten($primary, 10%);
       background-color: $white;
     }
   }
