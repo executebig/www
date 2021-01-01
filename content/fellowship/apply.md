@@ -1,5 +1,8 @@
 ---
 title: "Fellow Application"
+type: "programs"
+icon: "/images/icons/rocket.svg"
+weight: 2
 private: true
 ---
 
@@ -18,6 +21,7 @@ Imagine you are a respected legislator making key decisions on behalf of your mi
 1. Every time music plays, all people within range should be required to dance.
 1. Rollercoasters that do loop-de-loops are far better than rollercoasters that do not.
 1. Cinderella is the best Disney princess of all.
+1. Hufflepuff is the best Hogwarts house of all.
 
 Additionally, you may also choose to propose your own declaration, but try to be as creative as possible! 
 

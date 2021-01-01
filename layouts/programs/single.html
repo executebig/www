@@ -2,11 +2,27 @@
 
 {{ define "main" }}
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <img src="{{.Params.icon}}" class="page-icon" width="128" height="128" />
+  <h1 class="title">{{.Title}} {{ if .Params.pilot }} <span class="badge badge-warning" style="font-size: 1rem; vertical-align: middle;">Invite-Only Pilot</span> {{ end }}</h1>
   <div class="row justify-content-start">
+    {{ $subpages := ($.Site.GetPage "taxonomyTerm" .Section).Pages.ByWeight }}
+    {{ if gt (len $subpages)  1 }}
+    <div class="col-12 col-md-4 order-md-2">
+      <div class="program-sidenav">
+        <h3>Quick Navigation</h3>
+        <div class="nav flex-column" role="tablist" aria-orientation="vertical">
+          {{ $currentPage := . }}
+          {{ $homePage := print "/" .Section "/" }}
+          <a class="nav-link{{ if eq $homePage .URL }} active{{ end }}" href="{{ $homePage }}">Home</a>
+          {{range $subpages }}
+          <a class="nav-link{{ if eq $currentPage.RelPermalink .URL }} active{{ end }}" href="{{.RelPermalink}}">{{.Title}}</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
     <div class="col-12 col-md-8">
       <div class="service service-single">
-        <img src="{{.Params.icon}}" class="page-icon" width="128" height="128" />
-        <h1 class="title">{{.Title}} {{ if .Params.pilot }} <span class="badge badge-warning" style="font-size: 1rem; vertical-align: middle;">Invite-Only Pilot</span> {{ end }}</h1>
         <div class="content">{{.Content}}</div>
       </div>
     </div>

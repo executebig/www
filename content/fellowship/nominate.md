@@ -1,5 +1,8 @@
 ---
-title: "Nomination a Student"
+title: "Nominate a Student"
+type: "programs"
+icon: "/images/icons/rocket.svg"
+weight: 3
 private: true
 ---
 

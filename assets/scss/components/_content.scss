@@ -105,11 +105,6 @@
     margin-top: 30px;
     margin-bottom: 30px;
 
-    @include media-breakpoint-up(md) {
-      width: 120%;
-      margin-left: -10%;
-    }
-
     th,
     td {
       padding: 5px;

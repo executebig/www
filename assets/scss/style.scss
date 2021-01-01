@@ -36,6 +36,7 @@ $sub-footer-text-color: $white;
 @import 'bootstrap/badge';
 @import 'bootstrap/input-group';
 @import 'bootstrap/spinners';
+@import 'bootstrap/nav';
 
 // Libraries
 @import 'libraries/hamburgers/hamburgers';
@@ -69,6 +70,7 @@ $sub-footer-text-color: $white;
 @import 'components/carbon';
 @import 'components/meta';
 @import 'components/expand';
+@import 'components/nav';
 /*! purgecss end ignore */
 
 // Pages

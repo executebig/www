@@ -1,6 +1,6 @@
-{{ $id := substr (md5 .Inner) 0 16 }}
-{{$expandMessage := T "Expand-title"}}
+{{ $expandMessage := T "Expand-title" }}
 {{ $title := .Get 0 | default $expandMessage}}
+{{ $id := delimit (shuffle (split (md5 $title) "" )) "" }}
 <div class="expandable">
     <div class="expand-label" onclick="document.getElementById('expandable-{{$id}}').classList.toggle('active');this.classList.toggle('active')">
         <i style="font-size:x-small;" class="fas fa-chevron-right"></i>

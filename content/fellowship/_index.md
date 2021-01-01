@@ -11,6 +11,7 @@ new: true
 ---
 
 <!-- Announcement Block -->
+
 **March 19 &ndash; April 30, 2021 (Cohort 0) &middot; 15 Students**
 
 Execute Big Fellowship is a six-week virtual program to introduce beginner students to the interdisciplinary world of computer science.
@@ -33,6 +34,19 @@ At Execute Big, our core philosophy postulates that every single student deserve
 ## A Chance for Everyone
 
 A computer science education is hard to come by, and it can make technology seem like a far-away universe to students who don't have access to computer science experiences. So, we shape this fellowship around these students, providing nuanced computer science curriculum and enabling students to acquire both professional and technical know-how for their future.
+
+## Weekly Schedule
+
+This is a tentative weekly schedule at the Fellowship. All office hours are scheduled indivually between the students and the facilitators, and all weekend events will be pre-scheduled.
+
+| Day(s)    | Activity                     | Led By         |
+| --------- | ---------------------------- | -------------- |
+| **M/W/F** | Career/Academic Office Hours | Facilitators   |
+| **Tu/Th** | Technical Office Hours       | Facilitators   |
+| **F/Sa**  | AMAs & Guest Lectures        | Guest Speakers |
+| **Su**    | Workshops                    | Facilitators   |
+
+You can view our weekly curriculum [here »](/fellowship/curriculum).
 
 ---
 
