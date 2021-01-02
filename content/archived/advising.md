@@ -10,7 +10,7 @@ We have chosen to sunset our advising program. Running an event during and after
 what it was before, and we encourage organizers to find the appropriate resources that would benefit their own events the most.
 
 In the meantime, you are always welcome to reach out to us via [email](/contact) for questions. We have also open-sourced most 
-of our organizing material for [Hack Chicago 2018](https://hackchicago.io), which you can always refer to as an additional resource
+of our organizing material for [Hack Chicago 2018](/transparency/chicago/), which you can always refer to as an additional resource
 during your event-planning process.
 
 Thank you for your interest! 
