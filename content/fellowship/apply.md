@@ -14,7 +14,7 @@ As we mentioned before, this application will not require any technical knowledg
 
 ## The Prompt
 
-Imagine you are a respected legislator making key decisions on behalf of your millions of consituents. **Make a brief, thoughtful and compelling argument to advocate for one of the following declarations:**
+Imagine you are a respected legislator making key decisions on behalf of your millions of constituents. **Make a brief, thoughtful and compelling argument to advocate for one of the following declarations:**
 
 1. All citizens' names should be required to be palindromic.
 1. Instead of walking, people should be required to gallop.
