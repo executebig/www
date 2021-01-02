@@ -5,8 +5,7 @@ type: "programs"
 description: "A six-week virtual program to introduce beginner students to the interdisciplinary world of computer science."
 icon: "/images/icons/rocket.svg"
 weight: 3
-private: true
-pilot: true
+pilot: false
 new: true
 ---
 
