@@ -26,7 +26,7 @@ When participating in our events and programs, you may also be asked to use the 
 - [**GSuite**](https://support.google.com/googlecloud/answer/6056650?hl=en) (including Gmail, Drive, Photos, and Forms)
 - [**Pipedrive**](https://www.pipedrive.com/en/privacy)
 - [**Zoom**](https://zoom.us/privacy)
-- [**OpenPhone**](https://www.openphone.co/privacy)
+- [**Dialpad**](https://www.dialpad.com/legal/#privacy)
 - [**Notion**](https://www.notion.so/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091)
 
 Additionally, if we are shipping you physical material, your information (name, address, and shipment details) will be shared with **USPS**.
