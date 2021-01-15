@@ -24,4 +24,6 @@ Your donation will enable us to support more underrepresented students in the lo
 
 Some generous companies provided us with grants or their own products to make Execute Big's operations possible. 
 
+**Interested in partering with us?** Read our [partnership tiers](https://www.notion.so/3c605f3a80bf4faca14d135064193af8) and [get in touch](mailto:partner@executebig.org)!
+
 {{< sponsors >}}
