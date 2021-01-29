@@ -16,7 +16,7 @@
     "postcss-cli": "^8.3.0",
     "postcss-import": "^14.0.0",
     "stripe": "^8.132.0",
-    "vercel": "^21.0.1"
+    "vercel": "^21.2.1"
   },
   "scripts": {
     "dev": "hugo server",

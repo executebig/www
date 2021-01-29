@@ -2,7 +2,7 @@
 title: "Nominate a Student"
 type: "programs"
 icon: "/images/icons/rocket.svg"
-weight: 3
+weight: 4
 private: true
 ---
 
