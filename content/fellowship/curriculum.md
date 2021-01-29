@@ -2,7 +2,7 @@
 title: "Weekly Curriculum"
 type: "programs"
 icon: "/images/icons/rocket.svg"
-weight: 1
+weight: 2
 private: true
 ---
 

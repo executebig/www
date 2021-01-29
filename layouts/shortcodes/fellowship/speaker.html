@@ -1,0 +1,19 @@
+{{ $.Scratch.Add "name" (.Get "name") }}
+{{ $.Scratch.Add "title" (.Get "title") }}
+{{ $.Scratch.Add "company" (.Get "company") }}
+{{ $.Scratch.Add "companyUrl" (.Get "companyUrl") }}
+{{ $.Scratch.Add "picture" (.Get "picture") }}
+{{ $.Scratch.Add "topic" (.Get "topic") }}
+
+<div class="card speaker">
+    {{ if $.Scratch.Get "picture" }}
+    <div class="headshot-wrapper">
+        <img src="{{$.Scratch.Get "picture"}}">
+    </div>
+    {{ end }}
+    <div class="info-wrapper">
+        <h1>{{$.Scratch.Get "name"}}</h1>
+        <p><span class="job">{{$.Scratch.Get "title"}}</span>, <a href="{{$.Scratch.Get "companyUrl"}}" target="_blank" rel="noopener"><span class="company">{{$.Scratch.Get "company"}}</span></a></p>
+        <p><strong>Topic:</strong> {{$.Scratch.Get "topic" | default "TBD"}}</p>
+    </div>
+</div>

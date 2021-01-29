@@ -2,7 +2,7 @@
 title: "Fellow Application"
 type: "programs"
 icon: "/images/icons/rocket.svg"
-weight: 2
+weight: 3
 private: true
 ---
 

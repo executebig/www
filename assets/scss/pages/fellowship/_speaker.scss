@@ -1,0 +1,52 @@
+.speaker {
+  background-color: $white-offset;
+  padding: 1.5rem 2rem;
+  border-radius: 3px;
+  position: relative;
+  vertical-align: middle;
+  margin-bottom: 1.5rem;
+
+  &:after {
+    vertical-align: middle;
+    display: inline-block;
+    width: 0px;
+    height: 100%;
+  }
+
+  .headshot-wrapper {
+    vertical-align: middle;
+    display: inline-block;
+    width: 15%;
+    min-width: 80px;
+
+    img {
+      border-radius: 10px;
+      margin: 0;
+    }
+  }
+
+  .info-wrapper {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 1rem;
+
+    h1 {
+      font-size: 1.5rem;
+      margin-top: 0;
+      margin-bottom: 0.2rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin: 0;
+
+      span.job {
+        font-weight: bold;
+      }
+
+      span.company {
+        font-style: italic;
+      }
+    }
+  }
+}
