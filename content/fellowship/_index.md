@@ -60,6 +60,10 @@ facilitated by the co-founders of the organization: Megan Cui (Harvard '23) and 
 Execute Big Fellowship is aimed at students currently attending **9th to 11th grade of high school**. At this time, we are only able to accept students attending school in the United States, and students will need to receive a nomination from a teacher to apply. If you are unable to find a teacher sponsor but are still interested in applying, please email [fellowship@executebig.org](mailto:fellowship@executebig.org).
 {{< /expand >}}
 
+{{< expand "Can seniors apply?" >}}
+Unfortunately, our fellowship is meant to help students develop their post-secondary plans, whether it's going into the workforce or going to college, and many high school seniors have already applied to specific majors at universities or accepted specific job offers that would make our fellowship less helpful.
+{{< /expand >}}
+
 {{< expand "How do students apply?" >}}
 We require that every student receive a nomination from a teacher to apply. After they have communicated with their teacher about the program and the nomination process, they can submit their application. The application will not require any technical knowledge or experience to complete &mdash; we are more interested in learning about the student's creativity and character through the application process.
 {{< /expand >}}
@@ -74,6 +78,14 @@ We will admit around 15 students for the current cohort. We keep our cohorts sma
 
 {{< expand "How much does it cost?" >}}
 The Fellowship is completely free for students during the pilot. Execute Big is funded by donors and sponsors &mdash; you can donate to us [here »](/donate).
+{{< /expand >}}
+
+{{< expand "When are activities held?" >}}
+We expect that most of our synchronous sessions will be held on Saturdays and Sundays, and if we do schedule sessions during the week, they will happen after school or be asynchronous. Additionally, students can schedule office hours with the facilitators at their own convenience.
+{{< /expand >}}
+
+{{< expand "What is the time commitment required from students?" >}}
+Students should expect to have a time commitment of at least 5 hours per week, with the majority of events occuring on Saturdays and Sundays. Our facilitators will be available throughout the week to schedule office hours with students for additional support.
 {{< /expand >}}
 
 {{< expand "Can I apply if I don't know how to code?" >}}
