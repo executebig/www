@@ -61,7 +61,7 @@ Execute Big Fellowship is aimed at students currently attending **9th to 11th gr
 {{< /expand >}}
 
 {{< expand "Can seniors apply?" >}}
-Unfortunately, our fellowship is meant to help students develop their post-secondary plans, whether it's going into the workforce or going to college, and many high school seniors have already applied to specific majors at universities or accepted specific job offers that would make our fellowship less helpful.
+Unfortunately, our fellowship is meant to help students develop their post-secondary plans, whether it's going into the workforce or going to college, and many high school seniors have already applied to specific majors at universities or accepted specific job offers that would make our fellowship less helpful. For seniors, we recommend that you check out our friends at [CodeDay Labs](https://labs.codeday.org) (not affiliated) -- an online internship program to kick off your career in tech.
 {{< /expand >}}
 
 {{< expand "How do students apply?" >}}
