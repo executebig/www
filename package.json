@@ -9,14 +9,14 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.0",
     "atomic-algolia": "^0.3.19",
-    "autoprefixer": "^10.2.3",
+    "autoprefixer": "^10.2.4",
     "cssnano": "^4.1.10",
     "dotenv": "^8.2.0",
     "postcss": "^8.2.4",
     "postcss-cli": "^8.3.0",
     "postcss-import": "^14.0.0",
     "stripe": "^8.132.0",
-    "vercel": "^21.2.1"
+    "vercel": "^21.2.2"
   },
   "scripts": {
     "dev": "hugo server",
