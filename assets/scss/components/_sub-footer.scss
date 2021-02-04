@@ -20,16 +20,16 @@
     font-size: 14px;
     line-height: 1.5;
     color: $white-offset;
-    opacity: 0.5;
-    transition: all 0.2s ease-in-out;
-    
-    &:hover {
-      opacity: 1;
-    }
 
     a {
-      font-weight: bold;
+      opacity: 0.5;
+      transition: all 0.2s ease-in-out;
       color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        opacity: 1;
+      }
     }
   }
   .social {
