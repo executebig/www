@@ -14,7 +14,7 @@ may be accessed asynchronously.
 
 ## Technology
 
-A computer with internet access is required to participate in the activities (Chromebooks allowed). A webcam is also recommended. The
+A computer with internet access is required to participate in the activities (Chromebooks allowed). A webcam is also recommended.
 If a student is unable to access tech equipments or stable internet on a daily basis, please let us know -- we may be able to provide help. 
 
 ## Network Access
