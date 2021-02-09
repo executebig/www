@@ -20,7 +20,7 @@ Our introductory program places an emphasis on learning about technology at work
 {{< button text="Apply Now" url="/fellowship/apply" >}}
 {{< button text="Nominate a Student" url="/fellowship/nominate" class="outline" >}}
 
-_Applications are due February 12th, 2021!_
+_Application deadline extended — now due February 19th, 2021!_
 
 ## Explore First
 
@@ -69,7 +69,7 @@ We require that every student receive a nomination from a teacher to apply. Afte
 {{< /expand >}}
 
 {{< expand "When will I be notified if I am accepted?" >}}
-Student applications are due February 12th, and we will release our decisions within 2 days after the application deadline. All applicants will receive an email with their decisions and next steps.
+Student applications are due February 19th, and we will release our decisions within 2 days after the application deadline. All applicants will receive an email with their decisions and next steps.
 {{< /expand >}}
 
 {{< expand "How many students will you select?" >}}
