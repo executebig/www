@@ -16,19 +16,19 @@ megan@executebig.org
 
 ## Our Programs
 
-### Fellowship
+### [Fellowship](/fellowship)
 
 A six-week virtual program to introduce beginner students to the interdisciplinary world of computer science.
 
-### Travel Grant
+### [Travel Grant](/grant)
 
 A scholarship awarded to passionate high school hackers in need, giving them the opportunity to attend the best high school hackathons.
 
-### Research
+### [Research](/research)
 
 Building the first open-source dataset on STEM event attendance to identify trends among students of underrepresented demographics and develop ways to improve diversity in CS.
 
-### Events
+### [Events](/events)
 
 Partnering with private institutions to host innovative, purpose-driven CS education events for their local communities.
 
