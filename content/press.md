@@ -16,6 +16,10 @@ megan@executebig.org
 
 ## Our Programs
 
+### Fellowship
+
+A six-week virtual program to introduce beginner students to the interdisciplinary world of computer science.
+
 ### Travel Grant
 
 A scholarship awarded to passionate high school hackers in need, giving them the opportunity to attend the best high school hackathons.
