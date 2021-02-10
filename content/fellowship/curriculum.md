@@ -37,6 +37,7 @@ _Now that we have a simple project working, we're going to explore how engineers
 {{< expand "4/9 Week 4: What Happens When...?" >}}
 _Have you ever wondered how things work in the technology world? This week we focus on answering the "how"s of technology around us._
 
+* What does each component of your computer do, and how do they work together?
 * What happens after you enter "google.com" in your browser and hit enter?
 * What happens after you press "Send" after writing an email?
 * What happens after ... ? 
