@@ -1,0 +1,11 @@
+{{ $.Scratch.Add "category" (.Get "category") }}
+{{ $.Scratch.Add "link" (.Get "link" | default "#") }}
+{{ $.Scratch.Add "content" (.Get "content") }}
+{{ $.Scratch.Add "class" (.Get "class") }}
+
+<a href="{{ $.Scratch.Get "link"}}">
+<div class="pill">
+    <span class="badge badge-pill badge-primary pill-category">{{ $.Scratch.Get "category" }}</span>
+    <span class="pill-text">{{ $.Scratch.Get "content" }}</span>
+</div>
+</a>

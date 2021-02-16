@@ -1,0 +1,31 @@
+.pill {
+  white-space: nowrap;
+  width: auto;
+  display: inline-block;
+  align-items: center;
+  vertical-align: middle;
+  padding: 1px 12px 4px 5px;
+  border-radius: 16px;
+  background: white;
+  margin-bottom: 1rem;
+  border: $primary 1px solid;
+
+  &:hover {
+    opacity: .8;
+  }
+
+  .pill-category {
+    text-transform: uppercase;
+    margin-right: 3px;
+    font-size: 11px;
+  }
+
+  .pill-text {
+    font-size: 12px;
+    color: $primary;
+
+    &::after {
+      content: " ->";
+    }
+  }
+}
