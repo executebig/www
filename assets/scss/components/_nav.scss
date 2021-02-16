@@ -1,5 +1,7 @@
 .program-sidenav {
-    background-color: rgba(38, 109, 211, 0.08);
+    background-color: $white-offset;
+    background-image: $wave-pattern;
+    background-repeat: repeat;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
     border-radius: 10px;

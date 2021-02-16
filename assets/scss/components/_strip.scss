@@ -7,6 +7,8 @@
 }
 .strip-grey {
   background-color: $white-offset;
+  background-image: $wave-pattern;
+  background-repeat: repeat;
 }
 .strip-diagonal {
   transform: skewY(5deg);

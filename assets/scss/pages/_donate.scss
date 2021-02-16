@@ -1,7 +1,9 @@
 .page-donate {
   .donation-stats {
     padding: .2rem 1.5rem;
-    background-color: rgba(	38, 109, 211, .08);
+    background-color: $white-offset;
+    background-image: $wave-pattern;
+    background-repeat: repeat;
     border-radius: 10px;
 
     h1 {

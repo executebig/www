@@ -1,12 +1,12 @@
 .announcement {
   position: relative;
   overflow-wrap: normal;
-  background-color: $white-offset;
   border-radius: 4px;
   width: 100%;
   align-items: center;
   z-index: 2;
   margin-bottom: 1rem;
+  background-color: $white-offset;
 
   h3 {
     font-family: $font-family-heading;

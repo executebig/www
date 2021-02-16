@@ -1,5 +1,7 @@
 .speaker {
   background-color: $white-offset;
+  background-image: $wave-pattern;
+  background-repeat: repeat;
   padding: 1.5rem 2rem;
   border-radius: 3px;
   position: relative;
