@@ -20,3 +20,8 @@ Running since **September 4, 2020**.
 ## [finances.executebig.org](https://umami.executebig.org/share/uq5mv0Gq/Finances)
 
 Running since **September 21, 2020**.
+
+--- 
+
+<!-- Announcement Block -->
+{{< announcement content="<p class='title'>Data Loss Notice (1/18 – 2/16, 2021)</p> Our Docker deployment of the analytics base was automatically upgraded to the latest version of Postgres, triggering a fatal deployment error. Therefore, the analytics data between 1/18 and 2/16, 2021 has been lost. This does not impact our daily operations." class="danger" >}}
