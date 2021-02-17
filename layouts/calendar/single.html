@@ -1,0 +1,14 @@
+{{ define "body_classes" }}page-calendly-embed{{ end }}
+{{ define "title" }}Schedule with {{.Params.name }}{{ end }}
+{{ define "main" }}
+<div class="container pt-4 pt-md-8 pb-2 pb-md-4">
+  <h1 class="title" style="font-size: 2rem;">Schedule with {{.Params.name }}</h1>
+  <p style="margin-bottom: 15px;">You're scheduling a meeting with {{ .Params.name }}. If you have questions, please email <a href="mailto:{{.Params.email}}">{{.Params.email}}</a>.</p>
+  <div class="row justify-content-start">
+      <!-- Calendly inline widget begin -->
+      <div class="calendly-inline-widget" data-url="{{ .Page.Params.calendly }}?hide_event_type_details=1" style="width:100%;height:800px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+      <!-- Calendly inline widget end -->
+  </div>
+</div>
+{{ end }}
