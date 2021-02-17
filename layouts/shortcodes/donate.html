@@ -3,14 +3,19 @@
     <div class="input-group-prepend">
       <span class="input-group-text" id="dollarSign">$</span>
     </div>
-    <input type="number" class="form-control" id="amount" placeholder="0.00" step="0.01" autofocus />
+    <input type="number" class="form-control" id="amount" placeholder="5.00+" step="0.01" autofocus />
   </div>
   <div id="h-captcha" data-sitekey="{{ .Site.Params.hcaptcha.siteKey }}" data-callback="launchDonate" data-size="invisible" class="h-captcha" style="margin-bottom: 1rem;"></div>
   <button class="button cta" id="donateButton">
     Donate
   </button>
-  <input type="checkbox" id="coverFee" name="coverFee">
-  <label for="coverFee">Cover transaction fee +$<span id="fee">0.00</span></label>
+  <label class="checkbox path" for="coverFee">
+    <input type="checkbox" id="coverFee" name="coverFee">
+    <svg viewBox="0 0 21 21">
+      <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+    </svg>
+    <span style="margin-left: 3px;">Cover Fee: +$<span id="fee">0</span></span>
+  </label>
 </div>
 <script src="https://js.stripe.com/v3/"></script>
 <script>
