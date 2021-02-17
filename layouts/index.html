@@ -15,18 +15,21 @@
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+      <div class="col-12 col-md-7 col-lg-6 order-1">
         {{ .Content }}
       </div>
       {{ if .Params.intro_image }}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <object tabindex="-1" id="pig" type="image/svg+xml" data="/images/features/pig-drop.svg" class="home-intro intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}">
-          <img src="/images/features/pig-drop.svg" width="308" height="360" alt="Execute Big's 'Flying Pig' mascot" />
-        </object>
-        <script src="https://cdn.jsdelivr.net/npm/vivus@0.4.5/dist/vivus.min.js" integrity="sha256-EQbVGDv8AeB/IA3V0dU2OSI1PDKb8wEG3sRDAdkgoGc=" crossorigin="anonymous" async></script>
-        <script async>
-          new Vivus('pig', { type: 'oneByOne', duration: 150, pathTimingFunction: Vivus.EASE });
-        </script>
+      <div class="col-12 col-md-5 col-lg-6 order-2 position-relative">
+        <script src="https://fast.wistia.com/embed/medias/e6ad1ph5ud.jsonp" async></script>
+        <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+        <div class="home-video wistia_responsive_padding" style="padding:50% 0 0 0;position:relative;">
+          <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+            <div class="wistia_embed wistia_async_e6ad1ph5ud seo=false videoFoam=true autoPlay=true muted=true" style="height:100%;position:relative;width:100%">
+              <div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/e6ad1ph5ud/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div>
+            </div>
+          </div>
+        </div>
+        <p class="video-caption"><a href="https://www.youtube.com/watch?v=c7nxPJwGcts" target="_blank" rel="noopener">Video recap</a> from <a href="/transparency/chicago/">Hack Chicago</a>, the event that started the vision behind Execute Big.</p>
       </div>
       {{ end }}
     </div>

@@ -1,4 +1,46 @@
 .page-home {
+  .video-caption {
+    margin-top: 3px;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: $hint;
+    text-align: right;
+  }
+
+  .home-video {
+    background: none !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+    pointer-events: none !important;
+    margin-top: 3rem;
+
+    @include media-breakpoint-down(md) {
+      margin-top: 0;
+    }
+
+    .w-video-wrapper {
+      overflow: hidden;
+    }
+
+    video {
+      transform: scale(1.15);
+    }
+
+    video,
+    .w-video-wrapper,
+    .wistia_embed,
+    .wistia_responsive_wrapper,
+    .wistia_swatch {
+      border-radius: 10px !important;
+    }
+
+    div[data-handle="statusBar"],
+    div[data-handle="wistiaLogo"],
+    .w-bottom-bar {
+      visibility: hidden !important;
+    }
+  }
+
   .journal {
     p.metadata {
       font-family: $font-family-heading;

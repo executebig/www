@@ -4,8 +4,8 @@ const feeAmount = document.getElementById("fee");
 
 const roundTwoDigits = (v) => +(Math.round(v + "e+2") + "e-2");
 const calcFee = (v) => v == 0? 0 : roundTwoDigits((v + 0.3) / (1 - 0.022) - v);
-const validate = (value) => !isNaN(value) && value >= 0.5 && value <= 999999.99;
-const normalizeAmount = (v) => (v < 0.5 ? 0 : v > 999999.99 ? 999999.99 : v);
+const validate = (value) => !isNaN(value) && value >= 5 && value <= 999999.99;
+const normalizeAmount = (v) => (v < 5 ? 0 : v > 999999.99 ? 999999.99 : v);
 
 amountField.addEventListener("keyup", () => {
   feeAmount.innerText = calcFee(normalizeAmount(Number(amountField.value)));
