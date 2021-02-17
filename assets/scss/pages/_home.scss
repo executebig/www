@@ -12,7 +12,7 @@
     -webkit-user-select: none !important;
     user-select: none !important;
     pointer-events: none !important;
-    margin-top: 3rem;
+    margin-top: 3.2rem;
 
     @include media-breakpoint-down(md) {
       margin-top: 0;
@@ -24,14 +24,6 @@
 
     video {
       transform: scale(1.15);
-    }
-
-    video,
-    .w-video-wrapper,
-    .wistia_embed,
-    .wistia_responsive_wrapper,
-    .wistia_swatch {
-      border-radius: 10px !important;
     }
 
     div[data-handle="statusBar"],
