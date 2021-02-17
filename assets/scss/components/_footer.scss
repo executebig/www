@@ -1,36 +1,32 @@
 .footer {
-  background: $footer-background-color;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  background-color: $footer-background-color;
+  background-image: $topo-pattern;
+  padding-top: 35px;
+  padding-bottom: 25px;
 
-  .footer-inner {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: flex-start;
+  @include media-breakpoint-down(sm) {
+    padding-top: 20px;
+  }
 
-    .footer-title {
-      text-align: baseline;
+  img.footer-steak {
+    width: 100%;
+    max-height: 180px;
+    opacity: 1;
+    user-select: none;
+    -webkit-user-drag: none;
 
-      .tagline {
-        display: none;
-      }
+    @include media-breakpoint-down(sm) {
+      display: none;
     }
+  }
 
-    @include media-breakpoint-up(sm) {
-      justify-content: space-between;
-      flex-direction: row;
-      align-items: center;
+  a {
+    color: $footer-text-color;
+    text-decoration: none;
+    line-height: 30px;
 
-      .footer-title {
-        .tagline {
-          display: inline;
-          font-size: 16px;
-          font-family: $font-family-base;
-          color: $white-offset;
-          font-weight: normal;
-        }
-      }
+    &:hover {
+      text-decoration: underline;
     }
   }
 
@@ -42,40 +38,22 @@
     li {
       color: $footer-text-color;
       font-size: 1rem;
+      display: block;
+      margin-bottom: 7px;
 
-      a {
-        color: $footer-text-color;
-        text-decoration: none;
-        padding: 12px 14px 12px 0;
-        display: block;
-
-        &:hover {
-          text-decoration: underline;
-        }
+      &.active {
+        font-weight: bold;
       }
-    }
 
-    @include media-breakpoint-up(sm) {
-      height: inherit;
-      display: flex;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      align-items: center;
-      justify-content: flex-end;
-
-      li {
-        list-style: none;
-        margin-right: 10px;
-
-        &:last-of-type {
-          margin-right: 0;
-        }
-
-        a {
-          display: inline-block;
-          height: 40px;
-          padding: 10px 8px 10px 8px;
+      &.footer-title {
+        font-size: 1.3rem;
+        margin-bottom: 14px;
+        font-size: 1.3rem;
+        font-family: $font-family-heading;
+        font-weight: bold;
+        margin-top: 1rem;
+        @include media-breakpoint-up(sm) {
+          margin-top: 0;
         }
       }
     }

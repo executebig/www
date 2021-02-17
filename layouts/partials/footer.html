@@ -1,21 +1,53 @@
+{{ $currentPage := . }}
 <div class="footer">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="footer-inner">
-          <div>
-            <div class="brand-title footer-title">{{.Site.Title}}<span class="tagline"> &mdash; Accessible CS exploration programs for all.</span></div>
-          </div>
+    <div class="footer-inner">
+      <div class="row">
+        <div class="col-6 col-md-3">
           <ul>
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.footer }}
-            <li class="menu-item-{{ .Name | lower }}{{ if $currentPage.IsMenuCurrent "footer" . }} active{{ end }}">
+            <li class="footer-title">
+              {{ .Site.Title }}
+            </li>
+            {{ range .Site.Menus.about }}
+            <li class="menu-item-{{ .Name | lower }}{{ if eq $currentPage.RelPermalink .URL }} active{{ end }}">
               <a href="{{.URL}}">
                 {{ .Name }}
               </a>
             </li>
             {{end}}
           </ul>
+        </div>
+        <div class="col-6 col-md-3">
+          <ul>
+            <li class="footer-title">
+              Programs
+            </li>
+            {{ $programs := where (where .Site.Pages "Type" "programs") ".Params.layout" "single" }}
+            {{ range (sort $programs ".Params.weight") }}
+            <li class="menu-item-{{ .Title | lower }}{{ if eq $currentPage.RelPermalink .URL }} active{{ end }}">
+              <a href="{{.URL}}">
+                {{ .Title }}
+              </a>
+            </li>
+            {{end}}
+          </ul>
+        </div>
+        <div class="col-6 col-md-3">
+          <ul>
+            <li class="footer-title">
+              Resources
+            </li>
+            {{ range .Site.Menus.resources }}
+            <li class="menu-item-{{ .Name | lower }}{{ if eq $currentPage.RelPermalink .URL }} active{{ end }}">
+              <a href="{{.URL}}">
+                {{ .Name }}
+              </a>
+            </li>
+            {{end}}
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <img src="/images/brand/icon.svg" class="footer-steak">
         </div>
       </div>
     </div>
