@@ -1,5 +1,4 @@
 {{ define "body_classes" }}page-programs-single{{ end }}
-
 {{ define "main" }}
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
   <img src="{{.Params.icon}}" class="page-icon" width="128" height="128" />
@@ -18,8 +17,12 @@
           {{ $currentPage := . }}
           {{ $homePage := print "/" .Section "/" }}
           <a class="nav-link{{ if eq $homePage .URL }} active{{ end }}" href="{{ $homePage }}">Home</a>
-          {{range $subpages }}
-          <a class="nav-link{{ if eq $currentPage.RelPermalink .URL }} active{{ end }}" href="{{.RelPermalink}}">{{.Title}}</a>
+          {{ range $subpages }}
+            {{ if isset .Params "symboliclink" }}
+              <a class="nav-link" href="{{ .Params.symboliclink }}" {{ if .Params.external }} target="_blank" {{end}}>{{ markdownify .Title }}</a>
+            {{else}}
+              <a class="nav-link{{ if eq $currentPage.RelPermalink .URL }} active{{ end }}" href="{{.RelPermalink}}">{{.Title}}</a>
+            {{ end }}
           {{ end }}
         </div>
       </div>
@@ -33,14 +36,13 @@
   </div>
 </div>
 {{ end }}
-
 {{ define "footer_js" }}
 {{ $library := resources.Get "js/libs/library.js" }}
 {{ $services := resources.Get "js/pages/services.js" }}
 {{ $servicesJS := slice $library $services |resources.Concat "js/services.js" }}
 {{ if .Site.IsServer }}
-  <script type="text/javascript" src="{{ $servicesJS.RelPermalink }}"></script>
-  {{ else }}
-  <script type="text/javascript" src="{{ ($servicesJS | minify | fingerprint).RelPermalink }}"></script>
-  {{ end }}
+<script type="text/javascript" src="{{ $servicesJS.RelPermalink }}"></script>
+{{ else }}
+<script type="text/javascript" src="{{ ($servicesJS | minify | fingerprint).RelPermalink }}"></script>
+{{ end }}
 {{ end }}
