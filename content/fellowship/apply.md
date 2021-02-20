@@ -6,6 +6,8 @@ weight: 3
 private: true
 ---
 
+{{< announcement content="<h3>Late applcations are still being accepted.</h3>If you received an email from us, we are still waiting for your application! Please submit your application by Saturday, 2/20, 11:59 PM Eastern Time to be considered for admission.">}}
+
 ## Welcome! 
 
 We're excited that you're invited to apply to become an Execute Big Fellow. We promise that it will be an incredible journey.

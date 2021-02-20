@@ -3,7 +3,6 @@ title: "Weekly Curriculum"
 type: "programs"
 icon: "/images/icons/rocket.svg"
 weight: 2
-private: true
 ---
 
 The curriculum only includes the technical portion of the program -- our speakers and the topics that they cover are going to be announced closer to the program. It is also tentative -- we may modify these as we continue to improve our material.

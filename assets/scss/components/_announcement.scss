@@ -7,6 +7,8 @@
   z-index: 2;
   margin-bottom: 1rem;
   background-color: $white-offset;
+  background-image: $wave-pattern;
+  background-repeat: repeat;
 
   h3 {
     font-family: $font-family-heading;

@@ -18,10 +18,12 @@
           {{ $homePage := print "/" .Section "/" }}
           <a class="nav-link{{ if eq $homePage .URL }} active{{ end }}" href="{{ $homePage }}">Home</a>
           {{ range $subpages }}
-            {{ if isset .Params "symboliclink" }}
-              <a class="nav-link" href="{{ .Params.symboliclink }}" {{ if .Params.external }} target="_blank" {{end}}>{{ markdownify .Title }}</a>
-            {{else}}
-              <a class="nav-link{{ if eq $currentPage.RelPermalink .URL }} active{{ end }}" href="{{.RelPermalink}}">{{.Title}}</a>
+            {{ if not .Params.private }}
+              {{ if isset .Params "symboliclink" }}
+                <a class="nav-link" href="{{ .Params.symboliclink }}" {{ if .Params.external }} target="_blank" {{end}}>{{ markdownify .Title }}</a>
+              {{else}}
+                <a class="nav-link{{ if eq $currentPage.RelPermalink .URL }} active{{ end }}" href="{{.RelPermalink}}">{{.Title}}</a>
+              {{ end }}
             {{ end }}
           {{ end }}
         </div>

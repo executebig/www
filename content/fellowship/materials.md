@@ -3,7 +3,6 @@ title: "Materials & Requirements"
 type: "programs"
 icon: "/images/icons/rocket.svg"
 weight: 3
-private: true
 ---
 
 ## Participation
