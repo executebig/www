@@ -6,7 +6,7 @@ weight: 4
 private: true
 ---
 
-{{< announcement content="<h3>Application for Cohort 0 have closed.</h3>Decisions will be released by 2/21. Missed the deadline? Please <a href=\"/subscribe\">subscribe</a> to our email list to hear about our next cohort when it launches!">}}
+{{< announcement content="<h3>Application for Cohort 0 has closed.</h3>Decisions will be released by 2/21. Missed the deadline? Please <a href=\"/subscribe\">subscribe</a> to our email list to hear about our next cohort when it launches!">}}
 
 Thanks for your interest in supporting your student to apply for Execute Big Fellowship! 
 
