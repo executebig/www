@@ -1,4 +1,16 @@
 .page-home {
+  .intro {
+    h1 {
+      em {
+        font-style: normal;
+        border-radius: 8px;
+        background-color: $white-offset;
+        background-image: $wave-pattern;
+        background-repeat: repeat;
+      }
+    }
+  }
+
   .video-caption {
     margin-top: 3px;
     font-size: 0.8rem;

@@ -7,6 +7,6 @@ intro_image_hide_on_mobile: true
 
 {{< pill category="new" content="Announcing Fellowship: Cohort 0" link="/fellowship" >}}
 
-# Accessible CS exploration programs for all.
+# *Accessible* CS exploration programs *for all*.
 
 Execute Big is a **minimal** & **transparent** student-run nonprofit founded to enable all students to experience and explore computer science education. 
