@@ -4,7 +4,14 @@
     "image": "/images/team/brian.png",
     "school": "Wootton High School",
     "class": 21,
-    "jobtitle": "Engineering"
+    "jobtitle": "Engineering, Fellowship Facilitator"
+  },
+  {
+    "name": "Fiona Xie",
+    "image": "/images/team/fiona.jpeg",
+    "school": "Carnegie Mellon University",
+    "class": 23,
+    "jobtitle": "Fellowship Facilitator"
   },
   {
     "name": "Sean Kim",
