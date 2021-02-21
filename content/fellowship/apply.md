@@ -6,7 +6,7 @@ weight: 3
 private: true
 ---
 
-{{< announcement content="<h3>Late applcations are still being accepted.</h3>If you received an email from us, we are still waiting for your application! Please submit your application by Saturday, 2/20, 11:59 PM Eastern Time to be considered for admission.">}}
+{{< announcement content="<h3>Application for Cohort 0 has closed.</h3>Decisions will be released by 2/21. Missed the deadline? Please <a href=\"/subscribe\">subscribe</a> to our email list to hear about our next cohort when it launches!">}}
 
 ## Welcome! 
 
@@ -33,4 +33,6 @@ When you're ready, you can submit your application at the link below, where you 
 
 ---
 
+<!--
 {{< button text="Submit my Application »" url="https://airtable.com/shrZ2rCiBybiFBH4G" external=true >}}
+-->
