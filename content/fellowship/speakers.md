@@ -9,7 +9,7 @@ Every week, we will have the pleasure to welcome amazing speakers from the tech 
 
 {{< fellowship/speaker name="Mohib Jafri" title="Founder" company="Messages.so" companyUrl="https://messages.so/" picture="/images/fellowship/speakers/mohib.jpeg" topic="Week 2 – Ideating & Building Something Simple" >}}
 
-{{< fellowship/speaker name="Kedron Abbott" title="Software Engineer" company="Chan Zuckerberg Initiative" companyUrl="https://chanzuckerberg.com/" picture="/images/fellowship/speakers/shelli.jpg"  topic="Week 3 – Debugging & Active Problem Solving" >}}
+{{< fellowship/speaker name="Kedron Abbott" title="Software Engineer" company="Chan Zuckerberg Initiative" companyUrl="https://chanzuckerberg.com/" picture="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"  topic="Week 3 – Debugging & Active Problem Solving" >}}
 
 {{< fellowship/speaker name="Audrey Thompson" title="Associate Software Engineer" company="Riot – Legends of Runeterra" companyUrl="https://www.riotgames.com/" picture="/images/fellowship/speakers/audrey.jpg" topic="Week 5 – Working in the Video Games Industry" >}}
 
