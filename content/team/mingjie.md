@@ -6,7 +6,7 @@ draft: false
 image: "/images/team/mingjie.jpg"
 school: 'University of California, Berkeley'
 class: 24
-jobtitle: "Co-founder & Head of Operations"
+jobtitle: "Head of Operations & Engineering"
 linkedinurl: "https://www.linkedin.com/in/itsmingjie"
 location: "Berkeley, CA"
 promoted: true

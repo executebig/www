@@ -6,7 +6,7 @@ draft: false
 image: "/images/team/megan.jpg"
 school: 'Harvard College'
 class: 23
-jobtitle: "Co-founder & Head of Development"
+jobtitle: "Head of Programs & Development"
 linkedinurl: "https://www.linkedin.com/in/megancui"
 location: "Cambridge, MA"
 promoted: true
