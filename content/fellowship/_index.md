@@ -11,7 +11,7 @@ new: true
 
 <!-- Announcement Block -->
 
-**March 19 &ndash; April 30, 2021 (Cohort 0) &middot; 15 Students**
+**March 19 &ndash; April 30, 2021 (Cohort 0) &middot; 14 Students**
 
 Execute Big Fellowship is a six-week virtual program to introduce beginner students to the interdisciplinary world of computer science.
 
@@ -19,9 +19,9 @@ Our introductory program places an emphasis on learning about technology at work
 
 {{< announcement content="<h3>Application for Cohort 0 has closed.</h3>Decisions will be released by 2/21. Missed the deadline? Please <a href=\"/subscribe\">subscribe</a> to our email list to hear about our next cohort when it launches!<br />">}}
 
-<!-- 
+<!--
 {{< button text="Apply Now" url="/fellowship/apply" class="disabled" >}}
-{{< button text="Nominate a Student" url="/fellowship/nominate" class="outline disabled" >}} 
+{{< button text="Nominate a Student" url="/fellowship/nominate" class="outline disabled" >}}
 -->
 
 ## Explore First
@@ -40,12 +40,12 @@ A computer science education is hard to come by, and it can make technology seem
 
 This is a tentative weekly schedule at the Fellowship. All office hours are scheduled indivually between the students and the facilitators, and all weekend events will be pre-scheduled.
 
-| Day(s)    | Activity                     | Led By         |
-| --------- | ---------------------------- | -------------- |
-| **M/W/F** | Career/Academic Office Hours | Facilitators   |
-| **Tu/Th** | Technical Office Hours       | Facilitators   |
-| **F/Sa**  | AMAs & Guest Lectures        | Guest Speakers |
-| **Su**    | Workshops                    | Facilitators   |
+| Day(s)        | Activity                     | Led By         |
+| ------------- | ---------------------------- | -------------- |
+| **M/Tu/W/Th** | Career/Academic Office Hours | Facilitators   |
+| **M/Tu/W/Th** | Technical Office Hours       | Facilitators   |
+| **F/Sa**      | AMAs & Guest Lectures        | Guest Speakers |
+| **Su**        | Workshops                    | Facilitators   |
 
 You can view our weekly curriculum [here »](/fellowship/curriculum).
 
