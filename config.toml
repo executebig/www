@@ -96,27 +96,32 @@ home = ["HTML","RSS","Algolia"]
     url = "/privacy/"
       weight = 4
 
-  # Resources Menu
-  [[menu.resources]]
-      name = "Transparency"
-      url = "/transparency/"
-      weight = 1
-      
-  [[menu.resources]]
-      name = "Journals"
-      url = "/journals/"
-      weight = 2
-  
-  [[menu.resources]]
-    name = "Brand"
-    url = "/brand/"
-      weight = 3
-
-  [[menu.resources]]
+  [[menu.about]]
     name = "Press"
     url = "/press/"
       weight = 5
 
+  # Resources Menu
+  
+  [[menu.resources]]
+    name = "Brand"
+    url = "/brand/"
+      weight = 1
+
+  [[menu.resources]]
+      name = "Finances"
+      url = "/transparency/finances/"
+      weight = 2
+  
+  [[menu.resources]]
+    name = "Codebase"
+    url = "/transparency/codebase/"
+    weight = 3
+      
+  [[menu.resources]]
+      name = "Journals"
+      url = "/journals/"
+      weight = 4
 
 [taxonomies]
   journals_tags = "journals/tags"
