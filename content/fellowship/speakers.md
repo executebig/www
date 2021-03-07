@@ -11,6 +11,8 @@ Every week, we will have the pleasure to welcome amazing speakers from the tech 
 
 {{< fellowship/speaker name="Kedron Abbott" title="Software Engineer" company="Chan Zuckerberg Initiative" companyUrl="https://chanzuckerberg.com/" picture="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"  topic="Week 3 – Debugging & Active Problem Solving" >}}
 
+{{< fellowship/speaker name="Liam Mulshine" title="Advanced Hardware Engineer" company="Boston Dynamics" companyUrl="https://www.bostondynamics.com/" picture="/images/fellowship/speakers/liam.png" topic="Week 4 – Working with Hardware" >}}
+
 {{< fellowship/speaker name="Audrey Thompson" title="Associate Software Engineer" company="Riot – Legends of Runeterra" companyUrl="https://www.riotgames.com/" picture="/images/fellowship/speakers/audrey.jpg" topic="Week 5 – Working in the Video Games Industry" >}}
 
 {{< fellowship/speaker name="Shelli Skinner" title="Senior Software Engineer" company="Quizlet" companyUrl="https://quizlet.com" picture="/images/fellowship/speakers/shelli.jpg"  topic="Week 6 – Problem Solving & Fields of Work" >}}
