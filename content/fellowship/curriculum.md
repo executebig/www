@@ -37,7 +37,7 @@ _Now that we have a simple project working, we're going to explore how engineers
 _Have you wondered how the devices around you function?_
 
 * How do physical devices interact with the real-world?
-* In the simplest way possible, how do we build something simple with a piece of hardware?
+* How do we build something simple with a piece of hardware?
 * What is the Circuit Playground Express, and what can we do with it?
 {{< /expand >}}
 
