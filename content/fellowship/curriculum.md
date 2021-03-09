@@ -33,13 +33,12 @@ _Now that we have a simple project working, we're going to explore how engineers
 * How do we expand our current knowledge of how things work?
 {{< /expand >}}
 
-{{< expand "4/9 Week 4: What Happens When...?" >}}
-_Have you ever wondered how things work in the technology world? This week we focus on answering the "how"s of technology around us._
+{{< expand "4/9 Week 4: Working with Hardware" >}}
+_Have you wondered how the devices around you function?_
 
-* What does each component of your computer do, and how do they work together?
-* What happens after you enter "google.com" in your browser and hit enter?
-* What happens after you press "Send" after writing an email?
-* What happens after ... ? 
+* How do physical devices interact with the real-world?
+* In the simplest way possible, how do we build something simple with a piece of hardware?
+* What is the Circuit Playground Express, and what can we do with it?
 {{< /expand >}}
 
 {{< expand "4/16 Week 5: Case Study – Among Us" >}}
