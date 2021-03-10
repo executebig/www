@@ -27,5 +27,6 @@ we will be conducting activities through them:
 - https://github.com/
 - https://notion.so/
 - https://zoom.us/
+- https://makecode.adafruit.com/
 
 If you have any questions, please contact [fellowship@executebig.org](mailto:fellowship@executebig.org).
