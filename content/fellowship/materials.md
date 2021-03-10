@@ -22,7 +22,9 @@ Please make sure the following websites and services are accessible within the n
 we will be conducting activities through them:
 
 - https://executebig.org/
-- https://repl.it/
+- https://replit.com/
+    - https://repl.it/
+    - https://repl.co/
 - https://discord.com/
 - https://github.com/
 - https://notion.so/
