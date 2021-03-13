@@ -9,14 +9,10 @@ We rely on people like you to bring life-changing experiences to students in nee
 
 {{< donate "Donate" >}}
 
----
- 
 {{< climate >}}
 
-**You may also [donate by check](/donate/check)**. 
-
 Your donation is tax-deductible in the United States to the extent permitted by law. Execute Big is a 501(c)(3) nonprofit with the EIN 85-2160468. 
-[State nonprofit disclosures](/donate/legal).
+[State nonprofit disclosures](/donate/legal). You may also [donate by check](/donate/check). 
 
 
 ## Committed to Supporting Students
