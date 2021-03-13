@@ -1,0 +1,14 @@
+p.climate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+  svg.badge {
+    margin-right: 10px;
+  }
+
+  span {
+    font-size: 13px;
+  }
+}
