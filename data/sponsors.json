@@ -5,6 +5,11 @@
     "link": "https://linode.com/"
   },
   {
+    "name": "Replit",
+    "logo": "replit.svg",
+    "link": "https://replit.com/"
+  },
+  {
     "name": "Dialpad",
     "logo": "dialpad.svg",
     "link": "https://dialpad.com/"
