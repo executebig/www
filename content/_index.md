@@ -5,7 +5,7 @@ intro_image_absolute: false # edit /assets/scss/components/_intro-image.scss for
 intro_image_hide_on_mobile: true
 ---
 
-{{< pill category="new" content="Announcing Fellowship: Cohort 0" link="/fellowship" >}}
+{{< pill category="update" content="Fellowship Cohort 0 Underway — Auditing Open" link="/fellowship" >}}
 
 # *Accessible* CS exploration programs *for all*.
 
