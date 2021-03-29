@@ -20,5 +20,5 @@ curriculum or program logistics, and we'd be happy to chat with you about improv
 
 ## Privacy
 
-Due to student privacy concerns, we are unable to share our all of our recorded materials publicly. If you are 
+Due to student privacy concerns, we are unable to share all of our recorded materials publicly. If you are 
 interested in auditing Fellowship, please email fellowship@executebig.org.

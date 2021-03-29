@@ -96,11 +96,6 @@ home = ["HTML","RSS","Algolia"]
     url = "/privacy/"
       weight = 4
 
-  [[menu.about]]
-    name = "Press"
-    url = "/press/"
-      weight = 5
-
   # Resources Menu
   
   [[menu.resources]]
@@ -109,19 +104,19 @@ home = ["HTML","RSS","Algolia"]
       weight = 1
 
   [[menu.resources]]
-      name = "Finances"
-      url = "/transparency/finances/"
+      name = "Transparency"
+      url = "/transparency/"
       weight = 2
-  
-  [[menu.resources]]
-    name = "Codebase"
-    url = "/transparency/codebase/"
-    weight = 3
       
   [[menu.resources]]
       name = "Journals"
       url = "/journals/"
       weight = 4
+      
+  [[menu.resources]]
+    name = "Press"
+    url = "/press/"
+      weight = 5
 
 [taxonomies]
   journals_tags = "journals/tags"
