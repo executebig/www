@@ -53,6 +53,19 @@ This analytics software gives us insight about our visitors only in general. Uma
 identifiable information and anonymizes all data collected. Users cannot be identified and are never tracked across websites. 
 Umami does not use any cookies in the tracking code, either.
 
+In order to better understand how our visitors have been using our website, we use [Hotjar](https://www.hotjar.com) to collect information like
+how much time they spend on which pages, which links they choose to click, etc., and this enables us to continue improving
+our website's accessibility.
+
+Hotjar uses cookies and other technologies to collect data on our users’ behavior and their devices. This includes a device's IP address 
+(processed during your session and stored in a de-identified form), device screen size, device type (unique device identifiers), browser 
+information, geographic location (country only), and the preferred language used to display our website. Hotjar stores this information 
+on our behalf in a pseudonymized user profile. Hotjar is contractually forbidden to sell any of the data collected on our behalf.
+
+We use Segment to send data from our application and website listed on this page to some third parties listed on this page. 
+You can read Segment's privacy policy at https://segment.com/legal/privacy/. We collect most data for research purposes – these information
+will be deleted as soon as we finish processing them. 
+
 ### hCaptcha
 
 We use the hCaptcha anti-bot service (hereinafter "hCaptcha") on our website. This service is provided by Intuition Machines, Inc., a Delaware US Corporation ("IMI"). hCaptcha is used to check whether the data entered on our website (such as on a login page or contact form) has been entered by a human or by an automated program. To do this, hCaptcha analyzes the behavior of the website or mobile app visitor based on various characteristics. This analysis starts automatically as soon as the website or mobile app visitor enters a part of the website or app with hCaptcha enabled. 
