@@ -10,7 +10,7 @@
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "atomic-algolia": "^0.3.19",
     "autoprefixer": "^10.2.5",
-    "cssnano": "^4.1.10",
+    "cssnano": "^4.1.11",
     "dotenv": "^8.2.0",
     "hcaptcha": "^0.0.2",
     "is-svg": "^4.2.2",
