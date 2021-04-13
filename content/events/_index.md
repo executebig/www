@@ -26,6 +26,16 @@ Our events have reached 1,000+ students across the country.
 
 {{< carousel dir="/images/events" duration="2500" height="400px" >}}
 
+## Hear what educators have to say...
+
+{{< testimonial name="Dan Adiletta" title="Academic Technology Coordinator" school="/images/schools/gilmour.png" url="https://gilmour.org" >}}
+Execute Big lived up to the promise of their name. They bolstered the reputation of Gilmour Academy as a technology leader. They turned a corner of our campus into a safe, welcoming space crackling with the electricity of student creativity. The white-glove service in preparing the event, from security to snacks, put our administration at ease. The contacts they developed around our community have built lasting partnerships for the school. **Execute Big has the playbook for inspiring makers.**
+{{< /testimonial >}}
+
+{{< testimonial name="Steve Eno" title="Science Department Chair" school="/images/schools/mcdonogh.png" url="https://mcdonogh.org/" >}}
+When we made the decision to host a hackathon at McDonogh, we quickly realized we didn’t have the knowledge or experience to host a meaningful event. Thankfully we had a connection to Megan, Sean, and Mingjie who were willing to help us take our idea and make it a reality... **Their experience helped us know exactly what to do and when we should have everything lined up in time for the event to run smoothly.** They thought of everything from the hourly agenda and snacks, to professional judges and marketing, and they were present for the full 24 hour hackathon and made sure that every student felt comfortable and supported. The event was a huge success thanks to the team and we could not have done it without them.
+{{< /testimonial >}}
+
 ## Work with us.
 
 We know that fostering creativity and innovation at a young age sets the priceless foundation for student empowerment and success. We’ve already reached thousands of students, but we need your partnership to continue creating life-changing experiences.

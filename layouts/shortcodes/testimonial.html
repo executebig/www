@@ -1,0 +1,20 @@
+{{ $.Scratch.Add "name" (.Get "name") }}
+{{ $.Scratch.Add "title" (.Get "title") }}
+{{ $.Scratch.Add "school" (.Get "school") }}
+{{ $.Scratch.Add "url" (.Get "url") }}
+<div class="testimonial">
+    <div class="content">
+        {{.Inner | markdownify}}
+    </div>
+    <div class="meta">
+        <div class="text">
+            <span class="author">{{ $.Scratch.Get "name" }}</span><br />
+            <span class="jobtitle">{{ $.Scratch.Get "title" }}</span>
+        </div>
+        <div class="school">
+            <a href="{{ $.Scratch.Get "url" }}" target="_blank" rel="noopener">
+                <img class="logo" src="{{ $.Scratch.Get "school" }}" />
+            </a>
+        </div>
+    </div>
+</div>

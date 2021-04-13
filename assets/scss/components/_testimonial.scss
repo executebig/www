@@ -1,0 +1,47 @@
+.testimonial {
+  background-color: $white-offset;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+
+  .content {
+    line-height: 1.75;
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  .meta {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2rem 0 0.3rem;
+
+    .text {
+      line-height: 1.5;
+
+      .author {
+        font-weight: bold;
+      }
+
+      .jobtitle {
+        margin: 0;
+      }
+    }
+
+    .school {
+      vertical-align: middle;
+      height: 2.5rem;
+
+      a {
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+
+        img {
+          max-height: 100%;
+          width: auto;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
