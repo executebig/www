@@ -24,24 +24,11 @@
     -webkit-user-select: none !important;
     user-select: none !important;
     pointer-events: none !important;
-    margin-top: 3.2rem;
+    overflow: hidden;
 
-    @include media-breakpoint-down(md) {
-      margin-top: 0;
-    }
-
-    .w-video-wrapper {
-      overflow: hidden;
-    }
-
-    video {
-      transform: scale(1.15);
-    }
-
-    div[data-handle="statusBar"],
-    div[data-handle="wistiaLogo"],
-    .w-bottom-bar {
-      visibility: hidden !important;
+    iframe {
+      border-radius: 10px;
+      width: 100%;
     }
   }
 

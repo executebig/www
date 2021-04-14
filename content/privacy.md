@@ -39,7 +39,6 @@ We host our software systems in the cloud via the following infrastructure provi
 - [**Cloudflare**](https://www.cloudflare.com/privacypolicy/)
 - [**Vercel**](https://vercel.com/legal/privacy-policy)
 - [**DigitalOcean**](https://www.digitalocean.com/legal/privacy-policy)
-- [**Wistia**](https://wistia.com/privacy)
 
 ## Tracking & Data Collection
 
