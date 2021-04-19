@@ -4,6 +4,7 @@
 {{ $.Scratch.Add "companyUrl" (.Get "companyUrl") }}
 {{ $.Scratch.Add "picture" (.Get "picture") }}
 {{ $.Scratch.Add "topic" (.Get "topic") }}
+{{ $.Scratch.Add "recording" (.Get "recording") }}
 
 <div class="card speaker">
     {{ if $.Scratch.Get "picture" }}
@@ -15,5 +16,6 @@
         <h1>{{$.Scratch.Get "name"}}</h1>
         <p><span class="job">{{$.Scratch.Get "title"}}</span>, <a href="{{$.Scratch.Get "companyUrl"}}" target="_blank" rel="noopener"><span class="company">{{$.Scratch.Get "company"}}</span></a></p>
         <p><strong>Topic:</strong> {{$.Scratch.Get "topic" | default "TBD"}}</p>
+        <p>{{if ($.Scratch.Get "recording")}}<a href="{{$.Scratch.Get "recording"}}" target="_blank" rel="noopener" style="text-decoration: none; font-weight: bold">Watch recorded session »</a>{{ end }}</p>
     </div>
 </div>
