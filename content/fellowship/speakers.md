@@ -15,4 +15,4 @@ Every week, we will have the pleasure to welcome amazing speakers from the tech 
 
 {{< fellowship/speaker name="Audrey Thompson" title="Associate Software Engineer" company="Riot – Legends of Runeterra" companyUrl="https://www.riotgames.com/" picture="/images/fellowship/speakers/audrey.jpg" topic="Week 5 – Working in the Video Games Industry" recording="https://youtu.be/BsJAywQ52G4" >}}
 
-{{< fellowship/speaker name="Shelli Skinner" title="Senior Software Engineer" company="Quizlet" companyUrl="https://quizlet.com" picture="/images/fellowship/speakers/shelli.jpg"  topic="Week 6 – Problem Solving & Fields of Work" >}}
+{{< fellowship/speaker name="Shelli Skinner" title="Senior Software Engineer" company="Quizlet" companyUrl="https://quizlet.com" picture="/images/fellowship/speakers/shelli.jpg"  topic="Week 6 – Problem Solving & Fields of Work" recording="https://youtu.be/DP5nw--S25k" >}}
