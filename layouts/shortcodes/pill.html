@@ -2,8 +2,9 @@
 {{ $.Scratch.Add "link" (.Get "link" | default "#") }}
 {{ $.Scratch.Add "content" (.Get "content") }}
 {{ $.Scratch.Add "class" (.Get "class") }}
+{{ $.Scratch.Add "external" (.Get "external") }}
 
-<a href="{{ $.Scratch.Get "link"}}">
+<a href="{{ $.Scratch.Get "link"}}" {{if $.Scratch.Get "external"}}target="_blank" rel="noopener"{{ end }}>
 <div class="pill">
     <span class="badge badge-pill badge-primary pill-category">{{ $.Scratch.Get "category" }}</span>
     <span class="pill-text">{{ $.Scratch.Get "content" }}</span>

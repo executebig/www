@@ -5,7 +5,7 @@ intro_image_absolute: false # edit /assets/scss/components/_intro-image.scss for
 intro_image_hide_on_mobile: true
 ---
 
-{{< pill category="update" content="Fellowship Cohort 0 Underway — Auditing Open" link="/fellowship" >}}
+{{< pill category="news" content="Execute Big is now a part of Replit Ventures Cohort #0" link="https://twitter.com/itsmingjie/status/1386705127860539393" external=true >}}
 
 # *Accessible* CS exploration programs *for all*.
 
