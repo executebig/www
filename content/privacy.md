@@ -44,13 +44,7 @@ We host our software systems in the cloud via the following infrastructure provi
 
 ### Tracking
 
-To get information about the behavior of our visitors, we use
-[Umami](https://umami.is/). Our instance of Umami is deployed and shown as **`umami.executebig.org`**,
-and all information collected by Umami is stored on our own servers.
-
-This analytics software gives us insight about our visitors only in general. Umami does not collect any personally 
-identifiable information and anonymizes all data collected. Users cannot be identified and are never tracked across websites. 
-Umami does not use any cookies in the tracking code, either.
+We use the open source Plausible Analytics routed through our stats subdomain to count website visits, downloads, etc. You can see the same data we can see on the public dashboard. No cookies are used and no personal data—not even an IP address or browser user agent—is stored. For more information, see the [Plausible Data Policy](https://plausible.io/data-policy).
 
 In order to better understand how our visitors have been using our website, we use [Hotjar](https://www.hotjar.com) to collect information like
 how much time they spend on which pages, which links they choose to click, etc., and this enables us to continue improving
