@@ -5,13 +5,11 @@ type: "programs"
 description: "A six-week virtual program to introduce beginner students to the interdisciplinary world of computer science."
 icon: "/images/icons/rocket.svg"
 weight: 0
-pilot: false
-new: true
 ---
 
 <!-- Announcement Block -->
 
-**March 19 &ndash; April 30, 2021 (Cohort 0) &middot; 14 Students**
+**[In Progress] March 19 &ndash; April 30, 2021 (Cohort 0) &middot; 12 Students**
 
 Execute Big Fellowship is a six-week virtual program to introduce beginner students to the interdisciplinary world of computer science.
 
