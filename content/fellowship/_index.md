@@ -15,6 +15,8 @@ Execute Big Fellowship is a six-week virtual program to introduce beginner stude
 
 Our introductory program places an emphasis on learning about technology at work rather than traditional computer programming course experience. With a highly-personalized, interactive educational model, cohorts will leave with a nuanced understanding of the industry, professional mentorship, and a technical computer programming background to seal the deal.
 
+![Fellows & Facilitators of Cohort 0](/images/fellowship/archived/c0.png)
+
 <!--
 {{< button text="Apply Now" url="/fellowship/apply" class="disabled" >}}
 {{< button text="Nominate a Student" url="/fellowship/nominate" class="outline disabled" >}}

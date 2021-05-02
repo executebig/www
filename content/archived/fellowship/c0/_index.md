@@ -13,7 +13,7 @@ private: true
 
 ![Cohort 0 Fellows + Facilitators](/images/fellowship/archived/c0.png)
 
-See [Curriculum](./curriculum) and [Speakers](./speakers).
+See [Curriculum](/archived/fellowship/c0/curriculum) and [Speakers](/archived/fellowship/c0/speakers).
 
 Execute Big Fellowship is a six-week virtual program to introduce beginner students to the interdisciplinary world of computer science.
 
