@@ -24,7 +24,8 @@
     <div class="col-12 col-md-6 mb-2">{{ .Render "summary" }}</div>
     {{ end }}
   </div>
-  <div class="row pt-6 pb-6">
+  <h2 class="subtitle is-3 mt-3 mb-3">Other Contributors</h2>
+  <div class="row pb-6">
     {{ if .Site.Data.team }}
       {{ range .Site.Data.team }}
         {{ partial "member.html" . }}

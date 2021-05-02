@@ -17,7 +17,6 @@
     "postcss": "^8.2.13",
     "postcss-cli": "^8.3.0",
     "postcss-import": "^14.0.1",
-    "stripe": "^8.145.0",
     "vercel": "^22.0.1",
     "y18n": "^5.0.8"
   },

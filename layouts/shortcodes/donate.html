@@ -1,28 +1,67 @@
-<div class="donationContainer">
-  <div class="input-group donate mb-1">
-    <div class="input-group-prepend">
-      <span class="input-group-text" id="dollarSign">$</span>
-    </div>
-    <input type="number" class="form-control" id="amount" placeholder="5.00+" step="0.01" autofocus />
-  </div>
-  <div id="h-captcha" data-sitekey="{{ .Site.Params.hcaptcha.siteKey }}" data-callback="launchDonate" data-size="invisible" class="h-captcha" style="margin-bottom: 1rem;"></div>
-  <button class="button cta" id="donateButton">
-    Donate
-  </button>
-  <label class="checkbox path" for="coverFee">
-    <input type="checkbox" id="coverFee" name="coverFee">
-    <svg viewBox="0 0 21 21">
-      <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
-    </svg>
-    <span style="margin-left: 3px;">Cover Fee: +$<span id="fee">0</span></span>
-  </label>
-</div>
-<script src="https://js.stripe.com/v3/"></script>
+<button class="button" id="edoButton">Make a Donation »</button>
+{{ define "footer_js" }}
+<script src="https://assets.every.org/donate-button/executebig/donate-button.js"></script>
 <script>
-  const stripe = Stripe(
-    "{{ if .Site.IsServer }}{{ .Site.Params.stripe.testKey }}{{ else }}{{ .Site.Params.stripe.pubKey }}{{ end }}"
-  );
+  everyMonthWidget.setOptions({
+    onSubmit: {
+      charity: "executebig",
+      params: {
+        share_info: 1,
+        no_exit: 1,
+      },
+    },
+    completeDonationInNewTab: false,
+    defaultMode: 'monthly',
+    currency: 'USD',
+    language: 'en',
+    monthly: {
+      levels: [ // Different choices in monthly donation
+        {amount: '5'},
+        {amount: '10'},
+        {amount: '25', default: true},
+        {amount: '100'},
+        {amount: 'custom'}
+      ],
+      allowCustom: true,
+    },
+    oneTime: {
+      levels: [10, 25, 100, 200], // Different choices in one time donation
+      allowCustom: true, // Allow enter custom amount in one time donation
+    },
+    i18n: {
+      en: {
+        company: {
+          logo: 'https://executebig.org/images/brand/icon.svg',
+          name: 'Execute Big',
+          location: 'Rockville, MD',
+        },
+        monthly: {
+          logo: {
+            header: 'Monthly donation',
+            text: 'via <link>every.org</link>',
+            link: 'https://www.every.org/executebig/',
+          },
+          header: 'Give to Execute Big',
+          info: 'We rely on people like you to bring life-changing experiences to students in need, and your donation will enable us to support more underrepresented students in the long term.',
+          button: 'Donate {{"{{"}}amount{{"}}"}} every month',
+          switch: 'Or make a <action>One Time Donation</action>'
+        },
+        oneTime: {
+          logo: {
+            header: 'One time donation',
+            text: 'on <link>every.org</link>',
+            link: 'https://www.every.org/executebig/',
+          },
+          name: 'One time donation',
+          header: 'Give to Execute Big',
+          info: 'We rely on people like you to bring life-changing experiences to students in need, and your donation will enable us to support more underrepresented students in the long term.',
+          button: 'Donate {{"{{"}}amount{{"}}"}}',
+          switch: 'Or make a <action>Monthly donation</action>'
+        },
+        footer: 'You will be redirected to a secure page on Every.org to complete your donation. Your donation is tax-deductible in the United States to the extent permitted by law. Execute Big is a 501(c)(3) nonprofit with the EIN 85-2160468.'
+      },
+    }
+  });
+  everyMonthWidget.showOnClick('#edoButton');
 </script>
-{{ $donateScript := resources.Get "js/pages/donate.js" | fingerprint }}
-<script src="https://hcaptcha.com/1/api.js" async defer></script>
-<script src="{{ ($donateScript | minify | fingerprint).RelPermalink }}" defer></script>
+{{ end }}
