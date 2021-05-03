@@ -6,7 +6,7 @@ draft: false
 image: "/images/team/brian.png"
 school: 'University of Maryland'
 class: 25
-jobtitle: "Associate Operations & Engineering"
+jobtitle: "Operations & Engineering Associate"
 linkedinurl: "https://www.linkedin.com/in/brian-x-23334b189/"
 location: "Rockville, MD"
 promoted: true
