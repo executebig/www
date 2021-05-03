@@ -1,16 +1,23 @@
 [
   {
+    "name": "Brian Xiang",
+    "image": "/images/team/brian.png",
+    "school": "University of Maryland",
+    "class": 25,
+    "jobtitle": "Engineering, Fellowship Facilitator"
+  },
+  {
     "name": "Fiona Xie",
     "image": "/images/team/fiona.jpeg",
     "school": "Carnegie Mellon University",
     "class": 23,
-    "jobtitle": "Fellowship Cohort 0 Facilitator"
+    "jobtitle": "Fellowship Facilitator"
   },
   {
     "name": "Sean Kim",
     "image": "/images/team/sean.jpg",
     "school": "University of Illinois at Chicago",
     "class": 22,
-    "jobtitle": "Co-founder / Hack Chicago"
+    "jobtitle": "Co-founder"
   }
 ]
