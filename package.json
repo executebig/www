@@ -14,7 +14,7 @@
     "dotenv": "^9.0.1",
     "hcaptcha": "^0.0.2",
     "is-svg": "^4.2.2",
-    "postcss": "^8.2.14",
+    "postcss": "^8.2.15",
     "postcss-cli": "^8.3.0",
     "postcss-import": "^14.0.2",
     "vercel": "^22.0.1",
