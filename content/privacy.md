@@ -17,15 +17,14 @@ The only third parties that we share data with are trusted, and we only share wh
 - [**Stripe**](https://stripe.com/privacy), for third-party payment processing. We use industry-standard methods when handling your transaction information, and we do not store or collect your payment details.
 - [**Airtable**](https://airtable.com/privacy), for storing our operations data (ex. when you apply to our programs, or become a supporter).
 - [**Zapier**](https://zapier.com/privacy), for automation our data-processing workflow (ex. sending you a confirmation email after you apply to our program).
-- [**Substack**](https://substack.com/privacy), to send emails and newsletters to people who have consented to be on our mailing list. We only share your name and email address with them, and we only share that information when you have consented for that information to be shared (ex. when you sign up for our newsletter, or become a supporter). 
+- [**EmailOctopus**](https://emailoctopus.com/legal/privacy), to send emails and newsletters to people who have consented to be on our mailing list. We only share your name and email address with them, and we only share that information when you have consented for that information to be shared (ex. when you sign up for our newsletter, apply to a program, or become a supporter). 
 - [**hCaptcha**](https://hcaptcha.com/privacy), to protect our payment gateway against bots and fraud users. See the [hCaptcha](#hcaptcha) section for more information about the service.
-
 
 ### Program-Specific Providers
 
 When participating in our events and programs, you may also be asked to use the following platforms and services to register yourself or communicate with us:
 
-- [**GSuite**](https://support.google.com/googlecloud/answer/6056650?hl=en) (including Gmail, Drive, Photos, and Forms)
+- [**Google Workspace**](https://support.google.com/googlecloud/answer/6056650?hl=en) (including Gmail, Drive, Photos, and Forms)
 - [**Zoom**](https://zoom.us/privacy)
 - [**Dialpad**](https://www.dialpad.com/legal/#privacy)
 - [**Notion**](https://www.notion.so/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091)
@@ -80,4 +79,4 @@ emailing, calling, or writing to us.
 
 **Execute Big will never sell your personal information to third parties.**
 
-*Last updated: April 29, 2021*
+*Last updated: May 13, 2021*

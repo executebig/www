@@ -1,7 +1,7 @@
 ---
 title: 'Subscribe'
 description: Subscribe to our email list so you can get notified about our latest updates.
-icon: "/images/icons/loop.svg"
+icon: "/images/icons/letter.svg"
 layout: subscribe
 ---
 
