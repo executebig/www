@@ -7,6 +7,8 @@ intro_image_hide_on_mobile: true
 
 {{< pill category="news" content="Execute Big is now a part of Replit Ventures Cohort #0" link="https://twitter.com/itsmingjie/status/1386705127860539393" external=true >}}
 
-# *Accessible* CS exploration programs *for all*.
+# Exciting programs and grants to help you experience & explore computer science.
 
-Execute Big is a **minimal** & **transparent** student-run nonprofit founded to enable all students to experience and explore computer science education. 
+{{< intro-subtitle >}}
+
+{{< backedby >}}

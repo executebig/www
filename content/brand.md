@@ -12,7 +12,7 @@ Execute Big v2 is our new design "flavor". It encompasses everything that Execut
 
 ## Colors
 
-We have a simple set of colors: **Celtic Blue (#266DD3)** for official settings, **Burnt Sienna (#DD6E42)** highlights, and **Raisin Black (#2F2F41)** for high-contrast reading. A small subgrouping of colors may also be used here and there.
+We have a simple set of colors: **Neon Blue (#4772FF)** for official settings, **Ultra Red (#FF6978)** highlights, and **Space Cadet (#22223B)** for high-contrast reading. A small subgrouping of colors may also be used here and there.
 
 {{< brand/colors >}}
 

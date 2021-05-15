@@ -71,12 +71,7 @@ home = ["HTML","RSS","Algolia"]
       name = "Donate"
       url = "/donate/"
       weight = 5
-    
-  [[menu.main]]
-      name = "Contact"
-      url = "/contact/"
-      weight = 6
-  
+
   [[menu.main]]
       name = "Subscribe"
       url = "/subscribe"
@@ -88,21 +83,26 @@ home = ["HTML","RSS","Algolia"]
       name = "Team"
       url = "/team/"
       weight = 1
+  
+  [[menu.about]]
+      name = "Contact"
+      url = "/contact/"
+      weight = 2
 
   [[menu.about]]
     name = "Donate"
     url = "/donate/"
-      weight = 2
+      weight = 3
 
   [[menu.about]]
     name = "Conduct"
     url = "/conduct/"
-      weight = 3
+      weight = 4
 
   [[menu.about]]
     name = "Privacy"
     url = "/privacy/"
-      weight = 4
+      weight = 5
 
   # Resources Menu
   
