@@ -1,0 +1,17 @@
+<div class="home-subscribe">
+    <form id="subscribe-form" class="subscribe-form">
+        <input id="email-input" class="input" type="text" placeholder="Enter your email" name="email" required="">
+        <button class="button is-primary" type="submit" id="submit-button">
+            Subscribe</button>
+    </form>
+</div>
+<script>
+    let subscribe_form = document.getElementById("subscribe-form")
+    let email_input = document.getElementById("email-input")
+    let submit_button = document.getElementById("submit-button")
+
+    subscribe_form.addEventListener("submit", (event) => {
+        event.preventDefault()
+        window.location.href = `/subscribe?email=${email_input.value}`
+    });
+</script>

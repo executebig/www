@@ -68,11 +68,6 @@ home = ["HTML","RSS","Algolia"]
       weight = 3
 
   [[menu.main]]
-      name = "Donate"
-      url = "/donate/"
-      weight = 5
-
-  [[menu.main]]
       name = "Subscribe"
       url = "/subscribe"
       weight = 7
@@ -88,11 +83,6 @@ home = ["HTML","RSS","Algolia"]
       name = "Contact"
       url = "/contact/"
       weight = 2
-
-  [[menu.about]]
-    name = "Donate"
-    url = "/donate/"
-      weight = 3
 
   [[menu.about]]
     name = "Conduct"

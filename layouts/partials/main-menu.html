@@ -9,6 +9,18 @@
       </a>
     </li>
     {{end}}
-    <li class="menu-item-search"><a href="#!" class="searchToggle"><img src="/images/icons/search.svg" width="20" height="20" alt="Search" /></a></li>
+
+    <li class="menu-item-donate">
+      {{ if eq $currentPage.RelPermalink "/donate/" }}
+      <a href="#!" class="button" id="edoNavButton">
+        <span>Donate</span>
+      </a>
+      {{else}}
+      <a href="/donate" class="button">
+        <span>Donate</span>
+      </a>
+      {{end}}
+    </li>
+    <!-- <li class="menu-item-search"><a href="#!" class="searchToggle"><img src="/images/icons/search.svg" width="20" height="20" alt="Search" /></a></li> -->
   </ul>
 </div>

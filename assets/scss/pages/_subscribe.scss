@@ -4,5 +4,18 @@
       font-family: $font-family-heading;
       font-size: 1.1rem;
     }
+
+    input {
+      &.highlight {
+        animation: blink .8s ease-in-out infinite;
+      }
+
+      @keyframes blink {
+        50% {
+          background-color: $white-offset;
+          border-color: $primary;
+        }
+      }
+    }
   }
 }

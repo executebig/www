@@ -11,4 +11,6 @@ intro_image_hide_on_mobile: true
 
 {{< intro-subtitle >}}
 
+{{< home-subscribe >}}
+
 {{< backedby >}}

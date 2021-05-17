@@ -17,20 +17,21 @@
       }
 
       span {
-        color: gray;
+        color: #999999;
         font-size: 0.8rem;
       }
 
       .logo {
-        height: 1.1rem;
+        height: 1rem;
         filter: grayscale(100%);
+        opacity: 1;
 
         @include media-breakpoint-up(md) {
-          height: 1.3rem;
+          height: 1.2rem;
         }
 
         @include media-breakpoint-up(lg) {
-          height: 1.5rem;
+          height: 1.4rem;
         }
       }
     }

@@ -26,21 +26,15 @@
   }
 
   h2 {
-    font-size: 1rem;
-    line-height: 1.65;
+    font-size: 16px;
+    line-height: 1.8;
     margin-bottom: 30px;
-    color: #5c5a5a;
-
-    @include media-breakpoint-up(md) {
-      font-size: 1.2rem;
-    }
-
-    @include media-breakpoint-up(lg) {
-      font-size: 1.4rem;
-    }
+    color: #777777;
+    font-family: $font-family-base;
+    font-weight: normal;
 
     .redacted {
-      background-color: $primary;
+      background-color: $white-offset;
       color: transparent;
       display: inline-block;
       border-radius: 5px;
@@ -48,6 +42,10 @@
       height: 25px;
       vertical-align: baseline;
       margin-bottom: -5px;
+    }
+
+    a {
+      font-weight: 600;
     }
   }
 
