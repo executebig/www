@@ -4,9 +4,11 @@ icon: "/images/icons/heart.svg"
 description: "We want to spend most of our time on improving our programs and creating impact, so our branding is also built with simplicity in mind."
 ---
 
-## Welcome to Execute Big v2.
+## Welcome to Execute Big v2.1.
 
 Execute Big v2 is our new design "flavor". It encompasses everything that Execute Big wants to be: **bold, minimal, and clear**. We want to spend most of our time on improving our programs and creating impact, so our branding is also built with simplicity in mind.
+
+Since the release of Execute Big v2, we've also updated our overall color scheme to reflect the vibrancy of our programs. Execute Big v2.1 now features a much brighter color scheme.
 
 {{< button text="Download Branding Kit" url="/media/brand-v2.zip" >}}
 

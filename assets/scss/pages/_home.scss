@@ -3,14 +3,12 @@
     h1 {
       em {
         font-style: normal;
-        border-radius: 8px;
-        background-color: $white-offset;
-        background-image: $wave-pattern;
-        background-repeat: repeat;
+        color: $secondary;
       }
     }
 
     .intro-sponsors {
+      margin-top: 2rem;
       span,
       img {
         display: inline-block;

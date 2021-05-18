@@ -57,6 +57,10 @@
     }
   }
 
+  &.secondary {
+    background-color: $secondary;
+  }
+
   &.disabled {
     pointer-events: none;
     filter: grayscale(1);

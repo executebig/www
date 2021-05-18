@@ -8,11 +8,9 @@
   "private": true,
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",
-    "atomic-algolia": "^0.3.19",
     "autoprefixer": "^10.2.5",
     "cssnano": "^5.0.2",
     "dotenv": "^9.0.2",
-    "hcaptcha": "^0.0.2",
     "is-svg": "^4.2.2",
     "postcss": "^8.2.15",
     "postcss-cli": "^8.3.0",
@@ -22,8 +20,7 @@
   },
   "scripts": {
     "dev": "hugo server",
-    "build": "hugo --gc --minify && yarn algolia",
-    "dry": "hugo --gc --minify",
-    "algolia": "atomic-algolia"
+    "build": "hugo --gc --minify",
+    "dry": "hugo --gc --minify"
   }
 }
