@@ -10,12 +10,12 @@
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "autoprefixer": "^10.2.5",
     "cssnano": "^5.0.2",
-    "dotenv": "^9.0.2",
+    "dotenv": "^10.0.0",
     "is-svg": "^4.2.2",
     "postcss": "^8.2.15",
     "postcss-cli": "^8.3.0",
     "postcss-import": "^14.0.2",
-    "vercel": "^22.0.1",
+    "vercel": "^23.0.0",
     "y18n": "^5.0.8"
   },
   "scripts": {
