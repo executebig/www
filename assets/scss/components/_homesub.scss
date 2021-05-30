@@ -3,7 +3,7 @@
   margin: 2rem auto;
 
   .subscribe-form {
-    border: 2px solid transparent;
+    border: 2px solid $primary;
     padding: 0.3rem;
     display: flex;
     border-radius: 5px;
@@ -11,11 +11,6 @@
     background-color: $white-offset;
     background-image: $wave-pattern;
     background-repeat: repeat;
-
-    &:focus-within {
-      border: 2px solid $primary;
-      border-radius: 5px;
-    }
 
     input.input {
       box-shadow: none;

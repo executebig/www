@@ -34,14 +34,41 @@
     font-weight: normal;
 
     .redacted {
-      background-color: $white-offset;
-      color: transparent;
-      display: inline-block;
+      border: 2.5px solid $primary;
+      transition: all .2s ease;
+      color: $primary;
+      text-transform: uppercase;
+      display: inline;
       border-radius: 5px;
-      width: 13ch;
-      height: 25px;
+      padding: 2px 10px 0;
       vertical-align: baseline;
-      margin-bottom: -5px;
+      user-select: none;
+      font-family: 'Courier New', Courier, monospace;
+      text-decoration: none;
+      animation: bloom 1s ease infinite both;
+
+      &:hover {
+        border: 2.5px solid $secondary;
+        color: $secondary;
+        animation: none;
+      }
+
+      @keyframes bloom {
+        from {
+          border: 2.5px solid $primary;
+          color: $primary;
+        }
+
+        50% {
+          border: 2.5px solid $secondary;
+          color: $secondary;
+        }
+
+        to {
+          border: 2.5px solid $primary;
+          color: $primary;
+        }
+      }
     }
 
     a {

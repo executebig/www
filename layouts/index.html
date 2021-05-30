@@ -53,7 +53,7 @@
   </div>
 </div>
 {{end}}
-<div class="strip strip-grey journal">
+<!-- <div class="strip strip-grey journal">
   <div class="container pt-6 pb-6">
     {{ range first 1 (where (where .Site.RegularPages "Type" "journals") ".Params.featured" "=" true) }}
     <p class="metadata">Published {{dateFormat "Jan 2, 2006" .Params.date}} by {{ .Params.author }}</p>
@@ -65,7 +65,7 @@
     </div>
     {{ end }}
   </div>
-</div>
+</div> -->
 {{ end }}
 {{ define "footer_js" }}
 {{ end }}
