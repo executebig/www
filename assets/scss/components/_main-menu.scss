@@ -16,6 +16,12 @@
         font-weight: normal;
         text-decoration: none;
         color: $primary;
+
+        &.button {
+          color: white;
+          padding: 0 16px;
+        }
+        
         &:hover {
           text-decoration: underline;
         }

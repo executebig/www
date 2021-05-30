@@ -6,21 +6,6 @@
 
 This website is built based on [Hugo Serif Theme](https://themes.gohugo.io/hugo-serif-theme/) by [@jugglerx](https://github.com/jugglerx/).
 
-## Setting Up
-
-### Search
-
-We use [Algolia](https://algolia.com) as our search provider. Algolia reloads the index set at `ALGOLIA_INDEX_NAME` when the site is built, as the file set at `ALGOLIA_INDEX_FILE` is updated. 
-
-In order to make the search system work, make sure Algolia-related environment variables are set.
-
-```
-ALGOLIA_APP_ID=xxxxxxxxxx
-ALGOLIA_ADMIN_KEY=xxxxxxxxxxxxxxxxxxxxxxx
-ALGOLIA_INDEX_NAME=dev_xxxxxx
-ALGOLIA_INDEX_FILE=public/algolia.json
-```
-
 ## Using Archetypes
 
 Hugo utilizes archetypes to create structured content from templates. 

@@ -1,4 +1,4 @@
-{{ define "title" }}{{ .Site.Title }}: Accessible CS exploration programs for all{{ end}}
+{{ define "title" }}{{ .Site.Title }}: Exciting CS exploration programs{{ end}}
 {{ define "body_classes" }}page-home{{ end }}
 {{ define "meta_tags" }}
 <meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
@@ -14,18 +14,8 @@
 {{ define "main" }}
 <div class="intro">
   <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-1">
+    <div class="" style="text-align: center; background-color: white;">
         {{ .Content }}
-      </div>
-      {{ if .Params.intro_image }}
-      <div class="col-12 col-md-5 col-lg-6 order-2 position-relative">
-        <div class="home-video">
-          <iframe src="https://www.youtube-nocookie.com/embed/Rr2wB51QbRE?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&theme=light&fs=0&color=white&controls=0&disablekb=1&controls=0&modestbranding=1&origin=https%3A%2F%2Fwww.google.co.nz&rel=0&showinfo=0&wmode=transparent&enablejsapi=1&mute=1" width="560" height="268" frameborder="0"></iframe>
-        </div>
-        <p class="video-caption"><a href="https://www.youtube.com/watch?v=c7nxPJwGcts" target="_blank" rel="noopener">Video recap</a> from <a href="/transparency/chicago/">Hack Chicago</a>, the event that started the vision behind Execute Big.</p>
-      </div>
-      {{ end }}
     </div>
   </div>
 </div>
@@ -63,7 +53,7 @@
   </div>
 </div>
 {{end}}
-<div class="strip strip-grey journal">
+<!-- <div class="strip strip-grey journal">
   <div class="container pt-6 pb-6">
     {{ range first 1 (where (where .Site.RegularPages "Type" "journals") ".Params.featured" "=" true) }}
     <p class="metadata">Published {{dateFormat "Jan 2, 2006" .Params.date}} by {{ .Params.author }}</p>
@@ -75,7 +65,7 @@
     </div>
     {{ end }}
   </div>
-</div>
+</div> -->
 {{ end }}
 {{ define "footer_js" }}
 {{ end }}

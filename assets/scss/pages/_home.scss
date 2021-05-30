@@ -3,32 +3,35 @@
     h1 {
       em {
         font-style: normal;
-        border-radius: 8px;
-        background-color: $white-offset;
-        background-image: $wave-pattern;
-        background-repeat: repeat;
+        color: $secondary;
       }
     }
-  }
 
-  .video-caption {
-    margin-top: 3px;
-    font-size: 0.8rem;
-    font-style: italic;
-    color: $hint;
-    text-align: right;
-  }
+    .intro-sponsors {
+      margin-top: 2rem;
+      span,
+      img {
+        display: inline-block;
+      }
 
-  .home-video {
-    background: none !important;
-    -webkit-user-select: none !important;
-    user-select: none !important;
-    pointer-events: none !important;
-    overflow: hidden;
+      span {
+        color: #999999;
+        font-size: 0.8rem;
+      }
 
-    iframe {
-      border-radius: 10px;
-      width: 100%;
+      .logo {
+        height: 1rem;
+        filter: grayscale(100%);
+        opacity: 1;
+
+        @include media-breakpoint-up(md) {
+          height: 1.2rem;
+        }
+
+        @include media-breakpoint-up(lg) {
+          height: 1.4rem;
+        }
+      }
     }
   }
 
@@ -38,6 +41,7 @@
       font-size: 16px;
       line-height: 1.4;
       margin-bottom: 0.5rem;
+      font-weight: 700;
       color: $black;
 
       @include media-breakpoint-up(md) {

@@ -1,17 +1,18 @@
 // Colors
-$primary: #266dd3;
-$secondary: #DD6E42;
-$black: #2f2f41;
+$primary: #4772FF;
+$secondary: #FF6978;
+$black: #22223B;
 $white: #ffffff;
 $white-offset: #f6f7ff;
-$highlight-offset: #FAEDE8;
+$highlight-offset: #ffeeef;
 $steel: #5C5A5A;
 $hint: #9797a0;
+$dark: $black;
 
 // Links
 $link-color: $primary;
 $link-decoration: none;
-$link-hover-color: lighten($primary, 20%);
+$link-hover-color: lighten($primary, 5%);
 $link-hover-decoration: underline;
 
 // Fonts
@@ -21,7 +22,7 @@ $font-family-heading: 'Nunito', Helvetica, Arial, sans-serif, -apple-system;
 // Footer
 $footer-background-color: $primary;
 $footer-text-color: $white;
-$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-background-color: darken($primary, 5%);
 $sub-footer-text-color: $white;
 
 // Pattern
@@ -54,7 +55,6 @@ $sub-footer-text-color: $white;
 @import 'components/logo';
 @import 'components/main-menu';
 @import 'components/main-menu-mobile';
-@import 'components/search';
 @import 'components/hamburger';
 @import 'components/buttons';
 @import 'components/announcement';
@@ -78,6 +78,7 @@ $sub-footer-text-color: $white;
 @import 'components/checkbox';
 @import 'components/climate';
 @import 'components/testimonial';
+@import 'components/homesub';
 /*! purgecss end ignore */
 
 // Pages

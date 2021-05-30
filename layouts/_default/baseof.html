@@ -45,19 +45,9 @@
   {{ partial "sub-footer.html" . }}
   {{ $scripts := resources.Get "js/scripts.js" }}
   {{ $instantclick := resources.Get "js/libs/instantpage.js" }}
-  {{ $autoComplete := resources.Get "js/libs/algoliasearchLite.min.js" }}
-  {{ $algoliaSearch := resources.Get "js/libs/autocomplete.min.js" }}
   {{ block "footer_js" . }}
   {{ end }}
-  {{ $jsbundle := slice $instantclick $algoliaSearch $autoComplete $scripts | resources.Concat "js/bundle.js" }}
-  <!-- Initialize search -->
-  <script data-no-instant>
-    {{ if eq (getenv "VERCEL_ENV") "production" }}
-      const searchIndex = "prod_EB_WWW"
-    {{ else }}
-      const searchIndex = "dev_EB_WWW"
-    {{ end }}
-  </script>
+  {{ $jsbundle := slice $instantclick $scripts | resources.Concat "js/bundle.js" }}
   <script type="text/javascript" src="{{ ($jsbundle | minify | fingerprint).RelPermalink }} " data-no-instant defer></script>
 </body>
 

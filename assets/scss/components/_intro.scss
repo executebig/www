@@ -12,28 +12,62 @@
   }
 
   h1 {
-    color: $black;
+    color: $primary;
     font-size: 42px;
-    font-weight: bold;
     line-height: 1.2;
 
     @include media-breakpoint-up(md) {
-      width: 80%;
       font-size: 48px;
     }
 
     @include media-breakpoint-up(lg) {
-      font-size: 50px;
+      font-size: 55px;
     }
   }
 
   h2 {
-    width: 80%;
-    font-size: 1.2rem;
-    line-height: 1.4;
+    font-size: 16px;
+    line-height: 1.8;
     margin-bottom: 30px;
-    color: $black;
+    color: #777777;
     font-family: $font-family-base;
+    font-weight: normal;
+
+    .redacted {
+      border: 2.5px solid $primary;
+      transition: all .2s ease;
+      color: $primary;
+      text-transform: uppercase;
+      display: inline;
+      border-radius: 5px;
+      padding: 2px 10px 0;
+      vertical-align: baseline;
+      user-select: none;
+      font-family: 'Courier New', Courier, monospace;
+      text-decoration: none;
+      animation: bloom 1s ease infinite both;
+      
+      @keyframes bloom {
+        from {
+          border: 2.5px solid $primary;
+          color: $primary;
+        }
+
+        50% {
+          border: 2.5px solid $secondary;
+          color: $secondary;
+        }
+
+        to {
+          border: 2.5px solid $primary;
+          color: $primary;
+        }
+      }
+    }
+
+    a {
+      font-weight: 600;
+    }
   }
 
   p {

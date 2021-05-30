@@ -4,15 +4,17 @@ icon: "/images/icons/heart.svg"
 description: "We want to spend most of our time on improving our programs and creating impact, so our branding is also built with simplicity in mind."
 ---
 
-## Welcome to Execute Big v2.
+## Welcome to Execute Big v2.1.
 
 Execute Big v2 is our new design "flavor". It encompasses everything that Execute Big wants to be: **bold, minimal, and clear**. We want to spend most of our time on improving our programs and creating impact, so our branding is also built with simplicity in mind.
+
+Since the release of Execute Big v2, we've also updated our overall color scheme to reflect the vibrancy of our programs. Execute Big v2.1 now features a much brighter color scheme.
 
 {{< button text="Download Branding Kit" url="/media/brand-v2.zip" >}}
 
 ## Colors
 
-We have a simple set of colors: **Celtic Blue (#266DD3)** for official settings, **Burnt Sienna (#DD6E42)** highlights, and **Raisin Black (#2F2F41)** for high-contrast reading. A small subgrouping of colors may also be used here and there.
+We have a simple set of colors: **Neon Blue (#4772FF)** for official settings, **Ultra Red (#FF6978)** highlights, and **Space Cadet (#22223B)** for high-contrast reading. A small subgrouping of colors may also be used here and there.
 
 {{< brand/colors >}}
 

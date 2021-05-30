@@ -1,0 +1,44 @@
+.home-subscribe {
+  max-width: 30rem;
+  margin: 2rem auto;
+
+  .subscribe-form {
+    border: 2px solid $primary;
+    padding: 0.3rem;
+    display: flex;
+    border-radius: 5px;
+    transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: $white-offset;
+    background-image: $wave-pattern;
+    background-repeat: repeat;
+
+    input.input {
+      box-shadow: none;
+      flex-grow: 1;
+      overflow: visible;
+      border: none;
+      outline: none;
+      background: none;
+      border-radius: 15px;
+      padding: calc(0.3em - 1px) calc(0.75em - 1px);
+      font-size: .9rem;
+    }
+
+    .button {
+      white-space: nowrap;
+      padding-left: 1rem;
+      padding-right: 1rem;
+
+      &:hover {
+        transform: none;
+      }
+    }
+  }
+
+  p.hint {
+    color: #77787b;
+    font-size: 0.8rem !important;
+    margin-top: 0.3rem;
+    padding-left: calc(0.75em - 1px);
+  }
+}
