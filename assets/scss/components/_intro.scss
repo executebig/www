@@ -46,13 +46,7 @@
       font-family: 'Courier New', Courier, monospace;
       text-decoration: none;
       animation: bloom 1s ease infinite both;
-
-      &:hover {
-        border: 2.5px solid $secondary;
-        color: $secondary;
-        animation: none;
-      }
-
+      
       @keyframes bloom {
         from {
           border: 2.5px solid $primary;
