@@ -1,10 +1,5 @@
 [
   {
-    "name": "Linode",
-    "logo": "linode.svg",
-    "link": "https://linode.com/"
-  },
-  {
     "name": "Replit",
     "logo": "replit.svg",
     "link": "https://replit.com/"
@@ -13,6 +8,11 @@
     "name": "Dialpad",
     "logo": "dialpad.svg",
     "link": "https://dialpad.com/"
+  },
+  {
+    "name": "DigitalOcean",
+    "logo": "digitalocean.svg",
+    "link": "https://digitalocean.com/"
   },
   {
     "name": "Zapier",
@@ -25,9 +25,9 @@
     "link": "https://www.bugsnag.com/"
   },
   {
-    "name": "DigitalOcean",
-    "logo": "digitalocean.svg",
-    "link": "https://digitalocean.com/"
+    "name": "Linode",
+    "logo": "linode.svg",
+    "link": "https://linode.com/"
   },
   {
     "name": "Checkly",
