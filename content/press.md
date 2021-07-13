@@ -42,4 +42,4 @@ We publish periodic impact reports to update our donors and supporters. You can 
 
 You can find our full branding guide and all stylistic assets here: [Brand »](/brand)
 
-{{< button text="Download Branding Kit" url="/media/brand-v2.zip" >}}
+{{< button text="Download Branding Kit" url="/media/brand-v2.1.zip" >}}

@@ -10,7 +10,7 @@ Execute Big v2 is our new design "flavor". It encompasses everything that Execut
 
 Since the release of Execute Big v2, we've also updated our overall color scheme to reflect the vibrancy of our programs. Execute Big v2.1 now features a much brighter color scheme.
 
-{{< button text="Download Branding Kit" url="/media/brand-v2.zip" >}}
+{{< button text="Download Branding Kit" url="/media/brand-v2.1.zip" >}}
 
 ## Colors
 
