@@ -1,0 +1,14 @@
+{{ $.Scratch.Add "form" (.Get "form") }}
+
+<script src="https://www.cognitoforms.com/f/seamless.js" data-key="uC3hqR7YU0WY41AJs6bMvw" data-form="{{ $.Scratch.Get "form" }}"></script>
+<script>
+    const urlSearchParams = new URLSearchParams(window.location.search)
+    const params = Object.fromEntries(urlSearchParams.entries())
+
+    Cognito.prefill({
+        "BasicInformation": {
+            "UID": params.uid,
+            "Email": params.email
+        }
+    })
+</script>
