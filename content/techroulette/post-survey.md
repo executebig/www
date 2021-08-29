@@ -1,5 +1,5 @@
 ---
-title: "Post-Event Survey (Week 8)"
+title: "Post-Event Survey"
 private: true
 ---
 
