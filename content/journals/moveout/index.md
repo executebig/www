@@ -104,7 +104,7 @@ At this moment, Execute Big is completely functional. But there are still a few 
 
 2. **Reimbursement**: Software like Expensify can be expensive for a small organization, but you can always handle it manually. Make sure to maintain a standard procedure in reporting these expenses (and as always, keep your receipts).
 
-3. **Be transparent**: This is a personal ask — as a publicly-funded charity, you should always hold yourself accountable for how you are using your money. We made Execute Big ad [transparent](/transparency) as possible, and we hope you’ll join this movement as well.
+3. **Be transparent**: This is a personal ask — as a publicly-funded charity, you should always hold yourself accountable for how you are using your money. We made Execute Big as [transparent](/transparency) as possible, and we hope you’ll join this movement as well.
 
 4. **Learn as you go**: We didn’t know anything about the legal process of starting our own nonprofit when we started, and we learned everything that we’re sharing today through our own experiences. This is a great opportunity for you to learn how the systems within the government works (and if you are younger, you’ll also learn a lot about taxes).
 
