@@ -19,9 +19,9 @@
 </div>
 
 <div class="container">
-  <div class="row">
+  <div class="team-grid">
     {{ range where .Pages.ByWeight ".Params.promoted" true }}
-    <div class="col-12 col-md-6 mb-2">{{ .Render "summary" }}</div>
+    <div>{{ .Render "summary" }}</div>
     {{ end }}
   </div>
   <h2 class="subtitle is-3 mt-3 mb-3">Other Contributors</h2>
