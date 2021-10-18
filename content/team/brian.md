@@ -10,7 +10,7 @@ jobtitle: "Operations & Engineering Associate"
 linkedinurl: "https://www.linkedin.com/in/brian-x-23334b189/"
 location: "Rockville, MD"
 promoted: true
-weight: 4
+weight: 6
 description: Brian wants to create innovative tech, and hopes to inspire others to do so as well.
 ---
 
