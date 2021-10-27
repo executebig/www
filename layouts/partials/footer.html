@@ -24,8 +24,8 @@
             </li>
             {{ $programs := where (where .Site.Pages "Type" "programs") ".Params.layout" "single" }}
             {{ range (sort $programs ".Params.weight") }}
-            <li class="menu-item-{{ .Title | lower }}{{ if eq $currentPage.RelPermalink .URL }} active{{ end }}">
-              <a href="{{.URL}}">
+            <li class="menu-item-{{ .Title | lower }}{{ if eq $currentPage.RelPermalink .RelPermalink }} active{{ end }}">
+              <a href="{{.RelPermalink}}">
                 {{ .Title }}
               </a>
             </li>
