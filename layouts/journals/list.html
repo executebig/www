@@ -21,24 +21,16 @@
       <div class="mb-4">{{ .Render "summary" }}</div>
       {{ end }}
       <div class="paginator">
-        {{ $paginator := .Paginator }}
-        {{ if $paginator.HasPrev }}
-        <a href="{{ $paginator.Prev.URL }}" class="pagination__link pagination__link--previous button float-left">
+        {{ if .Paginator.HasPrev }}
+        <a href="{{ .Paginator.Prev.URL }}" class="pagination__link pagination__link--previous button float-left">
           « Newer
         </a>
         {{ end }}
-        {{ if $paginator.HasNext }}
-        <a href="{{ $paginator.Next.URL }}" class="pagination__link pagination__link--next button float-right">
+        {{ if .Paginator.HasNext }}
+        <a href="{{ .Paginator.Next.URL }}" class="pagination__link pagination__link--next button float-right">
           Older »
         </a>
         {{ end }}
-        <!-- <div class="pagination__pages d-flex justify-content-center">
-          {{ range $paginator.Pagers }}
-          <a href="{{ .URL }}" class="pagination__link button ml-1 {{ if not (eq $paginator.PageNumber .PageNumber) }}outline{{ end }}">
-            {{ .PageNumber }}
-          </a>
-          {{ end }}
-        </div> -->
       </div>
     </div>
     <div class="col-12 col-md-4">
