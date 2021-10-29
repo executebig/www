@@ -10,4 +10,4 @@ Hack Chicago was a 24-hour high school hackathon that took place in July, 2018. 
 
 **All information included in the archives are 100% real.** In some places, we might have redacted out some information for security and privacy purposes, but most of the documents, conversations logs, and finances are completely authentic — they made Hack Chicago happen.
 
-{{< button text="Visit The Archives »" url="https://hackchicago.io/" external="true" >}}
+{{< button text="Visit The Archives »" url="https://executebig.notion.site/Hack-Chicago-Archives-921c174b44ae4bda9f4a69cee7ab5700" external="true" >}}
