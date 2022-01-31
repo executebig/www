@@ -10,7 +10,7 @@
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "autoprefixer": "^10.3.7",
     "cssnano": "^5.0.8",
-    "dotenv": "^10.0.0",
+    "dotenv": "^15.0.0",
     "is-svg": "^4.2.2",
     "postcss": "^8.3.11",
     "postcss-cli": "^9.0.1",
