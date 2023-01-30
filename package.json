@@ -15,7 +15,7 @@
     "postcss": "^8.3.11",
     "postcss-cli": "^9.0.1",
     "postcss-import": "^14.0.2",
-    "vercel": "^23.1.2",
+    "vercel": "^28.14.0",
     "y18n": "^5.0.8"
   },
   "scripts": {
